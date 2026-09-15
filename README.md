@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Who Knew?
 
-## Getting Started
+A scanner for Polymarket that looks for **unusual conviction before the news** — wallets that took size on an
+outcome while the market still priced it as unlikely, shortly before it re-priced. Built on Nansen's
+prediction-market and profiler data for the Meridian Buildathon.
 
-First, run the development server:
+It does not find insiders; nobody can from on-chain data alone. It finds bets that have the *shape* of
+information, and shows every number behind the score.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Pipeline
+
+```
+market-screener ─▶ ohlcv ─▶ trades-by-market ─▶ net positions ─▶ score ─▶ address-summary / pnl-by-address
+   discovery      news hour   only before the news   per wallet     0–100     dossier on flagged wallets
+   1 cr / tag     1 cr         1 cr / 1000 trades                              2 cr / wallet
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **News hour** — the hourly candle where the winning side jumped ≥ 0.25 with real volume, and stayed there.
+- **Positions** — net long exposure to the winner from trades before that hour. Buying the winner and
+  selling the loser are the same bet. Mints are invisible in the trade feed, so sizes are a floor.
+- **Score** — `size × (0.40·odds + 0.35·timing + 0.25·share)`. Size gates: a $100 bet cannot score high
+  however well-timed. Factors are stored with the flag.
+- **Skipped on purpose** — sports and other live-event markets (in-play trading looks exactly like
+  foreknowledge), recurring post-count markets, markets the crowd already priced above 0.6.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Running
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+cp .env.example .env            # NANSEN_API_KEY, NANSEN_MAX_CREDITS
+npm run screen -- --dry-run     # list candidates, estimate credits, spend only discovery
+npm run screen                  # score them → data/screen/latest.json
+npm run profile                 # dossiers for flags ≥ 30
+```
 
-## Learn More
+Every API response is cached in `data/raw/` and the ledger in `data/credits.json`; a request is paid at
+most once, and the client refuses to exceed `NANSEN_MAX_CREDITS`.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Findings from the exploratory spikes are in [NOTES.md](NOTES.md).
