@@ -43,9 +43,16 @@ interface Ledger {
   calls: Array<{ at: string; endpoint: string; cost: number; cached: boolean }>;
 }
 
+let ledgerCache: Ledger | null = null;
+
+// Held in memory for the life of the process so concurrent calls do not
+// read a stale count; persisted after every charged call.
 function loadLedger(): Ledger {
-  if (!existsSync(LEDGER_FILE)) return { spent: 0, calls: [] };
-  return JSON.parse(readFileSync(LEDGER_FILE, "utf8")) as Ledger;
+  if (ledgerCache) return ledgerCache;
+  ledgerCache = existsSync(LEDGER_FILE)
+    ? (JSON.parse(readFileSync(LEDGER_FILE, "utf8")) as Ledger)
+    : { spent: 0, calls: [] };
+  return ledgerCache;
 }
 
 function saveJson(file: string, value: unknown): void {
@@ -104,20 +111,35 @@ export async function nansen<T = unknown>(
   if (!key) throw new NansenError("NANSEN_API_KEY is not set");
 
   const ledger = loadLedger();
+  // Reserve the cost before the request so parallel calls cannot overshoot.
   if (ledger.spent + cost > MAX_CREDITS) {
     throw new NansenError(
       `budget: ${ledger.spent} spent + ${cost} for ${endpoint} exceeds NANSEN_MAX_CREDITS=${MAX_CREDITS}`
     );
   }
 
-  const started = Date.now();
-  const res = await fetch(`${BASE_URL}/api/v1/${endpoint}`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json", apikey: key },
-    body: JSON.stringify(body),
-  });
+  ledger.spent += cost;
+  ledger.calls.push({ at: new Date().toISOString(), endpoint, cost, cached: false });
+  saveJson(LEDGER_FILE, ledger);
 
-  const text = await res.text();
+  const started = Date.now();
+  let res: Response | undefined;
+  let text = "";
+  // Nansen occasionally 504s behind Cloudflare on slow queries; retry with backoff.
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    res = await fetch(`${BASE_URL}/api/v1/${endpoint}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", apikey: key },
+      body: JSON.stringify(body),
+    });
+    text = await res.text();
+    if (res.status < 500 && res.status !== 429) break;
+    if (attempt < 3) {
+      console.error(`[nansen] ${endpoint} — HTTP ${res.status}, retry ${attempt}/2 in ${attempt * 5}s`);
+      await new Promise((r) => setTimeout(r, attempt * 5000));
+    }
+  }
+  if (!res) throw new NansenError("unreachable");
   let parsed: unknown;
   try {
     parsed = JSON.parse(text);
@@ -126,12 +148,16 @@ export async function nansen<T = unknown>(
   }
 
   if (!res.ok) {
-    throw new NansenError(`${endpoint} → HTTP ${res.status}: ${text.slice(0, 300)}`, res.status, parsed);
+    // Validation errors and gateway timeouts are not billed; refund the reservation.
+    if (res.status !== 402 && res.status !== 429) {
+      ledger.spent -= cost;
+      ledger.calls.pop();
+      saveJson(LEDGER_FILE, ledger);
+    }
+    const detail = typeof parsed === "string" ? `${res.statusText} (html body)` : text.slice(0, 300);
+    throw new NansenError(`${endpoint} → HTTP ${res.status}: ${detail}`, res.status, parsed);
   }
 
-  ledger.spent += cost;
-  ledger.calls.push({ at: new Date().toISOString(), endpoint, cost, cached: false });
-  saveJson(LEDGER_FILE, ledger);
   saveJson(file, { requestedAt: new Date().toISOString(), endpoint, body, response: parsed });
 
   console.error(
