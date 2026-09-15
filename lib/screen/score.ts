@@ -31,14 +31,14 @@ const hoursBetween = (a: string, b: string) => (new Date(b + "Z").getTime() - ne
 export function scorePosition(p: Position, jump: Jump, totalPreJumpUsd: number): Flag {
   const size = clamp((Math.log10(Math.max(p.costUsd, 1)) - 2) / 2);       // $100 → 0, $1k → 0.5, $10k → 1
   const odds = clamp((0.5 - p.avgPrice) / 0.45);                           // ≤0.05 → 1, ≥0.5 → 0
-  const hrs = hoursBetween(p.lastBuyAt, jump.at);
+  const hrs = hoursBetween(p.lastBuyAt, jump.newsAt ?? jump.at);
   const timing = clamp(1 - Math.log10(Math.max(hrs, 1)) / 3);             // 1h → 1, 1000h → 0
   const share = totalPreJumpUsd > 0 ? clamp(p.costUsd / totalPreJumpUsd) : 0;
 
   const factors: Factor[] = [
     { name: "size", value: size, detail: `$${Math.round(p.costUsd).toLocaleString("en-US")} at risk` },
     { name: "odds", value: odds, detail: `bought at ${p.avgPrice.toFixed(2)}, market was at ${jump.priceBefore.toFixed(2)} before the news` },
-    { name: "timing", value: timing, detail: `last buy ${hrs < 48 ? `${hrs.toFixed(0)}h` : `${(hrs / 24).toFixed(0)}d`} before the jump` },
+    { name: "timing", value: timing, detail: `last buy ${hrs < 48 ? `${hrs.toFixed(1)}h` : `${(hrs / 24).toFixed(0)}d`} before the news` },
     { name: "share", value: share, detail: `${(share * 100).toFixed(0)}% of all pre-news money on the winner` },
   ];
 

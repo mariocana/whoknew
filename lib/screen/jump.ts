@@ -3,6 +3,8 @@ import type { Candle } from "../nansen/pm.ts";
 export interface Jump {
   /** Hour in which the news landed (period_start of the candle). */
   at: string;
+  /** Minute the run-up began, from the trades. Set by the screener. */
+  newsAt?: string;
   /** Winning side's price before that hour — what the market believed. */
   priceBefore: number;
   priceAfter: number;

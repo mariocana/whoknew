@@ -22,6 +22,7 @@ const COST: Record<string, number> = {
   "prediction-market/pnl-by-market": 5,
   "prediction-market/position-detail": 5,
   "profiler/address/related-wallets": 1,
+  "profiler/address/first-funder": 1, // not in the published table; measured against the dashboard
   "profiler/address/counterparties": 5,
   "profiler/address/labels": 20,
 };
