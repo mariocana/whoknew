@@ -13,7 +13,8 @@
     "spike:prematch": "node --env-file=.env scripts/spike-prematch.ts",
     "screen": "node --env-file=.env scripts/screen.ts",
     "typecheck": "tsc --noEmit",
-    "profile": "node --env-file=.env scripts/profile.ts"
+    "profile": "node --env-file=.env scripts/profile.ts",
+    "trace": "node --env-file=.env scripts/trace.ts"
   },
   "dependencies": {
     "next": "16.3.5",

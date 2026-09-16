@@ -37,7 +37,10 @@ const OUT = "data/screen/latest.json";
 
 // Markets whose structure cannot carry private information: live events and
 // recurring count-the-posts markets.
-const NOISE = /^(sports|games|tweet markets|recurring|mentions|rogan|lid|trump daily|esports)$/i;
+const NOISE = /^(sports|games|tweet markets|recurring|mentions|rogan|lid|trump daily|esports|crypto prices|weather|natural disasters|temperature)$/i;
+// Questions settled by a number nobody holds in advance: prices, counts, thresholds.
+const NUMERIC = /\b(above|below|dips? (below|under)|hits?|reach(es)?|close[sd]? (above|below)|between)\b.*\$|\bexactly \d|\b\d+(\.\d+)?%|magnitude|\btemperature|\bhigh(est)? temp|\d+ ?(bps|basis points)|market cap|all[- ]time high|\b(FDV|TVL)\b|(\d+|more|fewer|less) (or more |or fewer )?(ships|posts|tweets|cases|transits)/i;
+const maxMarkets = Number(args.get("max") ?? 1_000_000);
 
 const usd = (n: number) => `$${Math.round(n).toLocaleString("en-US")}`;
 const short = (a: string) => `${a.slice(0, 6)}…${a.slice(-4)}`;
@@ -73,8 +76,10 @@ const candidates = [...seen.values()]
   .filter((m) => m.volume >= minVolume)
   .filter((m) => onlyMarkets || !(m.tags ?? []).some((t) => NOISE.test(t)))
   .filter((m) => resolved === "any" || (resolved === "yes" ? m.last_trade_price >= 0.9 : m.last_trade_price <= 0.1))
+  .filter((m) => onlyMarkets || !NUMERIC.test(m.question))
   // --markets keeps the caller's order so the budget runs out on the least interesting ones.
-  .sort((a, b) => (onlyMarkets ? onlyMarkets.indexOf(a.market_id) - onlyMarkets.indexOf(b.market_id) : b.volume - a.volume));
+  .sort((a, b) => (onlyMarkets ? onlyMarkets.indexOf(a.market_id) - onlyMarkets.indexOf(b.market_id) : b.volume - a.volume))
+  .slice(0, maxMarkets);
 
 console.error(`\n${seen.size} closed markets, ${from} → ${to}, ${tags.length} tags; ${candidates.length} after filters (≥ ${usd(minVolume)}, resolved ${resolved}, no live/recurring)`);
 console.error(`estimated cost: ~${Math.round(candidates.length * 1.6)} credits; spent so far ${creditsSpent()}`);
@@ -107,9 +112,9 @@ async function screenOne(m: Market): Promise<ScreenedMarket> {
 
   // Score each surprising jump on the trades of the days before it; keep the strongest.
   let best: { jump: Jump; flags: Flag[]; preUsd: number; wallets: number; complete: boolean } | null = null;
-  for (const jump of surprising.slice(-3)) {
+  for (const jump of surprising.slice(-2)) {
     const jumpMs = new Date(jump.at + "Z").getTime();
-    const { trades, complete } = await getTradesWindow(m.market_id, iso(jumpMs - lookbackDays * DAY), iso(jumpMs + 3_600_000));
+    const { trades, complete } = await getTradesWindow(m.market_id, iso(jumpMs - lookbackDays * DAY), iso(jumpMs + 3_600_000), 3);
     jump.newsAt = newsMoment(trades, shape.winner, jump);
     const positions = positionsBefore(trades, shape.winner, jump.newsAt);
     const preUsd = positions.reduce((s, p) => s + p.costUsd, 0);
