@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 export interface ChartCandle { t: string; close: number; volume: number }
 export interface ChartBuy { t: string; price: number; usd: number }
@@ -24,7 +24,17 @@ const fmt = (iso: string) => iso.slice(5, 16).replace("T", " ");
  * orange dots are named in the caption.
  */
 export function PriceChart({ candles, buys, newsAt, from, to, walletLabel, winner }: Props) {
-  const W = 880, H = 260, L = 44, R = 16, T = 16, B = 28;
+  // On a phone the SVG is scaled to ~40% of its desktop width, which would shrink 11px labels to
+  // 4px. A narrower viewBox keeps text and dots legible at the cost of fewer ticks.
+  const [narrow, setNarrow] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 640px)");
+    const apply = () => setNarrow(mq.matches);
+    apply();
+    mq.addEventListener("change", apply);
+    return () => mq.removeEventListener("change", apply);
+  }, []);
+  const W = narrow ? 420 : 880, H = narrow ? 240 : 260, L = narrow ? 34 : 44, R = narrow ? 10 : 16, T = 16, B = 28;
   const [hover, setHover] = useState<number | null>(null);
 
   const { x, y, path, pts, dots, newsX, ticks } = useMemo(() => {
@@ -34,12 +44,14 @@ export function PriceChart({ candles, buys, newsAt, from, to, walletLabel, winne
     const pts = candles.map((c) => ({ ...c, X: x(ms(c.t)), Y: y(c.close) }));
     const path = pts.map((p, i) => `${i ? "L" : "M"}${p.X.toFixed(1)},${p.Y.toFixed(1)}`).join(" ");
     const maxUsd = Math.max(1, ...buys.map((b) => b.usd));
-    const dots = buys.map((b) => ({ ...b, X: x(ms(b.t)), Y: y(b.price), r: 2.5 + 9 * Math.sqrt(b.usd / maxUsd) }));
+    const dots = buys.map((b) => ({ ...b, X: x(ms(b.t)), Y: y(b.price), r: (narrow ? 2 : 2.5) + (narrow ? 6 : 9) * Math.sqrt(b.usd / maxUsd) }));
     const ticks: { X: number; label: string }[] = [];
-    const span = t1 - t0, step = span > 6 * 86_400_000 ? 2 * 86_400_000 : span > 2 * 86_400_000 ? 86_400_000 : 6 * 3_600_000;
+    const span = t1 - t0;
+    let step = span > 6 * 86_400_000 ? 2 * 86_400_000 : span > 2 * 86_400_000 ? 86_400_000 : 6 * 3_600_000;
+    if (narrow) step *= 2;
     for (let t = Math.ceil(t0 / step) * step; t < t1; t += step) ticks.push({ X: x(t), label: new Date(t).toISOString().slice(5, step >= 86_400_000 ? 10 : 16).replace("T", " ") });
     return { x, y, path, pts, dots, newsX: x(ms(newsAt)), ticks };
-  }, [candles, buys, newsAt, from, to]);
+  }, [candles, buys, newsAt, from, to, narrow, W, H, L, R]);
 
   const hovered = hover !== null ? pts[hover] : null;
 

@@ -43,7 +43,7 @@ is measured the same way.
 
 | | position | before the news | the wallet |
 |---|---|---|---|
-| **Thailand strikes Cambodia by Friday?** | $99k at 41¢ | 12 min | the **only market it ever traded**, in 416 days; owner first funded by `tsipouro.eth` |
+| **Thailand strikes Cambodia by Friday?** | $99k at 41¢ | 12 min | wallet **created that day, for this one market**; owner first funded by `tsipouro.eth` |
 | **US military action against Iran by Sunday?** | $139k at 23¢ — 71% of all pre-news money | 5 h | 110 markets, 22% win rate, −$219k lifetime; made **+$781k** that night, +$368k more on the Saturday market |
 | **Israel military action against Iran by Friday?** | $34k at 22¢ | 6 h | owner funded on Polygon **two days before** the strikes; then bet on the US market too |
 | **MicroStrategy sells any Bitcoin by June 30?** | $2.9k at **2¢** | 9.5 h | only market ever traded |
