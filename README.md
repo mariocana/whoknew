@@ -37,7 +37,9 @@ Scored **85 / 100**: size 100 · odds 66 · timing 100 · share 94.
 
 ## What else it found
 
-Screening the 1,000 largest resolved-YES markets since mid-2024 (~2,900 Nansen credits, about $3):
+Screening the 1,000 largest resolved markets since mid-2024 — 353 settled YES, 672 NO — for
+~2,900 Nansen credits, about $3. A NO can be a surprise too: a ceasefire market collapsing when talks fail
+is measured the same way.
 
 | | position | before the news | the wallet |
 |---|---|---|---|
@@ -64,9 +66,9 @@ market-screener ─▶ ohlcv ─▶ trades-by-market ─▶ net positions ─▶
                                                                                                                 came from
 ```
 
-1. **Discovery.** Closed markets by tag and 90-day window. Keep those that resolved YES (something happened),
-   drop sports and other live events (in-play trading looks exactly like foreknowledge), recurring
-   count-the-posts markets, and any question settled by a number nobody holds in advance.
+1. **Discovery.** Closed markets by tag and 90-day window. Drop sports and other live events (in-play
+   trading looks exactly like foreknowledge), recurring count-the-posts markets, and any question settled
+   by a number nobody holds in advance. Which side won is read from the candles, not the screener.
 2. **The hour the market learned.** From hourly candles: the winning side jumps ≥ 25¢ on real volume and
    stays there. Skip if the market already priced the outcome above 60¢ — there was nothing to know.
 3. **The minute.** Inside the trades before that hour, the first trade of the final run-up. Everything

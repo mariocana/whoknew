@@ -2,7 +2,7 @@
 //
 //   node --env-file=.env scripts/screen.ts [--from 2022-11-01] [--to today] [--window 90]
 //       [--tags Politics,Geopolitics,...] [--min-volume 5000] [--min-surprise 0.4]
-//       [--resolved yes|no|any] [--lookback 14] [--markets id,id] [--dry-run]
+//       [--resolved any|yes|no] [--lookback 14] [--markets id,id] [--dry-run]
 //
 // Discovery: 1 credit per tag per window. Per market: ohlcv (1 per 1000 candles) and, only
 // when the market was genuinely surprised, trades in the `lookback` days before each news
@@ -31,8 +31,9 @@ const minSurprise = Number(args.get("min-surprise") ?? 0.4);
 const lookbackDays = Number(args.get("lookback") ?? 14);
 const dryRun = args.get("dry-run") === "true";
 const onlyMarkets = args.get("markets")?.split(",");
-// "yes": something happened (YES ≥ 0.9). NO-by-expiry markets never jump and cannot be known in advance.
-const resolved = args.get("resolved") ?? "yes";
+// The screener's last_trade_price does not reflect the resolution (it is the last trade on
+// either token), so this filter is off by default; the winner is read from the candles instead.
+const resolved = args.get("resolved") ?? "any";
 const OUT = "data/screen/latest.json";
 
 // Markets whose structure cannot carry private information: live events and

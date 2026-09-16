@@ -121,3 +121,10 @@ resolved owners. Owner resolved for roughly half the flagged wallets.
 
 Limit to state in the UI: the funding trail exists only where Nansen resolves the SAFE proxy to its owner
 (~half of cases). Age, history and timing are available for all.
+
+## Correction: `last_trade_price` is not the resolution
+
+The screener's `last_trade_price` is the last trade on either token, not the YES settlement. The
+`--resolved yes` filter (`≥ 0.9`) let 672 NO-resolved markets through in the 1,000-market run — the run was
+simply the 1,000 largest by volume. The pipeline reads the winner from the candles, so results stand;
+`--resolved` now defaults to `any`. A NO resolution can carry a surprise of its own and is scored the same way.
