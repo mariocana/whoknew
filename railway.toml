@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+nixpacksPlan.variables = { NIXPACKS_NODE_VERSION = "22" }
+buildCommand = "npm ci && npm run build"
+
+[deploy]
+startCommand = "npm run start"
+restartPolicyType = "on_failure"
