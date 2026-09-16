@@ -16,6 +16,7 @@ export function hoursBetween(a: string, b: string) {
 }
 
 export function leadText(hours: number) {
+  if (hours < 1 / 60) return `${Math.round(hours * 3600)} s`;
   if (hours < 1) return `${Math.round(hours * 60)} min`;
   if (hours < 48) return `${hours.toFixed(1)} h`;
   return `${Math.round(hours / 24)} d`;

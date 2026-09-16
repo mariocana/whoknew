@@ -23,6 +23,12 @@ const RAW = join(cwd(), "data", "raw");
 
 let cache: { mtime: number; run: { ranAt: string; results: MarketRecord[] } } | null = null;
 
+/** The scripts' working file, regardless of whether a site snapshot exists. */
+export function loadWorkRun(): { ranAt: string; results: MarketRecord[] } {
+  if (!existsSync(WORK_SCREEN)) throw new Error(`${WORK_SCREEN} is missing — run the screener first`);
+  return JSON.parse(readFileSync(WORK_SCREEN, "utf8"));
+}
+
 export function loadRun() {
   const stat = existsSync(SCREEN) ? readFileSync(SCREEN, "utf8") : null;
   if (!stat) return { ranAt: "", results: [] as MarketRecord[] };

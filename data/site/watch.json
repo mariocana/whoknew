@@ -1,0 +1,3063 @@
+{
+  "ranAt": "2026-09-16T08:44:16.000Z",
+  "params": {
+    "days": 7,
+    "hours": 72,
+    "maxMarkets": 120,
+    "minVolume": 20000,
+    "tags": [
+      "Politics",
+      "Geopolitics",
+      "World",
+      "Crypto",
+      "Business",
+      "Science"
+    ]
+  },
+  "results": [
+    {
+      "market": {
+        "market_id": "2252244",
+        "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "event_title": "Fed Decision in September?",
+        "end_date": "2026-09-16T00:00:00",
+        "tags": [
+          "fomc",
+          "Economic Policy",
+          "Fed Rates",
+          "Jerome Powell",
+          "Politics",
+          "Fed",
+          "Economy",
+          "CPI Release",
+          "Jobs Report",
+          "US Inflation August"
+        ],
+        "volume": 51648903.25925112,
+        "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
+      },
+      "prices": {
+        "Yes": 0.6499999986999999,
+        "No": 0.35000000130000003
+      },
+      "recentUsd": 920.3151820000053,
+      "recentWallets": 1,
+      "flags": [
+        {
+          "wallet": "0x0826042fb1f3f5ff4325ed7237ebc87468070b32",
+          "side": "No",
+          "score": 12,
+          "position": {
+            "wallet": "0x0826042fb1f3f5ff4325ed7237ebc87468070b32",
+            "shares": 1778.244991999994,
+            "costUsd": 920.3151820000053,
+            "avgPrice": 0.5175412758873713,
+            "trades": 171,
+            "firstBuyAt": "2026-09-13T10:30:37",
+            "lastBuyAt": "2026-09-14T10:10:16"
+          },
+          "currentPrice": 0.35000000130000003,
+          "hoursSinceLastBuy": 46.56666666666667,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.4819682932171485,
+              "detail": "$920 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0,
+              "detail": "bought at 0.52, market now at 0.35"
+            },
+            {
+              "name": "recency",
+              "value": 0.16596242430274022,
+              "detail": "last buy 46.6h ago"
+            },
+            {
+              "name": "share",
+              "value": 1,
+              "detail": "100% of the last 72h of money on No"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "2252246",
+        "question": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
+        "event_title": "Fed Decision in September?",
+        "end_date": "2026-09-16T00:00:00",
+        "tags": [
+          "fomc",
+          "Economic Policy",
+          "Fed Rates",
+          "Jerome Powell",
+          "Politics",
+          "Fed",
+          "Economy",
+          "CPI Release",
+          "Jobs Report",
+          "US Inflation August"
+        ],
+        "volume": 29153882.683063015,
+        "slug": "will-the-fed-increase-interest-rates-by-50-bps-after-the-september-2026-meeting-664"
+      },
+      "prices": {
+        "Yes": 0.006,
+        "No": 0.994
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "2252242",
+        "question": "Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?",
+        "event_title": "Fed Decision in September?",
+        "end_date": "2026-09-16T00:00:00",
+        "tags": [
+          "fomc",
+          "Economic Policy",
+          "Fed Rates",
+          "Jerome Powell",
+          "Politics",
+          "Fed",
+          "Economy",
+          "CPI Release",
+          "Jobs Report",
+          "US Inflation August"
+        ],
+        "volume": 18731417.307785,
+        "slug": "will-the-fed-decrease-interest-rates-by-50-bps-after-the-september-2026-meeting-863"
+      },
+      "prices": {
+        "No": 0.996,
+        "Yes": 0.004
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "789953",
+        "question": "Will AfD win the most seats in the 2026 Berlin state elections?",
+        "event_title": "Berlin State Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World Elections",
+          "World",
+          "German Elections",
+          "Main Election",
+          "Global Elections",
+          "Politics",
+          "Elections",
+          "Germany",
+          "Berlin"
+        ],
+        "volume": 2503232.7068280005,
+        "slug": "will-afd-win-the-most-seats-in-the-2026-berlin-state-elections"
+      },
+      "prices": {
+        "No": 0.9053405957521425,
+        "Yes": 0.091
+      },
+      "recentUsd": 2746.3207749999997,
+      "recentWallets": 39,
+      "flags": [
+        {
+          "wallet": "0x6ac0caf622798132614a5972f81d86ff23fc55f3",
+          "side": "Yes",
+          "score": 29,
+          "position": {
+            "wallet": "0x6ac0caf622798132614a5972f81d86ff23fc55f3",
+            "shares": 10721.390000000001,
+            "costUsd": 1253.5372200000002,
+            "avgPrice": 0.11691928192146728,
+            "trades": 58,
+            "firstBuyAt": "2026-09-13T19:59:52",
+            "lastBuyAt": "2026-09-14T09:12:34"
+          },
+          "currentPrice": 0.091,
+          "hoursSinceLastBuy": 47.528333333333336,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.5490686167740171,
+              "detail": "$1,254 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.8512904846189616,
+              "detail": "bought at 0.12, market now at 0.09"
+            },
+            {
+              "name": "recency",
+              "value": 0.16152370737847233,
+              "detail": "last buy 47.5h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.4564423906380711,
+              "detail": "46% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0x6ac0caf622798132614a5972f81d86ff23fc55f3",
+            "first_seen": "2025-12-30",
+            "wallet_age_days": 260,
+            "realized_pnl_usd": -1437.2153560000033,
+            "unrealized_pnl_usd": 11507.38367136697,
+            "total_pnl_usd": 10070.168315366976,
+            "markets_won": 249,
+            "markets_traded": 526,
+            "win_rate": 0.47338403041825095,
+            "p2p_tokens_sent": 169888.91101300003,
+            "p2p_tokens_received": 0
+          }
+        },
+        {
+          "wallet": "0x9e88f359b9803e41420fbb13385c5ae1765c301c",
+          "side": "Yes",
+          "score": 23,
+          "position": {
+            "wallet": "0x9e88f359b9803e41420fbb13385c5ae1765c301c",
+            "shares": 7115.421593000001,
+            "costUsd": 596.633406,
+            "avgPrice": 0.08385074562369645,
+            "trades": 25,
+            "firstBuyAt": "2026-09-14T19:28:54",
+            "lastBuyAt": "2026-09-15T16:59:10"
+          },
+          "currentPrice": 0.091,
+          "hoursSinceLastBuy": 15.751666666666667,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.38785378310780594,
+              "detail": "$597 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.9247761208362302,
+              "detail": "bought at 0.08, market now at 0.09"
+            },
+            {
+              "name": "recency",
+              "value": 0.4013367436088845,
+              "detail": "last buy 15.8h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.21724825862703534,
+              "detail": "22% of the last 72h of money on Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "3702045",
+        "question": "US announces end of Iranian blockade by September 21, 2026?",
+        "event_title": "US announces end of Iranian blockade by...?",
+        "end_date": "2026-09-22T03:59:00",
+        "tags": [
+          "Iran",
+          "Trump",
+          "Blockade",
+          "Politics",
+          "shipping",
+          "Peace Deal",
+          "Geopolitics",
+          "U.S. x Iran"
+        ],
+        "volume": 949248.8449459999,
+        "slug": "us-announces-end-of-iranian-blockade-by-september-21-2026"
+      },
+      "prices": {
+        "No": 0.9539999974559983,
+        "Yes": 0.04600000254400169
+      },
+      "recentUsd": 6445.209213999999,
+      "recentWallets": 64,
+      "flags": [
+        {
+          "wallet": "0x758c7982c9086515eb40f4035f80170d5293074a",
+          "side": "Yes",
+          "score": 43,
+          "position": {
+            "wallet": "0x758c7982c9086515eb40f4035f80170d5293074a",
+            "shares": 32954.93191,
+            "costUsd": 1800.5122150000004,
+            "avgPrice": 0.054635592023591605,
+            "trades": 68,
+            "firstBuyAt": "2026-09-14T01:12:49",
+            "lastBuyAt": "2026-09-16T00:33:52"
+          },
+          "currentPrice": 0.04600000254400169,
+          "hoursSinceLastBuy": 8.173333333333334,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.6276980360247439,
+              "detail": "$1,801 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.9896986843920187,
+              "detail": "bought at 0.05, market now at 0.05"
+            },
+            {
+              "name": "recency",
+              "value": 0.5438003944366425,
+              "detail": "last buy 8.2h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.2793566748910194,
+              "detail": "28% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0x758c7982c9086515eb40f4035f80170d5293074a",
+            "first_seen": "2024-10-16",
+            "wallet_age_days": 700,
+            "realized_pnl_usd": 31357.976012000006,
+            "unrealized_pnl_usd": -19273.22156902872,
+            "total_pnl_usd": 12084.754442971293,
+            "markets_won": 10,
+            "markets_traded": 79,
+            "win_rate": 0.12658227848101267,
+            "p2p_tokens_sent": 18929.718897,
+            "p2p_tokens_received": 0
+          }
+        },
+        {
+          "wallet": "0xe2a91c06ea3e0eb6cc2102ae84eaba059ac250cb",
+          "side": "Yes",
+          "score": 31,
+          "position": {
+            "wallet": "0xe2a91c06ea3e0eb6cc2102ae84eaba059ac250cb",
+            "shares": 19999.98786,
+            "costUsd": 999.999393,
+            "avgPrice": 0.05,
+            "trades": 9,
+            "firstBuyAt": "2026-09-15T11:54:49",
+            "lastBuyAt": "2026-09-15T16:26:52"
+          },
+          "currentPrice": 0.04600000254400169,
+          "hoursSinceLastBuy": 16.29,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.4999998681915847,
+              "detail": "$1,000 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 1,
+              "detail": "bought at 0.05, market now at 0.05"
+            },
+            {
+              "name": "recency",
+              "value": 0.39403945784574534,
+              "detail": "last buy 16.3h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.15515390731271309,
+              "detail": "16% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0xe2a91c06ea3e0eb6cc2102ae84eaba059ac250cb",
+            "first_seen": "2026-05-25",
+            "wallet_age_days": 114,
+            "realized_pnl_usd": 636.7118149999999,
+            "unrealized_pnl_usd": -1704.9706560682316,
+            "total_pnl_usd": -1068.2588410682329,
+            "markets_won": 16,
+            "markets_traded": 47,
+            "win_rate": 0.3404255319148936,
+            "p2p_tokens_sent": 12405.392137000003,
+            "p2p_tokens_received": 0
+          }
+        },
+        {
+          "wallet": "0xaacbc9d95817074834824232a53bbfb88ff290cb",
+          "side": "Yes",
+          "score": 28,
+          "position": {
+            "wallet": "0xaacbc9d95817074834824232a53bbfb88ff290cb",
+            "shares": 20121.9852,
+            "costUsd": 804.879408,
+            "avgPrice": 0.04,
+            "trades": 15,
+            "firstBuyAt": "2026-09-15T16:26:51",
+            "lastBuyAt": "2026-09-15T17:03:07"
+          },
+          "currentPrice": 0.04600000254400169,
+          "hoursSinceLastBuy": 15.685833333333333,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.45286540828123445,
+              "detail": "$805 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 1,
+              "detail": "bought at 0.04, market now at 0.05"
+            },
+            {
+              "name": "recency",
+              "value": 0.40224620190503324,
+              "detail": "last buy 15.7h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.1248802608690617,
+              "detail": "12% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0xaacbc9d95817074834824232a53bbfb88ff290cb",
+            "first_seen": "2026-05-06",
+            "wallet_age_days": 133,
+            "realized_pnl_usd": 45243.351362999994,
+            "unrealized_pnl_usd": -45794.491605367075,
+            "total_pnl_usd": -551.140242367069,
+            "markets_won": 63,
+            "markets_traded": 367,
+            "win_rate": 0.17166212534059946,
+            "p2p_tokens_sent": 1082.741203,
+            "p2p_tokens_received": 0
+          }
+        },
+        {
+          "wallet": "0xeb22f4735df6bd5d14e1b5fd10faefa7757d808a",
+          "side": "Yes",
+          "score": 22,
+          "position": {
+            "wallet": "0xeb22f4735df6bd5d14e1b5fd10faefa7757d808a",
+            "shares": 11641.75358,
+            "costUsd": 582.087679,
+            "avgPrice": 0.049999999999999996,
+            "trades": 12,
+            "firstBuyAt": "2026-09-15T06:53:33",
+            "lastBuyAt": "2026-09-15T11:32:15"
+          },
+          "currentPrice": 0.04600000254400169,
+          "hoursSinceLastBuy": 21.200277777777778,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.38249420335405127,
+              "detail": "$582 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 1,
+              "detail": "bought at 0.05, market now at 0.05"
+            },
+            {
+              "name": "recency",
+              "value": 0.33682922433360185,
+              "detail": "last buy 21.2h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.09031323261557046,
+              "detail": "9% of the last 72h of money on Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "3758940",
+        "question": "Bab el-Mandeb Strait effectively closed by September 15?",
+        "event_title": "Bab el-Mandeb Strait effectively closed by...?",
+        "end_date": "2026-09-16T03:59:00",
+        "tags": [
+          "Politics",
+          "houthi",
+          "Iran",
+          "traffic",
+          "Strait of Hormuz",
+          "Oil",
+          "Geopolitics",
+          "Regional Spillover",
+          "shipping",
+          "red sea",
+          "cape of good hope",
+          "Houthis",
+          "Yemen"
+        ],
+        "volume": 820991.2712890002,
+        "slug": "bab-el-mandeb-strait-effectively-closed-by-september-15"
+      },
+      "prices": {
+        "No": 0.9989999885904619,
+        "Yes": 0.001
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "3399203",
+        "question": "Russia Elections: Yabloko Clears Duma Threshold?",
+        "event_title": "Russia Elections: Yabloko Clears Duma Threshold?",
+        "end_date": "2026-09-20T23:59:00",
+        "tags": [
+          "Russia",
+          "Politics",
+          "Elections",
+          "Global Elections",
+          "Russia Election"
+        ],
+        "volume": 741558.386775,
+        "slug": "russia-elections-yabloko-clears-duma-threshold"
+      },
+      "prices": {
+        "Yes": 0.004,
+        "No": 0.996
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "789955",
+        "question": "Will SPD win the most seats in the 2026 Berlin state elections?",
+        "event_title": "Berlin State Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World Elections",
+          "World",
+          "German Elections",
+          "Main Election",
+          "Global Elections",
+          "Politics",
+          "Elections",
+          "Germany",
+          "Berlin"
+        ],
+        "volume": 431614.04973699996,
+        "slug": "will-spd-win-the-most-seats-in-the-2026-berlin-state-elections"
+      },
+      "prices": {
+        "Yes": 0.0012938524590163935,
+        "No": 0.997
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "3399197",
+        "question": "Russia Elections: United Russia Wins Every Region?",
+        "event_title": "Russia Elections: United Russia Wins Every Region?",
+        "end_date": "2026-09-20T23:59:00",
+        "tags": [
+          "Russia",
+          "Politics",
+          "Elections",
+          "Global Elections",
+          "Russia Election"
+        ],
+        "volume": 413363.7095339999,
+        "slug": "russia-elections-united-russia-wins-every-region"
+      },
+      "prices": {
+        "Yes": 0.6699999998188285,
+        "No": 0.3300000001811715
+      },
+      "recentUsd": 15418.348068000001,
+      "recentWallets": 76,
+      "flags": [
+        {
+          "wallet": "0x33b83d1aeab0dc7937eaae9c0b0bbb1d22b63d73",
+          "side": "No",
+          "score": 35,
+          "position": {
+            "wallet": "0x33b83d1aeab0dc7937eaae9c0b0bbb1d22b63d73",
+            "shares": 30279.073859999997,
+            "costUsd": 9719.11,
+            "avgPrice": 0.32098438825896114,
+            "trades": 29,
+            "firstBuyAt": "2026-09-13T23:47:16",
+            "lastBuyAt": "2026-09-13T23:58:51"
+          },
+          "currentPrice": 0.3300000001811715,
+          "hoursSinceLastBuy": 56.75694444444444,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.9938132487293057,
+              "detail": "$9,719 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.3978124705356419,
+              "detail": "bought at 0.32, market now at 0.33"
+            },
+            {
+              "name": "recency",
+              "value": 0.1229904965882247,
+              "detail": "last buy 2d ago"
+            },
+            {
+              "name": "share",
+              "value": 0.630360007254702,
+              "detail": "63% of the last 72h of money on No"
+            }
+          ],
+          "summary": {
+            "address": "0x33b83d1aeab0dc7937eaae9c0b0bbb1d22b63d73",
+            "first_seen": "2026-09-13",
+            "wallet_age_days": 3,
+            "realized_pnl_usd": 0,
+            "unrealized_pnl_usd": 575.786868521761,
+            "total_pnl_usd": 575.786868521761,
+            "markets_won": 1,
+            "markets_traded": 1,
+            "win_rate": 1,
+            "p2p_tokens_sent": 0,
+            "p2p_tokens_received": 0
+          }
+        },
+        {
+          "wallet": "0x9bf82e29e26bd2c89c5ba6d2666df2cbf270b627",
+          "side": "No",
+          "score": 19,
+          "position": {
+            "wallet": "0x9bf82e29e26bd2c89c5ba6d2666df2cbf270b627",
+            "shares": 3094.235244,
+            "costUsd": 1035.493048,
+            "avgPrice": 0.33465233453335974,
+            "trades": 18,
+            "firstBuyAt": "2026-09-14T17:55:27",
+            "lastBuyAt": "2026-09-16T00:52:46"
+          },
+          "currentPrice": 0.3300000001811715,
+          "hoursSinceLastBuy": 7.858333333333333,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.5075735937560331,
+              "detail": "$1,035 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.3674392565925339,
+              "detail": "bought at 0.33, market now at 0.33"
+            },
+            {
+              "name": "recency",
+              "value": 0.5523347766551482,
+              "detail": "last buy 7.9h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.06715979192019367,
+              "detail": "7% of the last 72h of money on No"
+            }
+          ]
+        },
+        {
+          "wallet": "0x8a379f0e113bba4122d4ba69be0b4e8efee07f66",
+          "side": "No",
+          "score": 13,
+          "position": {
+            "wallet": "0x8a379f0e113bba4122d4ba69be0b4e8efee07f66",
+            "shares": 2064.44,
+            "costUsd": 722.554,
+            "avgPrice": 0.35,
+            "trades": 1,
+            "firstBuyAt": "2026-09-15T16:06:27",
+            "lastBuyAt": "2026-09-15T16:06:27"
+          },
+          "currentPrice": 0.3300000001811715,
+          "hoursSinceLastBuy": 16.630277777777778,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.4294351547977966,
+              "detail": "$723 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.33333333333333337,
+              "detail": "bought at 0.35, market now at 0.33"
+            },
+            {
+              "name": "recency",
+              "value": 0.38955024832022933,
+              "detail": "last buy 16.6h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.04686325647944244,
+              "detail": "5% of the last 72h of money on No"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "1364103",
+        "question": "Will AfD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World",
+          "Elections",
+          "Global Elections",
+          "World Elections",
+          "Politics",
+          "Mecklenburg-Vorpommern",
+          "Germany",
+          "German Elections",
+          "Main Election"
+        ],
+        "volume": 399992.44477999985,
+        "slug": "will-afd-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections"
+      },
+      "prices": {
+        "No": 0.2,
+        "Yes": 0.7899999697166679
+      },
+      "recentUsd": 4219.355220000002,
+      "recentWallets": 46,
+      "flags": [
+        {
+          "wallet": "0xa8f13ff79c83a3884049e533d98a0c38c4a9d87b",
+          "side": "No",
+          "score": 21,
+          "position": {
+            "wallet": "0xa8f13ff79c83a3884049e533d98a0c38c4a9d87b",
+            "shares": 3999.864719000001,
+            "costUsd": 639.9783560000001,
+            "avgPrice": 0.1600000002400081,
+            "trades": 30,
+            "firstBuyAt": "2026-09-14T21:04:45",
+            "lastBuyAt": "2026-09-15T20:37:40"
+          },
+          "currentPrice": 0.2,
+          "hoursSinceLastBuy": 12.11,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.4030826432195094,
+              "detail": "$640 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.7555555550222042,
+              "detail": "bought at 0.16, market now at 0.20"
+            },
+            {
+              "name": "recency",
+              "value": 0.4584279284284739,
+              "detail": "last buy 12.1h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.1516768137857802,
+              "detail": "15% of the last 72h of money on No"
+            }
+          ]
+        },
+        {
+          "wallet": "0xf92a950992181e21874dd1b36c7e5666c443a517",
+          "side": "No",
+          "score": 17,
+          "position": {
+            "wallet": "0xf92a950992181e21874dd1b36c7e5666c443a517",
+            "shares": 3168.4399999999996,
+            "costUsd": 558.6348,
+            "avgPrice": 0.17631225461110203,
+            "trades": 15,
+            "firstBuyAt": "2026-09-13T21:52:42",
+            "lastBuyAt": "2026-09-15T04:58:33"
+          },
+          "currentPrice": 0.2,
+          "hoursSinceLastBuy": 27.761944444444445,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.37356399323102196,
+              "detail": "$559 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.7193061008642178,
+              "detail": "bought at 0.18, market now at 0.20"
+            },
+            {
+              "name": "recency",
+              "value": 0.2782750595999658,
+              "detail": "last buy 27.8h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.13239814399888325,
+              "detail": "13% of the last 72h of money on No"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "1364105",
+        "question": "Will SPD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World",
+          "Elections",
+          "Global Elections",
+          "World Elections",
+          "Politics",
+          "Mecklenburg-Vorpommern",
+          "Germany",
+          "German Elections",
+          "Main Election"
+        ],
+        "volume": 346763.22537199984,
+        "slug": "will-spd-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections"
+      },
+      "prices": {
+        "Yes": 0.22,
+        "No": 0.79
+      },
+      "recentUsd": 6842.95453,
+      "recentWallets": 36,
+      "flags": [
+        {
+          "wallet": "0x629bc4a1e53e1d475beb7ea3d388791e96dd995a",
+          "side": "Yes",
+          "score": 44,
+          "position": {
+            "wallet": "0x629bc4a1e53e1d475beb7ea3d388791e96dd995a",
+            "shares": 12493.1,
+            "costUsd": 1998.6239,
+            "avgPrice": 0.15997821997742753,
+            "trades": 9,
+            "firstBuyAt": "2026-09-13T10:39:27",
+            "lastBuyAt": "2026-09-16T05:57:21"
+          },
+          "currentPrice": 0.22,
+          "hoursSinceLastBuy": 2.7819444444444446,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.6503655382491225,
+              "detail": "$1,999 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.7556039556057165,
+              "detail": "bought at 0.16, market now at 0.22"
+            },
+            {
+              "name": "recency",
+              "value": 0.7778257735688461,
+              "detail": "last buy 2.8h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.29207031717628557,
+              "detail": "29% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0x629bc4a1e53e1d475beb7ea3d388791e96dd995a",
+            "first_seen": "2023-03-06",
+            "wallet_age_days": 1290,
+            "realized_pnl_usd": 934437.1185430003,
+            "unrealized_pnl_usd": 71142.61598801849,
+            "total_pnl_usd": 1005579.7345310185,
+            "markets_won": 743,
+            "markets_traded": 1335,
+            "win_rate": 0.5565543071161049,
+            "p2p_tokens_sent": 3284288.4682989996,
+            "p2p_tokens_received": 0.222194
+          }
+        },
+        {
+          "wallet": "0xdf6cafedd729f199bb0e88ecb8d5bbff19ebeb44",
+          "side": "Yes",
+          "score": 34,
+          "position": {
+            "wallet": "0xdf6cafedd729f199bb0e88ecb8d5bbff19ebeb44",
+            "shares": 6000,
+            "costUsd": 1139.9999999999998,
+            "avgPrice": 0.18999999999999997,
+            "trades": 16,
+            "firstBuyAt": "2026-09-16T06:33:51",
+            "lastBuyAt": "2026-09-16T06:33:51"
+          },
+          "currentPrice": 0.22,
+          "hoursSinceLastBuy": 2.173611111111111,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.5284524256682364,
+              "detail": "$1,140 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.688888888888889,
+              "detail": "bought at 0.19, market now at 0.22"
+            },
+            {
+              "name": "recency",
+              "value": 0.8314090772744006,
+              "detail": "last buy 2.2h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.1665947062781374,
+              "detail": "17% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0xdf6cafedd729f199bb0e88ecb8d5bbff19ebeb44",
+            "first_seen": "2024-10-02",
+            "wallet_age_days": 714,
+            "realized_pnl_usd": 11806.389842,
+            "unrealized_pnl_usd": -1535.4002255921189,
+            "total_pnl_usd": 10270.989616407882,
+            "markets_won": 211,
+            "markets_traded": 368,
+            "win_rate": 0.5733695652173914,
+            "p2p_tokens_sent": 60735.106715,
+            "p2p_tokens_received": 0
+          }
+        },
+        {
+          "wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
+          "side": "Yes",
+          "score": 34,
+          "position": {
+            "wallet": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
+            "shares": 5880.589999999999,
+            "costUsd": 1066.3596000000002,
+            "avgPrice": 0.18133547824282945,
+            "trades": 34,
+            "firstBuyAt": "2026-09-13T21:46:04",
+            "lastBuyAt": "2026-09-16T07:11:45"
+          },
+          "currentPrice": 0.22,
+          "hoursSinceLastBuy": 1.5419444444444443,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.513951841538691,
+              "detail": "$1,066 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.7081433816826012,
+              "detail": "bought at 0.18, market now at 0.22"
+            },
+            {
+              "name": "recency",
+              "value": 0.9059656367177134,
+              "detail": "last buy 1.5h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.15583321434111594,
+              "detail": "16% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0xd24b95551eb288ff82bb625dcd7f32f62abdef76",
+            "first_seen": "2026-04-28",
+            "wallet_age_days": 141,
+            "realized_pnl_usd": 13837.477335000001,
+            "unrealized_pnl_usd": 23128.131821224128,
+            "total_pnl_usd": 36965.60915622413,
+            "markets_won": 140,
+            "markets_traded": 241,
+            "win_rate": 0.5809128630705395,
+            "p2p_tokens_sent": 133725.742328,
+            "p2p_tokens_received": 0
+          }
+        },
+        {
+          "wallet": "0xf797d4d1c038d1eb0593edae0e66bf8e4b2e0bf2",
+          "side": "Yes",
+          "score": 23,
+          "position": {
+            "wallet": "0xf797d4d1c038d1eb0593edae0e66bf8e4b2e0bf2",
+            "shares": 3447.5459619999992,
+            "costUsd": 547.131866,
+            "avgPrice": 0.1587018337190192,
+            "trades": 18,
+            "firstBuyAt": "2026-09-13T22:51:04",
+            "lastBuyAt": "2026-09-16T05:24:58"
+          },
+          "currentPrice": 0.22,
+          "hoursSinceLastBuy": 3.3216666666666668,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.36904600482516403,
+              "detail": "$547 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.7584403695132906,
+              "detail": "bought at 0.16, market now at 0.22"
+            },
+            {
+              "name": "recency",
+              "value": 0.739321975841578,
+              "detail": "last buy 3.3h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.0799555022032274,
+              "detail": "8% of the last 72h of money on Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "789952",
+        "question": "Will CDU win the most seats in the 2026 Berlin state elections?",
+        "event_title": "Berlin State Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World Elections",
+          "World",
+          "German Elections",
+          "Main Election",
+          "Global Elections",
+          "Politics",
+          "Elections",
+          "Germany",
+          "Berlin"
+        ],
+        "volume": 339397.788418,
+        "slug": "will-cdu-win-the-most-seats-in-the-2026-berlin-state-elections"
+      },
+      "prices": {
+        "Yes": 0.269999998812,
+        "No": 0.7399999632298079
+      },
+      "recentUsd": 10118.279268999997,
+      "recentWallets": 54,
+      "flags": [
+        {
+          "wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+          "side": "Yes",
+          "score": 42,
+          "position": {
+            "wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+            "shares": 9104.170310000001,
+            "costUsd": 2305.284117,
+            "avgPrice": 0.2532118840601961,
+            "trades": 38,
+            "firstBuyAt": "2026-09-13T19:59:51",
+            "lastBuyAt": "2026-09-16T07:15:01"
+          },
+          "currentPrice": 0.269999998812,
+          "hoursSinceLastBuy": 1.4875,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.6813622290366543,
+              "detail": "$2,305 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.5484180354217864,
+              "detail": "bought at 0.25, market now at 0.27"
+            },
+            {
+              "name": "recency",
+              "value": 0.9137715127997064,
+              "detail": "last buy 1.5h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.22783361238731992,
+              "detail": "23% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+            "first_seen": "2025-12-26",
+            "wallet_age_days": 263,
+            "realized_pnl_usd": -4725163.37139,
+            "unrealized_pnl_usd": -633962.5132331367,
+            "total_pnl_usd": -5359125.884623135,
+            "markets_won": 482,
+            "markets_traded": 910,
+            "win_rate": 0.5296703296703297,
+            "p2p_tokens_sent": 32211270.713667,
+            "p2p_tokens_received": 736283.7089999999
+          }
+        },
+        {
+          "wallet": "0x50dbea4e4da7cc9c417da5c56f3c89be88abe30e",
+          "side": "Yes",
+          "score": 28,
+          "position": {
+            "wallet": "0x50dbea4e4da7cc9c417da5c56f3c89be88abe30e",
+            "shares": 7999.989314000001,
+            "costUsd": 2159.997115,
+            "avgPrice": 0.2700000000275,
+            "trades": 41,
+            "firstBuyAt": "2026-09-14T23:35:21",
+            "lastBuyAt": "2026-09-15T16:59:12"
+          },
+          "currentPrice": 0.269999998812,
+          "hoursSinceLastBuy": 15.751111111111111,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.6672265855429615,
+              "detail": "$2,160 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.51111111105,
+              "detail": "bought at 0.27, market now at 0.27"
+            },
+            {
+              "name": "recency",
+              "value": 0.4013444024481747,
+              "detail": "last buy 15.8h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.21347474778816572,
+              "detail": "21% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0x50dbea4e4da7cc9c417da5c56f3c89be88abe30e",
+            "first_seen": "2026-09-14",
+            "wallet_age_days": 2,
+            "realized_pnl_usd": 0,
+            "unrealized_pnl_usd": -39.999946570000034,
+            "total_pnl_usd": -39.999946570000034,
+            "markets_won": 0,
+            "markets_traded": 1,
+            "win_rate": 0,
+            "p2p_tokens_sent": 0,
+            "p2p_tokens_received": 0
+          }
+        },
+        {
+          "wallet": "0x629bc4a1e53e1d475beb7ea3d388791e96dd995a",
+          "side": "Yes",
+          "score": 24,
+          "position": {
+            "wallet": "0x629bc4a1e53e1d475beb7ea3d388791e96dd995a",
+            "shares": 8103.16,
+            "costUsd": 2033.857,
+            "avgPrice": 0.25099553754337817,
+            "trades": 32,
+            "firstBuyAt": "2026-09-14T15:54:52",
+            "lastBuyAt": "2026-09-14T21:21:09"
+          },
+          "currentPrice": 0.269999998812,
+          "hoursSinceLastBuy": 35.38527777777778,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.6541602072594093,
+              "detail": "$2,034 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.5533432499036041,
+              "detail": "bought at 0.25, market now at 0.27"
+            },
+            {
+              "name": "recency",
+              "value": 0.22558869539628867,
+              "detail": "last buy 35.4h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.2010081898244551,
+              "detail": "20% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0x629bc4a1e53e1d475beb7ea3d388791e96dd995a",
+            "first_seen": "2023-03-06",
+            "wallet_age_days": 1290,
+            "realized_pnl_usd": 934437.1185430003,
+            "unrealized_pnl_usd": 71142.61598801849,
+            "total_pnl_usd": 1005579.7345310185,
+            "markets_won": 743,
+            "markets_traded": 1335,
+            "win_rate": 0.5565543071161049,
+            "p2p_tokens_sent": 3284288.4682989996,
+            "p2p_tokens_received": 0.222194
+          }
+        },
+        {
+          "wallet": "0x23d81ba9371e576015c1e562db09c689f56b0288",
+          "side": "Yes",
+          "score": 17,
+          "position": {
+            "wallet": "0x23d81ba9371e576015c1e562db09c689f56b0288",
+            "shares": 3713.496757,
+            "costUsd": 995.5091570000001,
+            "avgPrice": 0.2680786391218599,
+            "trades": 13,
+            "firstBuyAt": "2026-09-14T17:25:57",
+            "lastBuyAt": "2026-09-14T22:26:21"
+          },
+          "currentPrice": 0.269999998812,
+          "hoursSinceLastBuy": 34.298611111111114,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.49902262957813837,
+              "detail": "$996 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.5153808019514224,
+              "detail": "bought at 0.27, market now at 0.27"
+            },
+            {
+              "name": "recency",
+              "value": 0.2323617329668507,
+              "detail": "last buy 34.3h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.09838719910113605,
+              "detail": "10% of the last 72h of money on Yes"
+            }
+          ]
+        },
+        {
+          "wallet": "0xf797d4d1c038d1eb0593edae0e66bf8e4b2e0bf2",
+          "side": "Yes",
+          "score": 15,
+          "position": {
+            "wallet": "0xf797d4d1c038d1eb0593edae0e66bf8e4b2e0bf2",
+            "shares": 3412.5792329999995,
+            "costUsd": 747.137433,
+            "avgPrice": 0.2189362889438881,
+            "trades": 36,
+            "firstBuyAt": "2026-09-13T18:07:09",
+            "lastBuyAt": "2026-09-14T09:12:34"
+          },
+          "currentPrice": 0.269999998812,
+          "hoursSinceLastBuy": 47.528333333333336,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.4367002479650326,
+              "detail": "$747 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.6245860245691375,
+              "detail": "bought at 0.22, market now at 0.27"
+            },
+            {
+              "name": "recency",
+              "value": 0.16152370737847233,
+              "detail": "last buy 47.5h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.07384036486214128,
+              "detail": "7% of the last 72h of money on Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "789957",
+        "question": "Will Linke win the most seats in the 2026 Berlin state elections?",
+        "event_title": "Berlin State Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World Elections",
+          "World",
+          "German Elections",
+          "Main Election",
+          "Global Elections",
+          "Politics",
+          "Elections",
+          "Germany",
+          "Berlin"
+        ],
+        "volume": 284906.244875,
+        "slug": "will-linke-win-the-most-seats-in-the-2026-berlin-state-elections"
+      },
+      "prices": {
+        "No": 0.34000000100994643,
+        "Yes": 0.6599999989900536
+      },
+      "recentUsd": 15239.335671000006,
+      "recentWallets": 99,
+      "flags": [
+        {
+          "wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+          "side": "No",
+          "score": 39,
+          "position": {
+            "wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+            "shares": 8105.579860000002,
+            "costUsd": 2859.4630700000002,
+            "avgPrice": 0.35277711396208483,
+            "trades": 23,
+            "firstBuyAt": "2026-09-13T13:18:39",
+            "lastBuyAt": "2026-09-16T08:26:34"
+          },
+          "currentPrice": 0.34000000100994643,
+          "hoursSinceLastBuy": 0.295,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.728142246000222,
+              "detail": "$2,859 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.3271619689731448,
+              "detail": "bought at 0.35, market now at 0.34"
+            },
+            {
+              "name": "recency",
+              "value": 1,
+              "detail": "last buy 0.3h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.18763698967806527,
+              "detail": "19% of the last 72h of money on No"
+            }
+          ],
+          "summary": {
+            "address": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+            "first_seen": "2025-12-26",
+            "wallet_age_days": 263,
+            "realized_pnl_usd": -4725163.37139,
+            "unrealized_pnl_usd": -633962.5132331367,
+            "total_pnl_usd": -5359125.884623135,
+            "markets_won": 482,
+            "markets_traded": 910,
+            "win_rate": 0.5296703296703297,
+            "p2p_tokens_sent": 32211270.713667,
+            "p2p_tokens_received": 736283.7089999999
+          }
+        },
+        {
+          "wallet": "0xac4a1fabdac2438d6afa2a9e8e83845310a0bf1e",
+          "side": "No",
+          "score": 19,
+          "position": {
+            "wallet": "0xac4a1fabdac2438d6afa2a9e8e83845310a0bf1e",
+            "shares": 4833.22,
+            "costUsd": 1678.0715,
+            "avgPrice": 0.3471953480288503,
+            "trades": 3,
+            "firstBuyAt": "2026-09-15T16:59:09",
+            "lastBuyAt": "2026-09-15T16:59:43"
+          },
+          "currentPrice": 0.34000000100994643,
+          "hoursSinceLastBuy": 15.7425,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.612405230747505,
+              "detail": "$1,678 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.3395658932692215,
+              "detail": "bought at 0.35, market now at 0.34"
+            },
+            {
+              "name": "recency",
+              "value": 0.40146314901294977,
+              "detail": "last buy 15.7h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.11011447849352904,
+              "detail": "11% of the last 72h of money on No"
+            }
+          ]
+        },
+        {
+          "wallet": "0x0bef2bc112bbd18387c2b682da23ce158f0d3b06",
+          "side": "No",
+          "score": 15,
+          "position": {
+            "wallet": "0x0bef2bc112bbd18387c2b682da23ce158f0d3b06",
+            "shares": 2973.658888,
+            "costUsd": 1070.5172,
+            "avgPrice": 0.3600000001076115,
+            "trades": 5,
+            "firstBuyAt": "2026-09-15T16:59:01",
+            "lastBuyAt": "2026-09-15T16:59:01"
+          },
+          "currentPrice": 0.34000000100994643,
+          "hoursSinceLastBuy": 15.754166666666666,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.5147968247480073,
+              "detail": "$1,071 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.3111111108719744,
+              "detail": "bought at 0.36, market now at 0.34"
+            },
+            {
+              "name": "recency",
+              "value": 0.40130228217453523,
+              "detail": "last buy 15.8h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.07024697290690708,
+              "detail": "7% of the last 72h of money on No"
+            }
+          ]
+        },
+        {
+          "wallet": "0xcf19c420814435ffb1c459588208ed23a7ee6402",
+          "side": "No",
+          "score": 14,
+          "position": {
+            "wallet": "0xcf19c420814435ffb1c459588208ed23a7ee6402",
+            "shares": 2475.472227,
+            "costUsd": 915.924727,
+            "avgPrice": 0.3700000012159296,
+            "trades": 16,
+            "firstBuyAt": "2026-09-15T11:15:10",
+            "lastBuyAt": "2026-09-15T16:59:01"
+          },
+          "currentPrice": 0.34000000100994643,
+          "hoursSinceLastBuy": 15.754166666666666,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.4809298918602356,
+              "detail": "$916 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.2888888861868232,
+              "detail": "bought at 0.37, market now at 0.34"
+            },
+            {
+              "name": "recency",
+              "value": 0.40130228217453523,
+              "detail": "last buy 15.8h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.06010266764731595,
+              "detail": "6% of the last 72h of money on No"
+            }
+          ]
+        },
+        {
+          "wallet": "0x511f9c771449162349795d17becf8b37031acbe1",
+          "side": "No",
+          "score": 13,
+          "position": {
+            "wallet": "0x511f9c771449162349795d17becf8b37031acbe1",
+            "shares": 1988.8406079999997,
+            "costUsd": 700.2784080000001,
+            "avgPrice": 0.35210383636736375,
+            "trades": 20,
+            "firstBuyAt": "2026-09-14T09:12:34",
+            "lastBuyAt": "2026-09-15T20:18:21"
+          },
+          "currentPrice": 0.34000000100994643,
+          "hoursSinceLastBuy": 12.431944444444444,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.42263536787839473,
+              "detail": "$700 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.3286581414058583,
+              "detail": "bought at 0.35, market now at 0.34"
+            },
+            {
+              "name": "recency",
+              "value": 0.452730469651452,
+              "detail": "last buy 12.4h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.04595202987310062,
+              "detail": "5% of the last 72h of money on No"
+            }
+          ]
+        },
+        {
+          "wallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+          "side": "No",
+          "score": 12,
+          "position": {
+            "wallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+            "shares": 1659.5206039999998,
+            "costUsd": 578.393706,
+            "avgPrice": 0.3485305964902621,
+            "trades": 7,
+            "firstBuyAt": "2026-09-13T19:59:51",
+            "lastBuyAt": "2026-09-15T19:51:15"
+          },
+          "currentPrice": 0.34000000100994643,
+          "hoursSinceLastBuy": 12.883611111111112,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.3811117791899683,
+              "detail": "$578 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.33659867446608427,
+              "detail": "bought at 0.35, market now at 0.34"
+            },
+            {
+              "name": "recency",
+              "value": 0.44498119636763067,
+              "detail": "last buy 12.9h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.037953997371464536,
+              "detail": "4% of the last 72h of money on No"
+            }
+          ]
+        },
+        {
+          "wallet": "0xfe41328c99802a1103d74514f71a16b0eee19f23",
+          "side": "No",
+          "score": 11,
+          "position": {
+            "wallet": "0xfe41328c99802a1103d74514f71a16b0eee19f23",
+            "shares": 1500,
+            "costUsd": 540,
+            "avgPrice": 0.36,
+            "trades": 1,
+            "firstBuyAt": "2026-09-15T16:59:01",
+            "lastBuyAt": "2026-09-15T16:59:01"
+          },
+          "currentPrice": 0.34000000100994643,
+          "hoursSinceLastBuy": 15.754166666666666,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.3661968799114843,
+              "detail": "$540 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.3111111111111111,
+              "detail": "bought at 0.36, market now at 0.34"
+            },
+            {
+              "name": "recency",
+              "value": 0.40130228217453523,
+              "detail": "last buy 15.8h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.03543461550148827,
+              "detail": "4% of the last 72h of money on No"
+            }
+          ]
+        },
+        {
+          "wallet": "0xaceaf91ad4e59b4663fa0a9b3913fa82d4848b97",
+          "side": "No",
+          "score": 9,
+          "position": {
+            "wallet": "0xaceaf91ad4e59b4663fa0a9b3913fa82d4848b97",
+            "shares": 2000,
+            "costUsd": 639.9999999999999,
+            "avgPrice": 0.31999999999999995,
+            "trades": 2,
+            "firstBuyAt": "2026-09-13T13:18:39",
+            "lastBuyAt": "2026-09-13T13:18:39"
+          },
+          "currentPrice": 0.34000000100994643,
+          "hoursSinceLastBuy": 67.42694444444444,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.40308998699194354,
+              "detail": "$640 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.4000000000000001,
+              "detail": "bought at 0.32, market now at 0.34"
+            },
+            {
+              "name": "recency",
+              "value": 0.08558326029948393,
+              "detail": "last buy 3d ago"
+            },
+            {
+              "name": "share",
+              "value": 0.041996581335097205,
+              "detail": "4% of the last 72h of money on No"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "1125100",
+        "question": "Will United Russia win fewer than 280 seats in the next Russian State Duma election?",
+        "event_title": "United Russia seats in the next Russian legislative election?",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "Russia Election",
+          "International Election Props",
+          "Politics",
+          "World Elections",
+          "Elections",
+          "Russia",
+          "Global Elections"
+        ],
+        "volume": 267125.207337,
+        "slug": "will-united-russia-win-fewer-than-280-seats-in-the-next-russian-state-duma-election"
+      },
+      "prices": {
+        "Yes": 0.04348788662965404,
+        "No": 0.958
+      },
+      "recentUsd": 1854.2228820000005,
+      "recentWallets": 16,
+      "flags": [
+        {
+          "wallet": "0xdc7d72b5e34493db0ec6c1207532fd029a6ab2ad",
+          "side": "Yes",
+          "score": 50,
+          "position": {
+            "wallet": "0xdc7d72b5e34493db0ec6c1207532fd029a6ab2ad",
+            "shares": 39526.735951,
+            "costUsd": 1445.1472000000008,
+            "avgPrice": 0.036561258227633626,
+            "trades": 160,
+            "firstBuyAt": "2026-09-14T17:20:22",
+            "lastBuyAt": "2026-09-16T05:37:21"
+          },
+          "currentPrice": 0.04348788662965404,
+          "hoursSinceLastBuy": 3.1152777777777776,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.5799560428860151,
+              "detail": "$1,445 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 1,
+              "detail": "bought at 0.04, market now at 0.04"
+            },
+            {
+              "name": "recency",
+              "value": 0.7532516114241503,
+              "detail": "last buy 3.1h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.7793816018715276,
+              "detail": "78% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0xdc7d72b5e34493db0ec6c1207532fd029a6ab2ad",
+            "first_seen": "2026-05-30",
+            "wallet_age_days": 109,
+            "realized_pnl_usd": 40373.408243000005,
+            "unrealized_pnl_usd": -409.28956107425773,
+            "total_pnl_usd": 39964.11868192575,
+            "markets_won": 14,
+            "markets_traded": 26,
+            "win_rate": 0.5384615384615384,
+            "p2p_tokens_sent": 0,
+            "p2p_tokens_received": 0
+          }
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "3701629",
+        "question": "US-Iran Hormuz Agreement by September 15?",
+        "event_title": "US-Iran Hormuz Agreement by...?",
+        "end_date": "2026-09-16T03:59:00",
+        "tags": [
+          "Iran",
+          "Trump",
+          "Peace Deal",
+          "Geopolitics",
+          "Strait of Hormuz"
+        ],
+        "volume": 254193.96462399993,
+        "slug": "us-iran-hormuz-agreement-by-september-15"
+      },
+      "prices": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "2589855",
+        "question": "Will the Bank of Japan announce no change at the September 2026 meeting?",
+        "event_title": "Bank of Japan Decision in September?",
+        "end_date": "2026-09-18T15:59:00",
+        "tags": [
+          "BOJ",
+          "Japan",
+          "World",
+          "Economy",
+          "Global Rates",
+          "Economic Policy"
+        ],
+        "volume": 246905.014241,
+        "slug": "will-the-bank-of-japan-announce-no-change-at-the-september-2026-meeting-20260616223724869"
+      },
+      "prices": {
+        "No": 0.996,
+        "Yes": 0.004
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "2589857",
+        "question": "Will the Bank of Japan announce a 50+ bps increase at the September 2026 meeting?",
+        "event_title": "Bank of Japan Decision in September?",
+        "end_date": "2026-09-18T15:59:00",
+        "tags": [
+          "BOJ",
+          "Japan",
+          "World",
+          "Economy",
+          "Global Rates",
+          "Economic Policy"
+        ],
+        "volume": 221688.75190999996,
+        "slug": "will-the-bank-of-japan-announce-a-50-bps-increase-at-the-september-2026-meeting-20260616223724871"
+      },
+      "prices": {
+        "No": 0.99,
+        "Yes": 0.010471426875013097
+      },
+      "recentUsd": 299.3575780000002,
+      "recentWallets": 11,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "789954",
+        "question": "Will Grüne win the most seats in the 2026 Berlin state elections?",
+        "event_title": "Berlin State Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World Elections",
+          "World",
+          "German Elections",
+          "Main Election",
+          "Global Elections",
+          "Politics",
+          "Elections",
+          "Germany",
+          "Berlin"
+        ],
+        "volume": 211392.58756400002,
+        "slug": "will-grne-win-the-most-seats-in-the-2026-berlin-state-elections"
+      },
+      "prices": {
+        "No": 0.981,
+        "Yes": 0.015492622950819672
+      },
+      "recentUsd": 292.41469500000005,
+      "recentWallets": 24,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "2046123",
+        "question": "Will the Communist Party of the Russian Federation (KPRF) win the second-most seats in the next Russian parliamentary election?",
+        "event_title": "Russia Parliamentary Election: 2nd Place",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "Politics",
+          "Elections",
+          "Global Elections",
+          "Russia Election",
+          "International Election Props"
+        ],
+        "volume": 200343.15637299995,
+        "slug": "will-the-communist-party-of-the-russian-federation-kprf-win-the-second-most-seats-in-the-next-russian-parliamentary-election"
+      },
+      "prices": {
+        "No": 0.08999999280000058,
+        "Yes": 0.91
+      },
+      "recentUsd": 2115.1909319999995,
+      "recentWallets": 38,
+      "flags": [
+        {
+          "wallet": "0xfde6d3106320cf7d22fa64822fdec909fa3f7ed6",
+          "side": "No",
+          "score": 35,
+          "position": {
+            "wallet": "0xfde6d3106320cf7d22fa64822fdec909fa3f7ed6",
+            "shares": 13711.3245,
+            "costUsd": 1139.792605,
+            "avgPrice": 0.08312782656409307,
+            "trades": 5,
+            "firstBuyAt": "2026-09-14T06:11:55",
+            "lastBuyAt": "2026-09-15T15:34:18"
+          },
+          "currentPrice": 0.08999999280000058,
+          "hoursSinceLastBuy": 17.16611111111111,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.5284129174673038,
+              "detail": "$1,140 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.9263826076353487,
+              "detail": "bought at 0.08, market now at 0.09"
+            },
+            {
+              "name": "recency",
+              "value": 0.3826640403717515,
+              "detail": "last buy 17.2h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.5388603873799135,
+              "detail": "54% of the last 72h of money on No"
+            }
+          ],
+          "summary": {
+            "address": "0xfde6d3106320cf7d22fa64822fdec909fa3f7ed6",
+            "first_seen": "2024-10-28",
+            "wallet_age_days": 688,
+            "realized_pnl_usd": 47665.249472,
+            "unrealized_pnl_usd": -104757.20166846953,
+            "total_pnl_usd": -57091.952196469574,
+            "markets_won": 383,
+            "markets_traded": 1093,
+            "win_rate": 0.3504117108874657,
+            "p2p_tokens_sent": 718857.682998,
+            "p2p_tokens_received": 3056665.1846
+          }
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "2046125",
+        "question": "Will the Liberal Democratic Party of Russia (LDPR) win the second-most seats in the next Russian parliamentary election?",
+        "event_title": "Russia Parliamentary Election: 2nd Place",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "Politics",
+          "Elections",
+          "Global Elections",
+          "Russia Election",
+          "International Election Props"
+        ],
+        "volume": 131978.77409700002,
+        "slug": "will-the-liberal-democratic-party-of-russia-ldpr-win-the-second-most-seats-in-the-next-russian-parliamentary-election"
+      },
+      "prices": {
+        "No": 0.9460000134900775,
+        "Yes": 0.05313391537286911
+      },
+      "recentUsd": 908.0431920000003,
+      "recentWallets": 23,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "1364108",
+        "question": "Will FW win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World",
+          "Elections",
+          "Global Elections",
+          "World Elections",
+          "Politics",
+          "Mecklenburg-Vorpommern",
+          "Germany",
+          "German Elections",
+          "Main Election"
+        ],
+        "volume": 115964.549096,
+        "slug": "will-fw-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections"
+      },
+      "prices": {
+        "No": 0.998,
+        "Yes": 0.001
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "3956905",
+        "question": "Iran-Oman Hormuz Agreement by September 21?",
+        "event_title": "Iran-Oman Hormuz Management Agreement by...?",
+        "end_date": "2026-09-21T23:59:00",
+        "tags": [
+          "Iran",
+          "Trump",
+          "Peace Deal",
+          "Geopolitics",
+          "Strait of Hormuz"
+        ],
+        "volume": 102044.03098400001,
+        "slug": "iran-oman-hormuz-agreement-by-september-21"
+      },
+      "prices": {
+        "Yes": 0.06277453271028037,
+        "No": 0.93
+      },
+      "recentUsd": 6019.680001000002,
+      "recentWallets": 51,
+      "flags": [
+        {
+          "wallet": "0x491e313aad04c39c1aadab4b168c89a4089d667f",
+          "side": "Yes",
+          "score": 27,
+          "position": {
+            "wallet": "0x491e313aad04c39c1aadab4b168c89a4089d667f",
+            "shares": 8225.951982,
+            "costUsd": 2133.0621019999994,
+            "avgPrice": 0.25930884433407325,
+            "trades": 29,
+            "firstBuyAt": "2026-09-13T15:13:06",
+            "lastBuyAt": "2026-09-15T01:46:33"
+          },
+          "currentPrice": 0.06277453271028037,
+          "hoursSinceLastBuy": 30.961944444444445,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.6645017498445691,
+              "detail": "$2,133 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.5348692348131705,
+              "detail": "bought at 0.26, market now at 0.06"
+            },
+            {
+              "name": "recency",
+              "value": 0.25458588647881863,
+              "detail": "last buy 31.0h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.35434808854385125,
+              "detail": "35% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0x491e313aad04c39c1aadab4b168c89a4089d667f",
+            "first_seen": "2026-07-19",
+            "wallet_age_days": 59,
+            "realized_pnl_usd": 3316.212573999999,
+            "unrealized_pnl_usd": 4358.97636131157,
+            "total_pnl_usd": 7675.188935311569,
+            "markets_won": 19,
+            "markets_traded": 35,
+            "win_rate": 0.5428571428571428,
+            "p2p_tokens_sent": 29603.004014,
+            "p2p_tokens_received": 0
+          }
+        },
+        {
+          "wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+          "side": "Yes",
+          "score": 27,
+          "position": {
+            "wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+            "shares": 2842.953098,
+            "costUsd": 921.5950089999998,
+            "avgPrice": 0.324168207223797,
+            "trades": 43,
+            "firstBuyAt": "2026-09-13T09:58:46",
+            "lastBuyAt": "2026-09-16T08:35:58"
+          },
+          "currentPrice": 0.06277453271028037,
+          "hoursSinceLastBuy": 0.13833333333333334,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.48227005705778203,
+              "detail": "$922 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.390737317280451,
+              "detail": "bought at 0.32, market now at 0.06"
+            },
+            {
+              "name": "recency",
+              "value": 1,
+              "detail": "last buy 0.1h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.15309700994851927,
+              "detail": "15% of the last 72h of money on Yes"
+            }
+          ],
+          "summary": {
+            "address": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+            "first_seen": "2024-12-09",
+            "wallet_age_days": 646,
+            "realized_pnl_usd": 487416.7755979999,
+            "unrealized_pnl_usd": 358691.38859605504,
+            "total_pnl_usd": 846108.1641940551,
+            "markets_won": 917,
+            "markets_traded": 1357,
+            "win_rate": 0.6757553426676493,
+            "p2p_tokens_sent": 26679585.194186002,
+            "p2p_tokens_received": 15116656
+          }
+        },
+        {
+          "wallet": "0x993c072519306017fe9a6b3ee6fa4a02b3056787",
+          "side": "Yes",
+          "score": 18,
+          "position": {
+            "wallet": "0x993c072519306017fe9a6b3ee6fa4a02b3056787",
+            "shares": 4999.9817809999995,
+            "costUsd": 670.5890850000001,
+            "avgPrice": 0.13411830570028233,
+            "trades": 9,
+            "firstBuyAt": "2026-09-13T19:00:57",
+            "lastBuyAt": "2026-09-13T19:52:40"
+          },
+          "currentPrice": 0.06277453271028037,
+          "hoursSinceLastBuy": 60.86,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.41322824012733683,
+              "detail": "$671 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.8130704317771503,
+              "detail": "bought at 0.13, market now at 0.06"
+            },
+            {
+              "name": "recency",
+              "value": 0.10783402598892589,
+              "detail": "last buy 3d ago"
+            },
+            {
+              "name": "share",
+              "value": 0.11139945726161529,
+              "detail": "11% of the last 72h of money on Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "1125103",
+        "question": "Will United Russia win between 310 and 324 seats in the next Russian State Duma election?",
+        "event_title": "United Russia seats in the next Russian legislative election?",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "Russia Election",
+          "International Election Props",
+          "Politics",
+          "World Elections",
+          "Elections",
+          "Russia",
+          "Global Elections"
+        ],
+        "volume": 94011.56828300002,
+        "slug": "will-united-russia-win-between-310-and-324-seats-in-the-next-russian-state-duma-election"
+      },
+      "prices": {
+        "No": 0.8220000036335358,
+        "Yes": 0.1778221748377497
+      },
+      "recentUsd": 380.322419,
+      "recentWallets": 12,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "2046126",
+        "question": "Will New People (NL) win the second-most seats in the next Russian parliamentary election?",
+        "event_title": "Russia Parliamentary Election: 2nd Place",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "Politics",
+          "Elections",
+          "Global Elections",
+          "Russia Election",
+          "International Election Props"
+        ],
+        "volume": 91681.607177,
+        "slug": "will-new-people-nl-win-the-second-most-seats-in-the-next-russian-parliamentary-election"
+      },
+      "prices": {
+        "No": 0.96,
+        "Yes": 0.0419999998404
+      },
+      "recentUsd": 283.68865800000003,
+      "recentWallets": 16,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "1125106",
+        "question": "Will United Russia win 355 or more seats in the next Russian State Duma election?",
+        "event_title": "United Russia seats in the next Russian legislative election?",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "Russia Election",
+          "International Election Props",
+          "Politics",
+          "World Elections",
+          "Elections",
+          "Russia",
+          "Global Elections"
+        ],
+        "volume": 82088.91881399996,
+        "slug": "will-united-russia-win-355-or-more-seats-in-the-next-russian-state-duma-election"
+      },
+      "prices": {
+        "No": 0.95,
+        "Yes": 0.05
+      },
+      "recentUsd": 444.355143,
+      "recentWallets": 28,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "3503314",
+        "question": "Will Elif Eralp be the next Governing Mayor of Berlin?",
+        "event_title": "Next Governing Mayor of Berlin?",
+        "end_date": "2026-09-20T23:59:00",
+        "tags": [
+          "Berlin",
+          "Germany",
+          "Politics",
+          "Elections",
+          "Main Election",
+          "German Elections",
+          "Global Elections"
+        ],
+        "volume": 80000.467769,
+        "slug": "will-elif-eralp-be-the-next-governing-mayor-of-berlin-1786117615446"
+      },
+      "prices": {
+        "No": 0.42,
+        "Yes": 0.58
+      },
+      "recentUsd": 2973.9617769999986,
+      "recentWallets": 30,
+      "flags": [
+        {
+          "wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+          "side": "No",
+          "score": 15,
+          "position": {
+            "wallet": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+            "shares": 2257.7700000000004,
+            "costUsd": 1000,
+            "avgPrice": 0.4429149116163293,
+            "trades": 5,
+            "firstBuyAt": "2026-09-15T22:50:58",
+            "lastBuyAt": "2026-09-15T22:50:58"
+          },
+          "currentPrice": 0.42,
+          "hoursSinceLastBuy": 9.888333333333334,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.5,
+              "detail": "$1,000 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.12685575196371268,
+              "detail": "bought at 0.44, market now at 0.42"
+            },
+            {
+              "name": "recency",
+              "value": 0.5024384510230949,
+              "detail": "last buy 9.9h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.3379776330370315,
+              "detail": "34% of the last 72h of money on No"
+            }
+          ]
+        },
+        {
+          "wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+          "side": "No",
+          "score": 12,
+          "position": {
+            "wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+            "shares": 1593.81,
+            "costUsd": 701.2763999999999,
+            "avgPrice": 0.43999999999999995,
+            "trades": 2,
+            "firstBuyAt": "2026-09-15T21:56:25",
+            "lastBuyAt": "2026-09-15T21:56:25"
+          },
+          "currentPrice": 0.42,
+          "hoursSinceLastBuy": 10.7975,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.4229446119331848,
+              "detail": "$701 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.13333333333333344,
+              "detail": "bought at 0.44, market now at 0.42"
+            },
+            {
+              "name": "recency",
+              "value": 0.4833383936402319,
+              "detail": "last buy 10.8h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.23701573777673046,
+              "detail": "24% of the last 72h of money on No"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "1125105",
+        "question": "Will United Russia win between 340 and 354 seats in the next Russian State Duma election?",
+        "event_title": "United Russia seats in the next Russian legislative election?",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "Russia Election",
+          "International Election Props",
+          "Politics",
+          "World Elections",
+          "Elections",
+          "Russia",
+          "Global Elections"
+        ],
+        "volume": 79936.65474200003,
+        "slug": "will-united-russia-win-between-340-and-354-seats-in-the-next-russian-state-duma-election"
+      },
+      "prices": {
+        "No": 0.75999999848,
+        "Yes": 0.24000000152000003
+      },
+      "recentUsd": 1173.0589850000001,
+      "recentWallets": 26,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "1364106",
+        "question": "Will FDP win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World",
+          "Elections",
+          "Global Elections",
+          "World Elections",
+          "Politics",
+          "Mecklenburg-Vorpommern",
+          "Germany",
+          "German Elections",
+          "Main Election"
+        ],
+        "volume": 77089.176582,
+        "slug": "will-fdp-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections"
+      },
+      "prices": {
+        "No": 0.998,
+        "Yes": 0.001
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "2046130",
+        "question": "Will Yabloko win the second-most seats in the next Russian parliamentary election?",
+        "event_title": "Russia Parliamentary Election: 2nd Place",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "Politics",
+          "Elections",
+          "Global Elections",
+          "Russia Election",
+          "International Election Props"
+        ],
+        "volume": 75188.687752,
+        "slug": "will-yabloko-win-the-second-most-seats-in-the-next-russian-parliamentary-election"
+      },
+      "prices": {
+        "Yes": 0.0010093708241264987,
+        "No": 0.999
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "1125104",
+        "question": "Will United Russia win between 325 and 339 seats in the next Russian State Duma election?",
+        "event_title": "United Russia seats in the next Russian legislative election?",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "Russia Election",
+          "International Election Props",
+          "Politics",
+          "World Elections",
+          "Elections",
+          "Russia",
+          "Global Elections"
+        ],
+        "volume": 72167.33308099998,
+        "slug": "will-united-russia-win-between-325-and-339-seats-in-the-next-russian-state-duma-election"
+      },
+      "prices": {
+        "No": 0.57711440144551,
+        "Yes": 0.43
+      },
+      "recentUsd": 2123.294333,
+      "recentWallets": 25,
+      "flags": [
+        {
+          "wallet": "0x72f7b4aa5acaff9629917cf4ec34620a41c492f7",
+          "side": "Yes",
+          "score": 16,
+          "position": {
+            "wallet": "0x72f7b4aa5acaff9629917cf4ec34620a41c492f7",
+            "shares": 1852.9731349999997,
+            "costUsd": 824.8383359999999,
+            "avgPrice": 0.4451431704108328,
+            "trades": 38,
+            "firstBuyAt": "2026-09-14T02:39:39",
+            "lastBuyAt": "2026-09-16T01:13:03"
+          },
+          "currentPrice": 0.43,
+          "hoursSinceLastBuy": 7.520277777777777,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.4581844187216,
+              "detail": "$825 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.12190406575370491,
+              "detail": "bought at 0.45, market now at 0.43"
+            },
+            {
+              "name": "recency",
+              "value": 0.5618830587515156,
+              "detail": "last buy 7.5h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.5052450971182463,
+              "detail": "51% of the last 72h of money on Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "1364104",
+        "question": "Will Grüne win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World",
+          "Elections",
+          "Global Elections",
+          "World Elections",
+          "Politics",
+          "Mecklenburg-Vorpommern",
+          "Germany",
+          "German Elections",
+          "Main Election"
+        ],
+        "volume": 71444.14706500001,
+        "slug": "will-grne-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections"
+      },
+      "prices": {
+        "Yes": 0.002,
+        "No": 0.998
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "1125101",
+        "question": "Will United Russia win between 280 and 294 seats in the next Russian State Duma election?",
+        "event_title": "United Russia seats in the next Russian legislative election?",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "Russia Election",
+          "International Election Props",
+          "Politics",
+          "World Elections",
+          "Elections",
+          "Russia",
+          "Global Elections"
+        ],
+        "volume": 64670.69630799999,
+        "slug": "will-united-russia-win-between-280-and-294-seats-in-the-next-russian-state-duma-election"
+      },
+      "prices": {
+        "Yes": 0.0239999999808,
+        "No": 0.982999989688631
+      },
+      "recentUsd": 265.97575700000016,
+      "recentWallets": 13,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "1125102",
+        "question": "Will United Russia win between 295 and 309 seats in the next Russian State Duma election?",
+        "event_title": "United Russia seats in the next Russian legislative election?",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "Russia Election",
+          "International Election Props",
+          "Politics",
+          "World Elections",
+          "Elections",
+          "Russia",
+          "Global Elections"
+        ],
+        "volume": 51884.303143,
+        "slug": "will-united-russia-win-between-295-and-309-seats-in-the-next-russian-state-duma-election"
+      },
+      "prices": {
+        "Yes": 0.0449999998425,
+        "No": 0.955
+      },
+      "recentUsd": 489.5669500000001,
+      "recentWallets": 11,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "3393069",
+        "question": "Will Linke win the third-most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election: 3rd Place",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World",
+          "Germany",
+          "Politics",
+          "Elections",
+          "World Elections",
+          "German Elections",
+          "Global Elections",
+          "Mecklenburg-Vorpommern",
+          "International Election Props"
+        ],
+        "volume": 51484.32595099999,
+        "slug": "will-linke-win-the-third-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections-20260806103335444"
+      },
+      "prices": {
+        "No": 0.11,
+        "Yes": 0.9
+      },
+      "recentUsd": 103.21039999999999,
+      "recentWallets": 8,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "789959",
+        "question": "Will BSW win the most seats in the 2026 Berlin state elections?",
+        "event_title": "Berlin State Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World Elections",
+          "World",
+          "German Elections",
+          "Main Election",
+          "Global Elections",
+          "Politics",
+          "Elections",
+          "Germany",
+          "Berlin"
+        ],
+        "volume": 48501.656938000015,
+        "slug": "will-bsw-win-the-most-seats-in-the-2026-berlin-state-elections"
+      },
+      "prices": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "1364102",
+        "question": "Will CDU win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World",
+          "Elections",
+          "Global Elections",
+          "World Elections",
+          "Politics",
+          "Mecklenburg-Vorpommern",
+          "Germany",
+          "German Elections",
+          "Main Election"
+        ],
+        "volume": 45444.920924,
+        "slug": "will-cdu-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections"
+      },
+      "prices": {
+        "No": 0.999,
+        "Yes": 0.001
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "3393043",
+        "question": "Will SPD win the second-most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election: 2nd Place",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World",
+          "Germany",
+          "Politics",
+          "Elections",
+          "World Elections",
+          "German Elections",
+          "Global Elections",
+          "Mecklenburg-Vorpommern",
+          "International Election Props"
+        ],
+        "volume": 41091.27674400001,
+        "slug": "will-spd-win-the-second-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections-20260806103311325"
+      },
+      "prices": {
+        "Yes": 0.8,
+        "No": 0.22
+      },
+      "recentUsd": 133.538251,
+      "recentWallets": 17,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "3393041",
+        "question": "Will AfD win the second-most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election: 2nd Place",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World",
+          "Germany",
+          "Politics",
+          "Elections",
+          "World Elections",
+          "German Elections",
+          "Global Elections",
+          "Mecklenburg-Vorpommern",
+          "International Election Props"
+        ],
+        "volume": 38516.72444,
+        "slug": "will-afd-win-the-second-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections-20260806103311323"
+      },
+      "prices": {
+        "No": 0.82,
+        "Yes": 0.17699999987080292
+      },
+      "recentUsd": 86.64956000000001,
+      "recentWallets": 3,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "3748570",
+        "question": "Mecklenburg-Vorpommern Parliamentary Election: More Votes to CDU or Linke?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election: More Votes to CDU or Linke?",
+        "end_date": "2026-09-20T23:59:00",
+        "tags": [
+          "World",
+          "Germany",
+          "Politics",
+          "Elections",
+          "World Elections",
+          "German Elections",
+          "Global Elections",
+          "Mecklenburg-Vorpommern",
+          "International Election Props"
+        ],
+        "volume": 33045.797879,
+        "slug": "mecklenburg-vorpommern-parliamentary-election-more-votes-to-cdu-or-linke"
+      },
+      "prices": {
+        "Linke": 0.87,
+        "CDU": 0.1
+      },
+      "recentUsd": 45.456407999999996,
+      "recentWallets": 4,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "2589853",
+        "question": "Will the Bank of Japan announce a 50+ bps decrease at the September 2026 meeting?",
+        "event_title": "Bank of Japan Decision in September?",
+        "end_date": "2026-09-18T15:59:00",
+        "tags": [
+          "BOJ",
+          "Japan",
+          "World",
+          "Economy",
+          "Global Rates",
+          "Economic Policy"
+        ],
+        "volume": 31231.818459000002,
+        "slug": "will-the-bank-of-japan-announce-a-50-bps-decrease-at-the-september-2026-meeting-20260616223724867"
+      },
+      "prices": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "3504133",
+        "question": "Will Manuela Schwesig be the next Minister-President of Mecklenburg-Vorpommern?",
+        "event_title": "Next Ministerpräsident of Mecklenburg-Vorpommern?",
+        "end_date": "2026-09-20T23:59:00",
+        "tags": [
+          "Germany",
+          "Politics",
+          "Elections",
+          "Main Election",
+          "German Elections",
+          "Global Elections",
+          "Mecklenburg-Vorpommern"
+        ],
+        "volume": 30974.955735,
+        "slug": "will-manuela-schwesig-be-the-next-minister-president-of-mecklenburg-vorpommern-1786117615441"
+      },
+      "prices": {
+        "Yes": 0.93,
+        "No": 0.07
+      },
+      "recentUsd": 152.35420000000002,
+      "recentWallets": 12,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "1364107",
+        "question": "Will Linke win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World",
+          "Elections",
+          "Global Elections",
+          "World Elections",
+          "Politics",
+          "Mecklenburg-Vorpommern",
+          "Germany",
+          "German Elections",
+          "Main Election"
+        ],
+        "volume": 29867.996281,
+        "slug": "will-linke-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections"
+      },
+      "prices": {
+        "No": 0.998,
+        "Yes": 0.001
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "3861943",
+        "question": "Moscow air traffic suspended by September 15?",
+        "event_title": "Moscow air traffic suspended by...?",
+        "end_date": "2026-09-16T03:59:00",
+        "tags": [
+          "putin",
+          "Russia",
+          "Ukraine",
+          "zelensky",
+          "zelenskyy",
+          "Geopolitics"
+        ],
+        "volume": 27352.016161999996,
+        "slug": "moscow-air-traffic-suspended-by-september-15-20260824"
+      },
+      "prices": {
+        "Yes": 0.535,
+        "No": 0.465
+      },
+      "recentUsd": 1512.1433189999993,
+      "recentWallets": 33,
+      "flags": [
+        {
+          "wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+          "side": "Yes",
+          "score": 25,
+          "position": {
+            "wallet": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+            "shares": 1876.5599999999997,
+            "costUsd": 786.0626,
+            "avgPrice": 0.4188848744511234,
+            "trades": 30,
+            "firstBuyAt": "2026-09-16T05:37:07",
+            "lastBuyAt": "2026-09-16T07:59:37"
+          },
+          "currentPrice": 0.535,
+          "hoursSinceLastBuy": 0.7441666666666666,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.4477285667550688,
+              "detail": "$786 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.18025583455305916,
+              "detail": "bought at 0.42, market now at 0.54"
+            },
+            {
+              "name": "recency",
+              "value": 1,
+              "detail": "last buy 0.7h ago"
+            },
+            {
+              "name": "share",
+              "value": 0.646936978959431,
+              "detail": "65% of the last 72h of money on Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "market": {
+        "market_id": "4178261",
+        "question": "Israel military action against Lebanon on September 19?",
+        "event_title": "Israel military action against Lebanon on...?",
+        "end_date": "2026-09-19T23:59:00",
+        "tags": [
+          "Israel",
+          "strike",
+          "Lebanon",
+          "Hezbollah",
+          "Geopolitics",
+          "Middle East",
+          "Israel x Iran"
+        ],
+        "volume": 25399.52,
+        "slug": "israel-military-action-against-lebanon-on-september-19-20260903"
+      },
+      "prices": {
+        "Yes": 0.82,
+        "No": 0.18
+      },
+      "recentUsd": 17.200000000000003,
+      "recentWallets": 4,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "3393064",
+        "question": "Will CDU win the third-most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election: 3rd Place",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World",
+          "Germany",
+          "Politics",
+          "Elections",
+          "World Elections",
+          "German Elections",
+          "Global Elections",
+          "Mecklenburg-Vorpommern",
+          "International Election Props"
+        ],
+        "volume": 24226.649568,
+        "slug": "will-cdu-win-the-third-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections-20260806103335439"
+      },
+      "prices": {
+        "No": 0.91,
+        "Yes": 0.09
+      },
+      "recentUsd": 47.006400000000006,
+      "recentWallets": 4,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "2046234",
+        "question": "Will the Liberal Democratic Party of Russia (LDPR) win the third-most seats in the next Russian parliamentary election?",
+        "event_title": "Russia Parliamentary Election: 3rd Place",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "Politics",
+          "Elections",
+          "Global Elections",
+          "Russia",
+          "Russia Election",
+          "International Election Props"
+        ],
+        "volume": 22765.340178000002,
+        "slug": "will-the-liberal-democratic-party-of-russia-ldpr-win-the-third-most-seats-in-the-next-russian-parliamentary-election"
+      },
+      "prices": {
+        "No": 0.46,
+        "Yes": 0.54
+      },
+      "recentUsd": 577.3814219999999,
+      "recentWallets": 31,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "3393096",
+        "question": "Will SPD win 22-25 seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Elections: SPD # of seats?",
+        "end_date": "2026-09-20T23:59:00",
+        "tags": [
+          "Germany",
+          "Politics",
+          "Elections",
+          "German Elections",
+          "Global Elections",
+          "Mecklenburg-Vorpommern",
+          "International Election Props"
+        ],
+        "volume": 22443.648177000003,
+        "slug": "will-spd-win-22-25-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections-20260805193138007"
+      },
+      "prices": {
+        "No": 0.93,
+        "Yes": 0.07
+      },
+      "recentUsd": 186.32579499999994,
+      "recentWallets": 14,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "1364109",
+        "question": "Will BSW win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World",
+          "Elections",
+          "Global Elections",
+          "World Elections",
+          "Politics",
+          "Mecklenburg-Vorpommern",
+          "Germany",
+          "German Elections",
+          "Main Election"
+        ],
+        "volume": 22325.752579999993,
+        "slug": "will-bsw-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections"
+      },
+      "prices": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "789956",
+        "question": "Will FDP win the most seats in the 2026 Berlin state elections?",
+        "event_title": "Berlin State Election Winner",
+        "end_date": "2026-09-20T00:00:00",
+        "tags": [
+          "World Elections",
+          "World",
+          "German Elections",
+          "Main Election",
+          "Global Elections",
+          "Politics",
+          "Elections",
+          "Germany",
+          "Berlin"
+        ],
+        "volume": 20952.969300000015,
+        "slug": "will-fdp-win-the-most-seats-in-the-2026-berlin-state-elections"
+      },
+      "prices": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recentUsd": 0,
+      "recentWallets": 0,
+      "flags": [],
+      "skipped": "no side still unlikely"
+    },
+    {
+      "market": {
+        "market_id": "3393097",
+        "question": "Will SPD win 26-29 seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+        "event_title": "Mecklenburg-Vorpommern Parliamentary Elections: SPD # of seats?",
+        "end_date": "2026-09-20T23:59:00",
+        "tags": [
+          "Germany",
+          "Politics",
+          "Elections",
+          "German Elections",
+          "Global Elections",
+          "Mecklenburg-Vorpommern",
+          "International Election Props"
+        ],
+        "volume": 20478.132199999996,
+        "slug": "will-spd-win-26-29-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections-20260805193138008"
+      },
+      "prices": {
+        "No": 0.34,
+        "Yes": 0.6852064644251181
+      },
+      "recentUsd": 239.45929999999998,
+      "recentWallets": 12,
+      "flags": []
+    },
+    {
+      "market": {
+        "market_id": "3393122",
+        "question": "Will Linke win 40 or more seats in the 2026 Berlin state elections?",
+        "event_title": "Berlin State Elections: Linke # of seats?",
+        "end_date": "2026-09-20T23:59:00",
+        "tags": [
+          "Berlin",
+          "Germany",
+          "Politics",
+          "Elections",
+          "German Elections",
+          "Global Elections",
+          "International Election Props"
+        ],
+        "volume": 20069.873891000003,
+        "slug": "will-linke-win-40-or-more-seats-in-the-2026-berlin-state-elections-20260805192827918"
+      },
+      "prices": {
+        "Yes": 0.34,
+        "No": 0.709999986287551
+      },
+      "recentUsd": 588.6149059999999,
+      "recentWallets": 13,
+      "flags": []
+    }
+  ]
+}

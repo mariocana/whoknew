@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { candlesFor, getMarket, loadClusters, tradesFor } from "@/lib/site";
@@ -7,6 +8,17 @@ import { PriceChart } from "../../components/PriceChart";
 import { day, hoursBetween, leadText, minute, px, short, usd, usdK } from "../../components/format";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const r = getMarket(id);
+  if (!r) return { title: "Market not found" };
+  const f = r.flags[0];
+  const description = f
+    ? `${usd(f.position.costUsd)} at ${px(f.position.avgPrice)} on ${r.winner}, before the market re-priced from ${px(r.jump!.priceBefore)}. Score ${f.score}.`
+    : "Nothing to see — the market already knew.";
+  return { title: r.market.question, description, openGraph: { title: r.market.question, description } };
+}
 
 const DAY = 86_400_000;
 const iso = (t: number) => new Date(t).toISOString().slice(0, 19);

@@ -1,5 +1,5 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
 import { loadClusters, walletAppearances } from "@/lib/site";
 import { ScoreBadge } from "../../components/Score";
 import { Tags, walletTags } from "../../components/WalletTags";
@@ -7,10 +7,29 @@ import { day, hoursBetween, leadText, minute, px, short, usd } from "../../compo
 
 export const dynamic = "force-dynamic";
 
+export async function generateMetadata({ params }: { params: Promise<{ address: string }> }): Promise<Metadata> {
+  const { address } = await params;
+  const seen = walletAppearances(address);
+  return {
+    title: `${address.slice(0, 6)}…${address.slice(-4)}`,
+    description: seen.length ? `Flagged in ${seen.length} market${seen.length > 1 ? "s" : ""}; best score ${seen[0].flag.score}.` : "A Polymarket wallet.",
+  };
+}
+
 export default async function WalletPage({ params }: { params: Promise<{ address: string }> }) {
   const { address } = await params;
   const seen = walletAppearances(address);
-  if (!seen.length) notFound();
+  if (!seen.length) {
+    return (
+      <article className="space-y-4">
+        <p className="text-xs text-muted"><Link href="/" className="hover:text-ink">← all markets</Link></p>
+        <h1 className="font-mono text-lg break-all">{address}</h1>
+        <p className="text-ink-2">This wallet appears only in the live watch, on a market that has not resolved. Nothing to reconstruct yet —{" "}
+          <a className="underline decoration-line hover:text-ink" href={`https://polymarket.com/profile/${address}`} target="_blank" rel="noreferrer">see it on Polymarket ↗</a>.
+        </p>
+      </article>
+    );
+  }
 
   // Dossier and trace are stored per market; any copy will do — they describe the wallet.
   const withDossier = seen.find((a) => a.market.dossiers?.[a.flag.wallet]);

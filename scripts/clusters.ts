@@ -7,7 +7,7 @@
 // single order sweeping several resting makers does not pass as a coordinated pair; and wallets
 // whose owners share a first funder.
 import { writeFileSync } from "node:fs";
-import { loadRun, tradesFor, type MarketRecord } from "../lib/store.ts";
+import { loadWorkRun, tradesFor, type MarketRecord } from "../lib/store.ts";
 import type { Flag } from "../lib/screen/score.ts";
 
 const MIN_USD = 1_000;
@@ -61,7 +61,7 @@ function takerProfile(r: MarketRecord, wallet: string, newsAt: string) {
   return { takerShare: taker + maker > 0 ? taker / (taker + maker) : 0, txs };
 }
 
-const run = loadRun();
+const run = loadWorkRun();
 const results = run.results as MarketRecord[];
 
 // 1. repeaters

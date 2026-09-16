@@ -6,9 +6,15 @@ import "./globals.css";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
+  ?? (process.env.RAILWAY_PUBLIC_DOMAIN ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}` : "http://localhost:3000");
+
 export const metadata: Metadata = {
-  title: "Who Knew?",
-  description: "Unusual conviction before the news, on Polymarket. Built on Nansen data.",
+  metadataBase: new URL(siteUrl),
+  title: { default: "Who Knew?", template: "%s · Who Knew?" },
+  description: "Who was positioned before the market knew? Polymarket bets with the shape of information, on Nansen data.",
+  openGraph: { siteName: "Who Knew?", type: "website" },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

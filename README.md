@@ -66,6 +66,17 @@ never shared a fill, because one order sweeping five resting makers makes five w
 when they were merely hit — plus wallets flagged across several markets, and owners with a common first
 funder. The Trump–Zelenskyy pair above is the first entry.
 
+## Before the answer: watch mode
+
+`/watch` runs the same measurement on open markets closing within seven days: sides still priced at 60¢ or
+less, and the wallets that took size on them as takers in the last 72 hours. There is no news moment yet, so
+recency stands in for timing, and the dossier does the rest. Every pass is kept, so a flag can be checked
+against what the market then did — right or wrong, on the record.
+
+First pass, 16 September 2026, 109 credits over 51 markets: a wallet created three days earlier, with no
+other market in its history, holding **$9.7k against "United Russia wins every region"** at 32¢ in an election
+that closes on the 20th. That is the shape. Whether it was right is a matter of days.
+
 ## How it works
 
 ```
@@ -117,6 +128,7 @@ both halves.
 /market/<id>          the minute the market learned; who was long before it; the top wallet's buys on the price chart
 /wallet/<address>     dossier — age at the time of the bet, history, where the owner's first funds came from
 /clusters             wallets that move together
+/watch                conviction building now, on markets that have not resolved
 /quiet                the markets with nothing to see, and why
 ```
 
@@ -133,13 +145,14 @@ npm run screen -- --from 2022-11-01 --to 2026-09-15 --window 90 --max 1000 --dry
 npm run screen -- --from 2022-11-01 --to 2026-09-15 --window 90 --max 1000             # score → data/screen/latest.json
 npm run profile -- --min-score 40 --max-wallets 30                                     # dossiers, 2 credits each
 npm run trace -- --markets 560868,567470                                               # proxy → owner → funding
-npm run snapshot && npm run clusters                                                   # → data/site/ for the site
+npm run watch -- --days 7 --max 120                                                    # open markets, ~3 credits each
+npm run snapshot && npm run clusters                                                   # → data/site/ for the site (locally; commit the result)
 npm run dev
 ```
 
 Every Nansen response is cached in `data/raw/` and every charged call is written to `data/credits.json`;
 a request is paid at most once and the client refuses to exceed `NANSEN_MAX_CREDITS`. The whole project
-so far cost 3,199 credits.
+so far cost 3,314 credits.
 
 Deploys anywhere Next.js runs; `railway.toml` is included. No environment variables are needed in
 production — never put the API key on the server.

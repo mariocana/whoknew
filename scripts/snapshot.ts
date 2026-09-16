@@ -6,7 +6,7 @@
 // surprise: the winning side's hourly candles in the chart window and the trades of
 // the wallets the site shows. No API calls.
 import { existsSync, mkdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
-import { candlesFor, loadRun, tradesFor, type MarketRecord } from "../lib/store.ts";
+import { candlesFor, loadWorkRun, tradesFor, type MarketRecord } from "../lib/store.ts";
 
 const OUT = "data/site";
 
@@ -19,10 +19,17 @@ if (!existsSync("data/raw/prediction-market/ohlcv")) {
 const DAY = 86_400_000;
 const iso = (t: number) => new Date(t).toISOString().slice(0, 19);
 
-if (existsSync(OUT)) rmSync(OUT, { recursive: true });
-mkdirSync(`${OUT}/markets`, { recursive: true });
+// Read the working file before touching the output: the site loader prefers data/site/screen.json
+// when it exists, and that is exactly the file about to be replaced.
+const run = loadWorkRun();
+if (run.results.length === 0) {
+  console.error("data/screen/latest.json has no results — refusing to write an empty site.");
+  process.exit(1);
+}
 
-const run = loadRun();
+// Only what this script owns is replaced; watch.json, clusters.json and the watch history stay.
+if (existsSync(`${OUT}/markets`)) rmSync(`${OUT}/markets`, { recursive: true });
+mkdirSync(`${OUT}/markets`, { recursive: true });
 let bytes = 0, kept = 0;
 
 for (const r of run.results as MarketRecord[]) {

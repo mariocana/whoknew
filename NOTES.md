@@ -144,3 +144,29 @@ shared first funders (0 so far).
   premium paid over the prevailing price — a scoring refinement for later. Related: `priceBefore` (the prior
   candle's close) can be moved by the flagged wallet's own buying; the odds factor for Machado reads 66 where
   the true pre-wallet price would give ~95.
+
+## Watch mode, first pass (109 credits; 3,314 total)
+
+`scripts/watch.ts`: open markets closing within 7 days (6 tags, 1 credit each) → 51 after filters → per market
+2 candle pages + up to 3 trade pages for the last 72h, only for sides ≤ 60¢ → score = size × (0.45·odds +
+0.35·recency + 0.20·share) → top 15 wallets profiled. Output `data/site/watch.json` plus a dated copy under
+`data/site/watch/`.
+
+- 14 of 51 markets had someone taking size cheaply. Mostly regulars on small amounts.
+- `0x33b83d…`: $9,719 on NO for "Russia Elections: United Russia Wins Every Region?" at 0.32, 29 taker trades,
+  wallet first seen 2026-09-13, one market in its history. Closes 2026-09-20. **Re-screen market 3399197
+  after resolution** (~5 credits) to see whether the flag was right.
+- Deployment lesson: Nixpacks' Node 22 is 22.14; scripts now pass `--experimental-strip-types`. `snapshot`
+  refuses to run without `data/raw/` so it can never wipe the committed site on a server.
+
+## Node 22.14 verification, and a bug it surfaced (0 credits)
+
+Installed 22.14.0 (what Nixpacks ships) and ran every script, `next build` and `next start` under it: all
+green, with the `--experimental-strip-types` flag now in every script command.
+
+The run surfaced a latent bug that had nothing to do with Node: `lib/store.ts` decides at import time to read
+`data/site/screen.json` when it exists; `snapshot` then deleted `data/site/` and re-read the file it had just
+removed, producing an empty site. It had only ever worked because the first run predated `data/site/`.
+Fixes: scripts read `data/screen/latest.json` explicitly (`loadWorkRun`), `snapshot` refuses an empty run and
+replaces only `markets/` and `screen.json`, and `watch --at <iso>` pins the clock so a pass can be rebuilt
+from cache — which is how the wiped `watch.json` came back for free.

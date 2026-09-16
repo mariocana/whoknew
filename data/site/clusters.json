@@ -1,0 +1,2861 @@
+{
+  "builtAt": "2026-09-16T14:57:42.511Z",
+  "repeaters": [
+    {
+      "wallet": "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+      "markets": [
+        {
+          "market_id": "537159",
+          "question": "Houthis agree to end attacks on shipping before June?",
+          "end_date": "2025-05-31T12:00:00",
+          "score": 76,
+          "costUsd": 11214.118266
+        },
+        {
+          "market_id": "524162",
+          "question": "Israel x Hamas ceasefire cancelled before April?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 43,
+          "costUsd": 1469.4093589999998
+        },
+        {
+          "market_id": "614699",
+          "question": "US strikes Yemen by December 31?",
+          "end_date": "2025-09-30T00:00:00",
+          "score": 42,
+          "costUsd": 1501.4117199999998
+        },
+        {
+          "market_id": "1939299",
+          "question": "Israel announces suspension of Lebanon offensive by April 17, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 42,
+          "costUsd": 4313.976719
+        },
+        {
+          "market_id": "552660",
+          "question": "Iran x Israel conflict ends before July?",
+          "end_date": "2025-06-30T00:00:00",
+          "score": 40,
+          "costUsd": 6472.014636999998
+        },
+        {
+          "market_id": "518648",
+          "question": "Israel announces ceasefire by January 16?",
+          "end_date": "2025-01-16T12:00:00",
+          "score": 30,
+          "costUsd": 10993.137276999998
+        },
+        {
+          "market_id": "552099",
+          "question": "Israel military action against Iran in July?",
+          "end_date": "2025-07-31T00:00:00",
+          "score": 30,
+          "costUsd": 3998.430138999999
+        },
+        {
+          "market_id": "552084",
+          "question": "Iran strike on Israel by Friday?",
+          "end_date": "2025-06-13T23:00:00",
+          "score": 27,
+          "costUsd": 31805.117134999997
+        }
+      ]
+    },
+    {
+      "wallet": "0x1f1d38f54a615d1c43c77e3b109bd01f56e163d9",
+      "markets": [
+        {
+          "market_id": "554010",
+          "question": "US military action against Iran by Saturday?",
+          "end_date": "2025-06-21T23:55:00",
+          "score": 71,
+          "costUsd": 21350.667119999995
+        },
+        {
+          "market_id": "554012",
+          "question": "US military action against Iran by Sunday?",
+          "end_date": "2025-06-22T23:55:00",
+          "score": 68,
+          "costUsd": 138632.7829530001
+        },
+        {
+          "market_id": "554011",
+          "question": "US military action against Iran by Monday?",
+          "end_date": "2025-06-23T23:55:00",
+          "score": 37,
+          "costUsd": 2850.9993999999997
+        }
+      ]
+    },
+    {
+      "wallet": "0xb1fa1aa03ce4f1f4e259cda433e7fdaf80f91a14",
+      "markets": [
+        {
+          "market_id": "554010",
+          "question": "US military action against Iran by Saturday?",
+          "end_date": "2025-06-21T23:55:00",
+          "score": 66,
+          "costUsd": 11649.185461
+        },
+        {
+          "market_id": "554012",
+          "question": "US military action against Iran by Sunday?",
+          "end_date": "2025-06-22T23:55:00",
+          "score": 48,
+          "costUsd": 7148.307934000001
+        },
+        {
+          "market_id": "554011",
+          "question": "US military action against Iran by Monday?",
+          "end_date": "2025-06-23T23:55:00",
+          "score": 42,
+          "costUsd": 10435.619993
+        }
+      ]
+    },
+    {
+      "wallet": "0x5ed3561e39d6c9a9622c6f84a782537df7f9b19e",
+      "markets": [
+        {
+          "market_id": "1198451",
+          "question": "Israel strikes Iran by February 28, 2026?",
+          "end_date": "2026-02-28T00:00:00",
+          "score": 60,
+          "costUsd": 16271.701983000004
+        },
+        {
+          "market_id": "1198423",
+          "question": "US strikes Iran by February 28, 2026?",
+          "end_date": "2026-01-31T00:00:00",
+          "score": 43,
+          "costUsd": 25133.19136699999
+        }
+      ]
+    },
+    {
+      "wallet": "0x0afc7ce56285bde1fbe3a75efaffdfc86d6530b2",
+      "markets": [
+        {
+          "market_id": "554010",
+          "question": "US military action against Iran by Saturday?",
+          "end_date": "2025-06-21T23:55:00",
+          "score": 58,
+          "costUsd": 6998.189994
+        },
+        {
+          "market_id": "551651",
+          "question": "Israel military action against Iran by Friday?",
+          "end_date": "2025-06-13T23:00:00",
+          "score": 55,
+          "costUsd": 23556.379984000007
+        }
+      ]
+    },
+    {
+      "wallet": "0x5afdc3662d84189688b789a00fe295a81c3b7e8d",
+      "markets": [
+        {
+          "market_id": "551651",
+          "question": "Israel military action against Iran by Friday?",
+          "end_date": "2025-06-13T23:00:00",
+          "score": 56,
+          "costUsd": 17252.359987999997
+        },
+        {
+          "market_id": "546305",
+          "question": "Israel strike on Iranian nuclear facility before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 44,
+          "costUsd": 8451.758086999998
+        },
+        {
+          "market_id": "532741",
+          "question": "US military action against Iran before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 40,
+          "costUsd": 6834.8413470000005
+        }
+      ]
+    },
+    {
+      "wallet": "0x42a6ddf7cf7032972b0bfe32775e8109c5171b64",
+      "markets": [
+        {
+          "market_id": "518877",
+          "question": "Israel announces ceasefire by January 17?",
+          "end_date": "2025-01-17T12:00:00",
+          "score": 56,
+          "costUsd": 6316.747589999999
+        },
+        {
+          "market_id": "518648",
+          "question": "Israel announces ceasefire by January 16?",
+          "end_date": "2025-01-16T12:00:00",
+          "score": 45,
+          "costUsd": 20166.03129199999
+        }
+      ]
+    },
+    {
+      "wallet": "0x1b6022ae41ad7a0b387a88c17885c754436ca55b",
+      "markets": [
+        {
+          "market_id": "701041",
+          "question": "Will Trump meet with Zelenskyy by December 31?",
+          "end_date": "2025-12-31T00:00:00",
+          "score": 55,
+          "costUsd": 11592.163972999992
+        },
+        {
+          "market_id": "2951847",
+          "question": "Will Oleksandr Syrskyi be out as Ukraine's Commander-in-Chief by July 31, 2026?",
+          "end_date": "2026-07-31T23:59:00",
+          "score": 27,
+          "costUsd": 3575.558740000001
+        }
+      ]
+    },
+    {
+      "wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+      "markets": [
+        {
+          "market_id": "2296150",
+          "question": "Iran closes its airspace by June 15?",
+          "end_date": "2026-06-15T00:00:00",
+          "score": 53,
+          "costUsd": 9972.183745999999
+        },
+        {
+          "market_id": "2413560",
+          "question": "US x Iran diplomatic meeting by June 21, 2026?",
+          "end_date": "2026-06-21T00:00:00",
+          "score": 41,
+          "costUsd": 1476.7732760000001
+        },
+        {
+          "market_id": "2354024",
+          "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by June 15, 2026?",
+          "end_date": "2026-06-15T00:00:00",
+          "score": 34,
+          "costUsd": 6160.743171999999
+        },
+        {
+          "market_id": "3840178",
+          "question": "Will there be Saudi Arabian military action against Yemen by September 15, 2026?",
+          "end_date": "2026-09-15T20:59:00",
+          "score": 26,
+          "costUsd": 3514.635137
+        }
+      ]
+    },
+    {
+      "wallet": "0xfe6eee00d36717359578ddb4d6e091d56bc9074e",
+      "markets": [
+        {
+          "market_id": "554010",
+          "question": "US military action against Iran by Saturday?",
+          "end_date": "2025-06-21T23:55:00",
+          "score": 53,
+          "costUsd": 4319.129997
+        },
+        {
+          "market_id": "554012",
+          "question": "US military action against Iran by Sunday?",
+          "end_date": "2025-06-22T23:55:00",
+          "score": 45,
+          "costUsd": 5999.998247
+        }
+      ]
+    },
+    {
+      "wallet": "0x44c1dfe43260c94ed4f1d00de2e1f80fb113ebc1",
+      "markets": [
+        {
+          "market_id": "521703",
+          "question": "Will Trump issue an executive order on February 4?",
+          "end_date": "2025-02-04T12:00:00",
+          "score": 53,
+          "costUsd": 5702.454702
+        },
+        {
+          "market_id": "503330",
+          "question": "2024 July hottest on record?",
+          "end_date": "2024-07-31T12:00:00",
+          "score": 44,
+          "costUsd": 52720.61400999999
+        },
+        {
+          "market_id": "537921",
+          "question": "Will Zelenskyy wear a suit before June?",
+          "end_date": "2025-05-31T12:00:00",
+          "score": 43,
+          "costUsd": 2837.99286
+        }
+      ]
+    },
+    {
+      "wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+      "markets": [
+        {
+          "market_id": "524295",
+          "question": "Will xAI have the top AI model on March 31?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 52,
+          "costUsd": 3085.161573999998
+        },
+        {
+          "market_id": "534193",
+          "question": "Will Oh Se-hoon be elected the next president of South Korea?",
+          "end_date": "2025-06-03T12:00:00",
+          "score": 41,
+          "costUsd": 9747.012280000003
+        },
+        {
+          "market_id": "521933",
+          "question": "Will UP win the most seats in the Chamber of Deputies following the 2025 Argentina election?",
+          "end_date": "2025-10-26T12:00:00",
+          "score": 40,
+          "costUsd": 17467.394702999998
+        },
+        {
+          "market_id": "520314",
+          "question": "Will Anthropic have the top AI model on February 28?",
+          "end_date": "2025-02-28T12:00:00",
+          "score": 39,
+          "costUsd": 11418.953308000007
+        },
+        {
+          "market_id": "526672",
+          "question": "Will the Conservative Party win the popular vote in Canada's next election?",
+          "end_date": "2025-04-28T12:00:00",
+          "score": 38,
+          "costUsd": 45526.58585100002
+        },
+        {
+          "market_id": "500106",
+          "question": "Will a Republican win Nevada US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 38,
+          "costUsd": 12465.76053
+        },
+        {
+          "market_id": "520310",
+          "question": "Will Google have the top AI model on February 28?",
+          "end_date": "2025-02-28T12:00:00",
+          "score": 37,
+          "costUsd": 1609.529183000001
+        },
+        {
+          "market_id": "543526",
+          "question": "Will voter turnout in the 2025 Romanian presidential election be 12m or more?",
+          "end_date": "2025-05-18T12:00:00",
+          "score": 37,
+          "costUsd": 8225.422842000005
+        },
+        {
+          "market_id": "255449",
+          "question": "Will a Republican win Michigan US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 34,
+          "costUsd": 6881.683410999999
+        },
+        {
+          "market_id": "512632",
+          "question": "Will Republicans control 221 seats in the House after the election?",
+          "end_date": "2024-12-17T12:00:00",
+          "score": 31,
+          "costUsd": 7181.222467999999
+        },
+        {
+          "market_id": "519066",
+          "question": "Will George Simion win the Romanian presidential election?",
+          "end_date": "2025-12-31T12:00:00",
+          "score": 30,
+          "costUsd": 12510.217600000005
+        },
+        {
+          "market_id": "524296",
+          "question": "Will OpenAI have the top AI model on March 31?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 29,
+          "costUsd": 3183.645007000002
+        },
+        {
+          "market_id": "543288",
+          "question": "Will Chan Santokhi be the next president of Suriname after the election?",
+          "end_date": "2025-05-31T12:00:00",
+          "score": 25,
+          "costUsd": 1467.7046930000001
+        }
+      ]
+    },
+    {
+      "wallet": "0x088ffbbc6f2c0b3839d2832e75f37e1bcecbc9e7",
+      "markets": [
+        {
+          "market_id": "567470",
+          "question": "Thailand strikes Cambodia by Friday?",
+          "end_date": "2025-07-25T00:00:00",
+          "score": 52,
+          "costUsd": 6677.964291999999
+        },
+        {
+          "market_id": "539008",
+          "question": "India military action against Pakistan before June?",
+          "end_date": "2025-05-31T12:00:00",
+          "score": 39,
+          "costUsd": 12983.868922000005
+        },
+        {
+          "market_id": "543529",
+          "question": "Will Putin meet with Zelenskyy by Friday?",
+          "end_date": "2025-05-16T12:00:00",
+          "score": 26,
+          "costUsd": 9686.027559999999
+        }
+      ]
+    },
+    {
+      "wallet": "0xfd66d7ed45d7962ad009e669cdaec9319e38fb6d",
+      "markets": [
+        {
+          "market_id": "554010",
+          "question": "US military action against Iran by Saturday?",
+          "end_date": "2025-06-21T23:55:00",
+          "score": 52,
+          "costUsd": 3747.3490490000004
+        },
+        {
+          "market_id": "554012",
+          "question": "US military action against Iran by Sunday?",
+          "end_date": "2025-06-22T23:55:00",
+          "score": 34,
+          "costUsd": 1247.9403180000002
+        }
+      ]
+    },
+    {
+      "wallet": "0xe900d195bc22d71cbbdf15873b41aaf6ecb8ee2e",
+      "markets": [
+        {
+          "market_id": "541611",
+          "question": "Another Israel military action on Yemen by Friday?",
+          "end_date": "2025-05-09T12:00:00",
+          "score": 52,
+          "costUsd": 26665.352873000007
+        },
+        {
+          "market_id": "514344",
+          "question": "Will Russia abandon Syrian naval base before April?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 38,
+          "costUsd": 11299.481458
+        }
+      ]
+    },
+    {
+      "wallet": "0xf8104fc2a4bb4acfcd9e8866ff382f5af01e4fea",
+      "markets": [
+        {
+          "market_id": "701041",
+          "question": "Will Trump meet with Zelenskyy by December 31?",
+          "end_date": "2025-12-31T00:00:00",
+          "score": 52,
+          "costUsd": 9838.496466000004
+        },
+        {
+          "market_id": "920343",
+          "question": "Will Trump meet with Volodymyr Zelenskyy in January 2026?",
+          "end_date": "2026-01-31T00:00:00",
+          "score": 40,
+          "costUsd": 2491.300873
+        }
+      ]
+    },
+    {
+      "wallet": "0xefce2f022ce615fba6823f2896159ef3f486f0e7",
+      "markets": [
+        {
+          "market_id": "590966",
+          "question": "Will Israel strike Yemen on September 10 ET?",
+          "end_date": "2025-09-15T00:00:00",
+          "score": 51,
+          "costUsd": 20767.641327999998
+        },
+        {
+          "market_id": "567030",
+          "question": "Houthi strike on Israel by August 31?",
+          "end_date": "2025-08-31T00:00:00",
+          "score": 45,
+          "costUsd": 2634.0222010000007
+        }
+      ]
+    },
+    {
+      "wallet": "0xce41369f5db6f155fb6d2ae31f6d57052904fa02",
+      "markets": [
+        {
+          "market_id": "546305",
+          "question": "Israel strike on Iranian nuclear facility before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 51,
+          "costUsd": 16545.837820000008
+        },
+        {
+          "market_id": "532742",
+          "question": "Israel military action against Iran before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 40,
+          "costUsd": 11499.941112000004
+        },
+        {
+          "market_id": "560252",
+          "question": "Israel strikes Yemen by Monday?",
+          "end_date": "2025-07-07T00:00:00",
+          "score": 40,
+          "costUsd": 1429.761764
+        }
+      ]
+    },
+    {
+      "wallet": "0x04902c7046da0f93f29d070b00f9366a165ac81f",
+      "markets": [
+        {
+          "market_id": "502046",
+          "question": "Trump gets more black voters than in 2020?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 50,
+          "costUsd": 5505.5036820000005
+        },
+        {
+          "market_id": "500109",
+          "question": "Will a Republican win Pennsylvania US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 29,
+          "costUsd": 1230.1768
+        }
+      ]
+    },
+    {
+      "wallet": "0xd5de5cad9ef22b16317fe30a4234c72ece3eac1a",
+      "markets": [
+        {
+          "market_id": "551651",
+          "question": "Israel military action against Iran by Friday?",
+          "end_date": "2025-06-13T23:00:00",
+          "score": 49,
+          "costUsd": 19998.139998999995
+        },
+        {
+          "market_id": "554011",
+          "question": "US military action against Iran by Monday?",
+          "end_date": "2025-06-23T23:55:00",
+          "score": 36,
+          "costUsd": 5499.999996999999
+        },
+        {
+          "market_id": "554012",
+          "question": "US military action against Iran by Sunday?",
+          "end_date": "2025-06-22T23:55:00",
+          "score": 31,
+          "costUsd": 7996.009996999999
+        }
+      ]
+    },
+    {
+      "wallet": "0xbacd00c9080a82ded56f504ee8810af732b0ab35",
+      "markets": [
+        {
+          "market_id": "614699",
+          "question": "US strikes Yemen by December 31?",
+          "end_date": "2025-09-30T00:00:00",
+          "score": 48,
+          "costUsd": 2388.2077439999985
+        },
+        {
+          "market_id": "1288111",
+          "question": "Will Israel or the US target an Iranian nuclear facility?",
+          "end_date": "2026-02-28T00:00:00",
+          "score": 41,
+          "costUsd": 5416.646689
+        },
+        {
+          "market_id": "580840",
+          "question": "Will Trump impose more sanctions on Russia by September 30?",
+          "end_date": "2025-09-30T00:00:00",
+          "score": 39,
+          "costUsd": 19204.874323000004
+        },
+        {
+          "market_id": "984486",
+          "question": "Will Trump release more Epstein files by December 22?",
+          "end_date": "2025-12-26T00:00:00",
+          "score": 37,
+          "costUsd": 2068.646594
+        },
+        {
+          "market_id": "1939299",
+          "question": "Israel announces suspension of Lebanon offensive by April 17, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 34,
+          "costUsd": 2852.9606439999993
+        },
+        {
+          "market_id": "1567746",
+          "question": "Iran x Israel/US conflict ends by April 15?",
+          "end_date": "2026-04-15T00:00:00",
+          "score": 28,
+          "costUsd": 3337.9626819999994
+        },
+        {
+          "market_id": "1707841",
+          "question": "Israel x Hezbollah ceasefire by April 30, 2026?",
+          "end_date": "2026-04-30T00:00:00",
+          "score": 26,
+          "costUsd": 7960.186234000002
+        }
+      ]
+    },
+    {
+      "wallet": "0x8e5a5d37a354f4e05badd0d9e91b519774e44ef5",
+      "markets": [
+        {
+          "market_id": "500105",
+          "question": "Will a Democrat win Nevada US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 47,
+          "costUsd": 8200.548563
+        },
+        {
+          "market_id": "500106",
+          "question": "Will a Republican win Nevada US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 37,
+          "costUsd": 9415.755007000003
+        }
+      ]
+    },
+    {
+      "wallet": "0x4e25605fd905e9972efc0f4d8814530c655cd7a7",
+      "markets": [
+        {
+          "market_id": "516726",
+          "question": "Will 3 Fed rate cuts happen in 2025?",
+          "end_date": "2025-12-10T12:00:00",
+          "score": 46,
+          "costUsd": 6480.483466000001
+        },
+        {
+          "market_id": "519628",
+          "question": "Russia x Ukraine ceasefire before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 36,
+          "costUsd": 12105.92842
+        }
+      ]
+    },
+    {
+      "wallet": "0xd46be610a32e5c6ee094977e3caf9ab89c525dab",
+      "markets": [
+        {
+          "market_id": "541611",
+          "question": "Another Israel military action on Yemen by Friday?",
+          "end_date": "2025-05-09T12:00:00",
+          "score": 46,
+          "costUsd": 14416.849996
+        },
+        {
+          "market_id": "514344",
+          "question": "Will Russia abandon Syrian naval base before April?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 40,
+          "costUsd": 15892.535383
+        },
+        {
+          "market_id": "514345",
+          "question": "Will Russia pull out of Syria before April 2025?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 39,
+          "costUsd": 7977.411441000001
+        },
+        {
+          "market_id": "510222",
+          "question": "Israel military response against Iran by Friday?",
+          "end_date": "2024-10-25T12:00:00",
+          "score": 34,
+          "costUsd": 3131.526976
+        },
+        {
+          "market_id": "546305",
+          "question": "Israel strike on Iranian nuclear facility before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 31,
+          "costUsd": 5351.506206
+        },
+        {
+          "market_id": "554707",
+          "question": "Another US military action against Iran by June 30?",
+          "end_date": "2025-06-30T00:00:00",
+          "score": 30,
+          "costUsd": 1253.125655
+        },
+        {
+          "market_id": "1399066",
+          "question": "US strikes Iran by March 4, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 29,
+          "costUsd": 3010.1835969999997
+        },
+        {
+          "market_id": "507472",
+          "question": "Israeli forces enters Lebanon in September?",
+          "end_date": "2024-09-30T12:00:00",
+          "score": 25,
+          "costUsd": 1009.999999
+        }
+      ]
+    },
+    {
+      "wallet": "0x3cf3e8d5427aed066a7a5926980600f6c3cf87b3",
+      "markets": [
+        {
+          "market_id": "500924",
+          "question": "Kamala flips a 2020 Trump state?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 45,
+          "costUsd": 10723.716960999998
+        },
+        {
+          "market_id": "507472",
+          "question": "Israeli forces enters Lebanon in September?",
+          "end_date": "2024-09-30T12:00:00",
+          "score": 44,
+          "costUsd": 1882.421092
+        },
+        {
+          "market_id": "510222",
+          "question": "Israel military response against Iran by Friday?",
+          "end_date": "2024-10-25T12:00:00",
+          "score": 42,
+          "costUsd": 2069.098324999999
+        },
+        {
+          "market_id": "500635",
+          "question": "2024 Balance of Power: D Prez, D Senate, R House",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 32,
+          "costUsd": 5806.334879999999
+        }
+      ]
+    },
+    {
+      "wallet": "0x1abe1368601330a310162064e04d3c2628cb6497",
+      "markets": [
+        {
+          "market_id": "1399065",
+          "question": "US strikes Iran by March 3, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 45,
+          "costUsd": 12499.999998999996
+        },
+        {
+          "market_id": "1399066",
+          "question": "US strikes Iran by March 4, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 42,
+          "costUsd": 10999.999997
+        },
+        {
+          "market_id": "1399042",
+          "question": "US strikes Iran by March 1, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 38,
+          "costUsd": 14099.999994
+        },
+        {
+          "market_id": "1399064",
+          "question": "US strikes Iran by March 2, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 30,
+          "costUsd": 4499.999998
+        },
+        {
+          "market_id": "1399088",
+          "question": "US strikes Iran by March 7, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 28,
+          "costUsd": 17999.999995999995
+        }
+      ]
+    },
+    {
+      "wallet": "0x84c6c9f6eed47b4bb70bd9acf2c77a3c74e3c8c8",
+      "markets": [
+        {
+          "market_id": "567030",
+          "question": "Houthi strike on Israel by August 31?",
+          "end_date": "2025-08-31T00:00:00",
+          "score": 44,
+          "costUsd": 3683.624355
+        },
+        {
+          "market_id": "514344",
+          "question": "Will Russia abandon Syrian naval base before April?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 36,
+          "costUsd": 8025.644
+        },
+        {
+          "market_id": "518648",
+          "question": "Israel announces ceasefire by January 16?",
+          "end_date": "2025-01-16T12:00:00",
+          "score": 35,
+          "costUsd": 1329.182999
+        }
+      ]
+    },
+    {
+      "wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+      "markets": [
+        {
+          "market_id": "503979",
+          "question": "Trump and Harris agree to Fox News debate?",
+          "end_date": "2024-10-15T12:00:00",
+          "score": 44,
+          "costUsd": 8815.941148999998
+        },
+        {
+          "market_id": "503045",
+          "question": "Will the US confirm that aliens exist in 2024?",
+          "end_date": "2024-12-31T12:00:00",
+          "score": 39,
+          "costUsd": 40806.947195
+        },
+        {
+          "market_id": "513021",
+          "question": "Will Matt Gaetz be Trump's Attorney General?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 39,
+          "costUsd": 25680.718647
+        },
+        {
+          "market_id": "500635",
+          "question": "2024 Balance of Power: D Prez, D Senate, R House",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 38,
+          "costUsd": 19620
+        },
+        {
+          "market_id": "513191",
+          "question": "Will the chopsticks catch SpaceX's Super Heavy?",
+          "end_date": "2024-11-18T12:00:00",
+          "score": 38,
+          "costUsd": 1910.4326300000018
+        },
+        {
+          "market_id": "507472",
+          "question": "Israeli forces enters Lebanon in September?",
+          "end_date": "2024-09-30T12:00:00",
+          "score": 36,
+          "costUsd": 1832.3979980000006
+        },
+        {
+          "market_id": "504069",
+          "question": "Fed decreases interest rates by 50+ bps after September 2024 meeting?",
+          "end_date": "2024-09-18T12:00:00",
+          "score": 28,
+          "costUsd": 5408.177575000006
+        },
+        {
+          "market_id": "503958",
+          "question": "Will Mark Cuban be the Democratic Presidential Nominee?",
+          "end_date": "2024-08-22T12:00:00",
+          "score": 27,
+          "costUsd": 2457.5
+        },
+        {
+          "market_id": "254233",
+          "question": "FTX doesn't start payouts in 2024?",
+          "end_date": "2024-12-30T00:00:00",
+          "score": 25,
+          "costUsd": 4796.907248000001
+        }
+      ]
+    },
+    {
+      "wallet": "0xa82b0e89cf734e2fa70cbd52ca65c77d64595220",
+      "markets": [
+        {
+          "market_id": "512264",
+          "question": "Will Trump nominate RFK Jr. for HHS Secretary?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 44,
+          "costUsd": 5196.3676080000005
+        },
+        {
+          "market_id": "528696",
+          "question": "Trump releases JFK files by Tuesday?",
+          "end_date": "2025-03-18T12:00:00",
+          "score": 36,
+          "costUsd": 2811.7053829999995
+        }
+      ]
+    },
+    {
+      "wallet": "0xf2f6af4f27ec2dcf4072095ab804016e14cd5817",
+      "markets": [
+        {
+          "market_id": "545880",
+          "question": "Will Russia capture Pokrovsk by August 31?",
+          "end_date": "2025-08-31T12:00:00",
+          "score": 43,
+          "costUsd": 6331.488524999999
+        },
+        {
+          "market_id": "541649",
+          "question": "Will the National Democratic Party win the most seats in the 2025 Suriname election?",
+          "end_date": "2025-05-25T12:00:00",
+          "score": 43,
+          "costUsd": 2683.574328
+        },
+        {
+          "market_id": "518593",
+          "question": "Will Democrats win the most seats in the next Greenland parliamentary election?",
+          "end_date": "2025-04-06T12:00:00",
+          "score": 36,
+          "costUsd": 1762.7868099999998
+        }
+      ]
+    },
+    {
+      "wallet": "0x11e50ec01d48adc0be2292cb8e2a5fee0369ee4d",
+      "markets": [
+        {
+          "market_id": "1198423",
+          "question": "US strikes Iran by February 28, 2026?",
+          "end_date": "2026-01-31T00:00:00",
+          "score": 42,
+          "costUsd": 19887.363743000005
+        },
+        {
+          "market_id": "1198451",
+          "question": "Israel strikes Iran by February 28, 2026?",
+          "end_date": "2026-02-28T00:00:00",
+          "score": 33,
+          "costUsd": 2166.2677429999994
+        }
+      ]
+    },
+    {
+      "wallet": "0x63d43bbb87f85af03b8f2f9e2fad7b54334fa2f1",
+      "markets": [
+        {
+          "market_id": "534193",
+          "question": "Will Oh Se-hoon be elected the next president of South Korea?",
+          "end_date": "2025-06-03T12:00:00",
+          "score": 42,
+          "costUsd": 11401.535980000002
+        },
+        {
+          "market_id": "524295",
+          "question": "Will xAI have the top AI model on March 31?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 41,
+          "costUsd": 1647.0774809999996
+        },
+        {
+          "market_id": "520314",
+          "question": "Will Anthropic have the top AI model on February 28?",
+          "end_date": "2025-02-28T12:00:00",
+          "score": 37,
+          "costUsd": 12051.012810999997
+        },
+        {
+          "market_id": "521933",
+          "question": "Will UP win the most seats in the Chamber of Deputies following the 2025 Argentina election?",
+          "end_date": "2025-10-26T12:00:00",
+          "score": 36,
+          "costUsd": 8429.117639
+        },
+        {
+          "market_id": "500106",
+          "question": "Will a Republican win Nevada US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 31,
+          "costUsd": 4916.8985
+        },
+        {
+          "market_id": "543526",
+          "question": "Will voter turnout in the 2025 Romanian presidential election be 12m or more?",
+          "end_date": "2025-05-18T12:00:00",
+          "score": 30,
+          "costUsd": 5426.249156000002
+        },
+        {
+          "market_id": "520310",
+          "question": "Will Google have the top AI model on February 28?",
+          "end_date": "2025-02-28T12:00:00",
+          "score": 29,
+          "costUsd": 1135.1735639999995
+        },
+        {
+          "market_id": "519066",
+          "question": "Will George Simion win the Romanian presidential election?",
+          "end_date": "2025-12-31T12:00:00",
+          "score": 26,
+          "costUsd": 8298.868499999999
+        }
+      ]
+    },
+    {
+      "wallet": "0x96b59f71f635da5da031e3e93448c54fe226f5e7",
+      "markets": [
+        {
+          "market_id": "515487",
+          "question": "Will MicroStrategy hold 500k+ BTC before 2025?",
+          "end_date": "2024-12-31T12:00:00",
+          "score": 42,
+          "costUsd": 45654.046700000006
+        },
+        {
+          "market_id": "254099",
+          "question": "COVID lab leak confirmed by US in 2024?",
+          "end_date": "2024-12-31T00:00:00",
+          "score": 40,
+          "costUsd": 6084.767992
+        },
+        {
+          "market_id": "503045",
+          "question": "Will the US confirm that aliens exist in 2024?",
+          "end_date": "2024-12-31T12:00:00",
+          "score": 35,
+          "costUsd": 8626.17775
+        },
+        {
+          "market_id": "517868",
+          "question": "Trump inauguration gets more viewers than Biden's?",
+          "end_date": "2025-01-20T12:00:00",
+          "score": 34,
+          "costUsd": 6716.291859999999
+        },
+        {
+          "market_id": "519244",
+          "question": "Will Oracle buy TikTok?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 33,
+          "costUsd": 3705.9800590000004
+        },
+        {
+          "market_id": "500502",
+          "question": "Will Biden pardon SBF?",
+          "end_date": "2025-01-20T12:00:00",
+          "score": 28,
+          "costUsd": 12223.000002
+        },
+        {
+          "market_id": "512819",
+          "question": "Will Micheal Martin be the next Prime Minister of Ireland?",
+          "end_date": "2024-11-29T12:00:00",
+          "score": 25,
+          "costUsd": 3067.043337
+        }
+      ]
+    },
+    {
+      "wallet": "0x9f47f1fcb1701bf9eaf31236ad39875e5d60af93",
+      "markets": [
+        {
+          "market_id": "500924",
+          "question": "Kamala flips a 2020 Trump state?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 42,
+          "costUsd": 9013.97
+        },
+        {
+          "market_id": "253677",
+          "question": "2024 presidential election: GOP wins by 65-104",
+          "end_date": "2024-11-04T12:00:00",
+          "score": 30,
+          "costUsd": 5707.891941999999
+        }
+      ]
+    },
+    {
+      "wallet": "0x5e9c76f30788f31f6c6867f5f44b1e95a7a7cd75",
+      "markets": [
+        {
+          "market_id": "554010",
+          "question": "US military action against Iran by Saturday?",
+          "end_date": "2025-06-21T23:55:00",
+          "score": 41,
+          "costUsd": 2169.4893479999987
+        },
+        {
+          "market_id": "552649",
+          "question": "Israel x Iran ceasefire before July? ",
+          "end_date": "2025-06-30T23:55:00",
+          "score": 39,
+          "costUsd": 1726.948849
+        },
+        {
+          "market_id": "552099",
+          "question": "Israel military action against Iran in July?",
+          "end_date": "2025-07-31T00:00:00",
+          "score": 39,
+          "costUsd": 2378.6116500000003
+        },
+        {
+          "market_id": "552660",
+          "question": "Iran x Israel conflict ends before July?",
+          "end_date": "2025-06-30T00:00:00",
+          "score": 35,
+          "costUsd": 1762.1546910000004
+        },
+        {
+          "market_id": "552084",
+          "question": "Iran strike on Israel by Friday?",
+          "end_date": "2025-06-13T23:00:00",
+          "score": 30,
+          "costUsd": 62467.25756699999
+        }
+      ]
+    },
+    {
+      "wallet": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
+      "markets": [
+        {
+          "market_id": "524310",
+          "question": "Will Ukraine agree to pay back U.S. aid before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 41,
+          "costUsd": 6091.079699999999
+        },
+        {
+          "market_id": "552649",
+          "question": "Israel x Iran ceasefire before July? ",
+          "end_date": "2025-06-30T23:55:00",
+          "score": 37,
+          "costUsd": 3573.1517259999982
+        },
+        {
+          "market_id": "551458",
+          "question": "Iran strike on Israel in June?",
+          "end_date": "2025-06-30T00:00:00",
+          "score": 36,
+          "costUsd": 2850.497042
+        },
+        {
+          "market_id": "1707841",
+          "question": "Israel x Hezbollah ceasefire by April 30, 2026?",
+          "end_date": "2026-04-30T00:00:00",
+          "score": 32,
+          "costUsd": 9520.128745999999
+        },
+        {
+          "market_id": "552845",
+          "question": "Israel x Iran ceasefire before July 15?",
+          "end_date": "2025-07-15T00:00:00",
+          "score": 32,
+          "costUsd": 4853.365143
+        }
+      ]
+    },
+    {
+      "wallet": "0x8f42ae0a01c0383c7ca8bd060b86a645ee74b88f",
+      "markets": [
+        {
+          "market_id": "506968",
+          "question": "Will Israel invade Syria in 2024?",
+          "end_date": "2024-12-31T12:00:00",
+          "score": 41,
+          "costUsd": 2074.179557
+        },
+        {
+          "market_id": "551655",
+          "question": "Major cyberattack on Iran in June?",
+          "end_date": "2025-06-30T23:55:00",
+          "score": 33,
+          "costUsd": 1966.249473
+        },
+        {
+          "market_id": "551458",
+          "question": "Iran strike on Israel in June?",
+          "end_date": "2025-06-30T00:00:00",
+          "score": 30,
+          "costUsd": 1789.451
+        }
+      ]
+    },
+    {
+      "wallet": "0x1cc16713196d456f86fa9c7387dd326a7f73b8df",
+      "markets": [
+        {
+          "market_id": "1567746",
+          "question": "Iran x Israel/US conflict ends by April 15?",
+          "end_date": "2026-04-15T00:00:00",
+          "score": 41,
+          "costUsd": 7980.629161000003
+        },
+        {
+          "market_id": "518648",
+          "question": "Israel announces ceasefire by January 16?",
+          "end_date": "2025-01-16T12:00:00",
+          "score": 36,
+          "costUsd": 2238.288292
+        }
+      ]
+    },
+    {
+      "wallet": "0x5fbda3012b33020fd58265779b2836575d8cfb37",
+      "markets": [
+        {
+          "market_id": "532742",
+          "question": "Israel military action against Iran before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 41,
+          "costUsd": 9308.835551000002
+        },
+        {
+          "market_id": "546305",
+          "question": "Israel strike on Iranian nuclear facility before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 32,
+          "costUsd": 3809.989061
+        }
+      ]
+    },
+    {
+      "wallet": "0xc0a005750061e6b5c5699c395a09fd238116ac10",
+      "markets": [
+        {
+          "market_id": "551651",
+          "question": "Israel military action against Iran by Friday?",
+          "end_date": "2025-06-13T23:00:00",
+          "score": 41,
+          "costUsd": 6134.142240000001
+        },
+        {
+          "market_id": "546305",
+          "question": "Israel strike on Iranian nuclear facility before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 41,
+          "costUsd": 15163.686936999997
+        }
+      ]
+    },
+    {
+      "wallet": "0x514550b8f94f24e3bd5fca1c8af19e985fb71f46",
+      "markets": [
+        {
+          "market_id": "1198423",
+          "question": "US strikes Iran by February 28, 2026?",
+          "end_date": "2026-01-31T00:00:00",
+          "score": 40,
+          "costUsd": 13819.978684000005
+        },
+        {
+          "market_id": "1367195",
+          "question": "US strikes Iran by March 15, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 31,
+          "costUsd": 13649.923562999998
+        }
+      ]
+    },
+    {
+      "wallet": "0x8b71010f8d18ccce16a37434778117ee2d6b8044",
+      "markets": [
+        {
+          "market_id": "1198423",
+          "question": "US strikes Iran by February 28, 2026?",
+          "end_date": "2026-01-31T00:00:00",
+          "score": 40,
+          "costUsd": 9500.000000000002
+        },
+        {
+          "market_id": "1399065",
+          "question": "US strikes Iran by March 3, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 26,
+          "costUsd": 1679.9952119999998
+        }
+      ]
+    },
+    {
+      "wallet": "0x35417b3d09d7a0991f75d7cc95162a6e34d7462e",
+      "markets": [
+        {
+          "market_id": "1399072",
+          "question": "US strikes Iran by March 6, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 40,
+          "costUsd": 14273.039761999997
+        },
+        {
+          "market_id": "1399088",
+          "question": "US strikes Iran by March 7, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 25,
+          "costUsd": 5757.089844000007
+        }
+      ]
+    },
+    {
+      "wallet": "0x133ba4d001ae339bfb08631eead95c5dabe92f22",
+      "markets": [
+        {
+          "market_id": "512962",
+          "question": "Elon Musk out as Head of DOGE before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 40,
+          "costUsd": 2011.5854
+        },
+        {
+          "market_id": "512957",
+          "question": "Elise Stefanik confirmed as UN ambassador?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 33,
+          "costUsd": 2410.24387
+        }
+      ]
+    },
+    {
+      "wallet": "0x607fec58640fcea5cb837adb09d658747720592c",
+      "markets": [
+        {
+          "market_id": "1198423",
+          "question": "US strikes Iran by February 28, 2026?",
+          "end_date": "2026-01-31T00:00:00",
+          "score": 39,
+          "costUsd": 8606
+        },
+        {
+          "market_id": "1367195",
+          "question": "US strikes Iran by March 15, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 25,
+          "costUsd": 6441.338256
+        }
+      ]
+    },
+    {
+      "wallet": "0x53e55bc7cb3d67ad177c023ce891ad076a9d6177",
+      "markets": [
+        {
+          "market_id": "1198451",
+          "question": "Israel strikes Iran by February 28, 2026?",
+          "end_date": "2026-02-28T00:00:00",
+          "score": 39,
+          "costUsd": 2884.8087289999994
+        },
+        {
+          "market_id": "616561",
+          "question": "Israel x Hamas ceasefire by October 10?",
+          "end_date": "2025-10-10T00:00:00",
+          "score": 36,
+          "costUsd": 4285.929402999999
+        }
+      ]
+    },
+    {
+      "wallet": "0xceae15533f441b29685bb41dd8d25835760c7a2d",
+      "markets": [
+        {
+          "market_id": "521933",
+          "question": "Will UP win the most seats in the Chamber of Deputies following the 2025 Argentina election?",
+          "end_date": "2025-10-26T12:00:00",
+          "score": 39,
+          "costUsd": 14188.314884999996
+        },
+        {
+          "market_id": "521916",
+          "question": "Will UP hold the most seats in the Chamber of Deputies following the 2025 Argentina election?",
+          "end_date": "2025-10-26T12:00:00",
+          "score": 32,
+          "costUsd": 1028.658711
+        }
+      ]
+    },
+    {
+      "wallet": "0xecaa8806a9a05049d7d5260a33dc924220e377a9",
+      "markets": [
+        {
+          "market_id": "543526",
+          "question": "Will voter turnout in the 2025 Romanian presidential election be 12m or more?",
+          "end_date": "2025-05-18T12:00:00",
+          "score": 39,
+          "costUsd": 10672.11061
+        },
+        {
+          "market_id": "526672",
+          "question": "Will the Conservative Party win the popular vote in Canada's next election?",
+          "end_date": "2025-04-28T12:00:00",
+          "score": 34,
+          "costUsd": 14913.934530999999
+        },
+        {
+          "market_id": "500105",
+          "question": "Will a Democrat win Nevada US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 30,
+          "costUsd": 10034.02
+        },
+        {
+          "market_id": "500106",
+          "question": "Will a Republican win Nevada US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 26,
+          "costUsd": 6924.360666
+        }
+      ]
+    },
+    {
+      "wallet": "0x662ce90c51d613a2975a536272e477ab7c38bfe7",
+      "markets": [
+        {
+          "market_id": "560834",
+          "question": "Another successful Houthi attack on shipping in July?",
+          "end_date": "2025-07-31T00:00:00",
+          "score": 38,
+          "costUsd": 6016.452602
+        },
+        {
+          "market_id": "574841",
+          "question": "Trump deploys National Guard in D.C. by Monday?",
+          "end_date": "2025-08-11T00:00:00",
+          "score": 26,
+          "costUsd": 2429.2058459999994
+        },
+        {
+          "market_id": "636331",
+          "question": "Israel strikes Gaza by October 17?",
+          "end_date": "2025-10-31T00:00:00",
+          "score": 26,
+          "costUsd": 2658.989666
+        }
+      ]
+    },
+    {
+      "wallet": "0x6139c42e48cf190e67a0a85d492413b499336b7a",
+      "markets": [
+        {
+          "market_id": "503045",
+          "question": "Will the US confirm that aliens exist in 2024?",
+          "end_date": "2024-12-31T12:00:00",
+          "score": 38,
+          "costUsd": 24023.063929
+        },
+        {
+          "market_id": "253677",
+          "question": "2024 presidential election: GOP wins by 65-104",
+          "end_date": "2024-11-04T12:00:00",
+          "score": 36,
+          "costUsd": 10641.943349999996
+        },
+        {
+          "market_id": "507280",
+          "question": "Nasrallah remains Hezbollah leader through Oct 31?",
+          "end_date": "2024-10-31T12:00:00",
+          "score": 28,
+          "costUsd": 1171.1524
+        }
+      ]
+    },
+    {
+      "wallet": "0x4f2ba33b080882c0f6b296f48cfd07b6c326f448",
+      "markets": [
+        {
+          "market_id": "524295",
+          "question": "Will xAI have the top AI model on March 31?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 38,
+          "costUsd": 1946.5384309999993
+        },
+        {
+          "market_id": "500106",
+          "question": "Will a Republican win Nevada US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 36,
+          "costUsd": 8908.106157999997
+        },
+        {
+          "market_id": "526672",
+          "question": "Will the Conservative Party win the popular vote in Canada's next election?",
+          "end_date": "2025-04-28T12:00:00",
+          "score": 35,
+          "costUsd": 9138.555943
+        },
+        {
+          "market_id": "520314",
+          "question": "Will Anthropic have the top AI model on February 28?",
+          "end_date": "2025-02-28T12:00:00",
+          "score": 35,
+          "costUsd": 11791.041798
+        },
+        {
+          "market_id": "534193",
+          "question": "Will Oh Se-hoon be elected the next president of South Korea?",
+          "end_date": "2025-06-03T12:00:00",
+          "score": 33,
+          "costUsd": 5486.514159000001
+        },
+        {
+          "market_id": "520310",
+          "question": "Will Google have the top AI model on February 28?",
+          "end_date": "2025-02-28T12:00:00",
+          "score": 32,
+          "costUsd": 1356.423233
+        },
+        {
+          "market_id": "255449",
+          "question": "Will a Republican win Michigan US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 25,
+          "costUsd": 2582.525719
+        },
+        {
+          "market_id": "543526",
+          "question": "Will voter turnout in the 2025 Romanian presidential election be 12m or more?",
+          "end_date": "2025-05-18T12:00:00",
+          "score": 25,
+          "costUsd": 2475.6218320000003
+        }
+      ]
+    },
+    {
+      "wallet": "0xe3726a1b9c6ba2f06585d1c9e01d00afaedaeb38",
+      "markets": [
+        {
+          "market_id": "543526",
+          "question": "Will voter turnout in the 2025 Romanian presidential election be 12m or more?",
+          "end_date": "2025-05-18T12:00:00",
+          "score": 38,
+          "costUsd": 2357.509899999999
+        },
+        {
+          "market_id": "520314",
+          "question": "Will Anthropic have the top AI model on February 28?",
+          "end_date": "2025-02-28T12:00:00",
+          "score": 25,
+          "costUsd": 2826.1819799999994
+        }
+      ]
+    },
+    {
+      "wallet": "0x52b74441def3510e1839eadac7875423c0b54597",
+      "markets": [
+        {
+          "market_id": "630043",
+          "question": "Israel strikes Gaza by October 17?",
+          "end_date": "2025-10-17T00:00:00",
+          "score": 37,
+          "costUsd": 4234.21284
+        },
+        {
+          "market_id": "1567746",
+          "question": "Iran x Israel/US conflict ends by April 15?",
+          "end_date": "2026-04-15T00:00:00",
+          "score": 32,
+          "costUsd": 4654.795447
+        },
+        {
+          "market_id": "537921",
+          "question": "Will Zelenskyy wear a suit before June?",
+          "end_date": "2025-05-31T12:00:00",
+          "score": 27,
+          "costUsd": 3278.1628010000004
+        }
+      ]
+    },
+    {
+      "wallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
+      "markets": [
+        {
+          "market_id": "567470",
+          "question": "Thailand strikes Cambodia by Friday?",
+          "end_date": "2025-07-25T00:00:00",
+          "score": 37,
+          "costUsd": 3783.59296
+        },
+        {
+          "market_id": "1567746",
+          "question": "Iran x Israel/US conflict ends by April 15?",
+          "end_date": "2026-04-15T00:00:00",
+          "score": 26,
+          "costUsd": 2392.0076999999997
+        }
+      ]
+    },
+    {
+      "wallet": "0x34cd1135066eeb7e58c305d29e85ec9af0de4231",
+      "markets": [
+        {
+          "market_id": "510222",
+          "question": "Israel military response against Iran by Friday?",
+          "end_date": "2024-10-25T12:00:00",
+          "score": 36,
+          "costUsd": 1152.809979999999
+        },
+        {
+          "market_id": "532741",
+          "question": "US military action against Iran before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 31,
+          "costUsd": 11291.349613
+        }
+      ]
+    },
+    {
+      "wallet": "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+      "markets": [
+        {
+          "market_id": "516143",
+          "question": "Will Putin meet with Trump in first 100 days?",
+          "end_date": "2025-04-29T12:00:00",
+          "score": 36,
+          "costUsd": 8833.584449
+        },
+        {
+          "market_id": "520314",
+          "question": "Will Anthropic have the top AI model on February 28?",
+          "end_date": "2025-02-28T12:00:00",
+          "score": 31,
+          "costUsd": 8083.9043409999995
+        },
+        {
+          "market_id": "2241742",
+          "question": "Iran closes its airspace by June 30?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 26,
+          "costUsd": 4955.831073000003
+        }
+      ]
+    },
+    {
+      "wallet": "0xecdbd79566a25693b9971c48d7de84bc05f7da79",
+      "markets": [
+        {
+          "market_id": "503330",
+          "question": "2024 July hottest on record?",
+          "end_date": "2024-07-31T12:00:00",
+          "score": 36,
+          "costUsd": 6069.557099000001
+        },
+        {
+          "market_id": "500635",
+          "question": "2024 Balance of Power: D Prez, D Senate, R House",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 31,
+          "costUsd": 5535.224
+        }
+      ]
+    },
+    {
+      "wallet": "0xb7d54bf1d0a362beb916d9cb58a04c41d67e0789",
+      "markets": [
+        {
+          "market_id": "500616",
+          "question": "Will a candidate from another party win Arizona US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 36,
+          "costUsd": 9975.650090000003
+        },
+        {
+          "market_id": "512632",
+          "question": "Will Republicans control 221 seats in the House after the election?",
+          "end_date": "2024-12-17T12:00:00",
+          "score": 33,
+          "costUsd": 5559.600619000002
+        }
+      ]
+    },
+    {
+      "wallet": "0xe8dd7741ccb12350957ec71e9ee332e0d1e6ec86",
+      "markets": [
+        {
+          "market_id": "524295",
+          "question": "Will xAI have the top AI model on March 31?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 36,
+          "costUsd": 1232.341653999999
+        },
+        {
+          "market_id": "534193",
+          "question": "Will Oh Se-hoon be elected the next president of South Korea?",
+          "end_date": "2025-06-03T12:00:00",
+          "score": 34,
+          "costUsd": 5569.542097
+        },
+        {
+          "market_id": "526672",
+          "question": "Will the Conservative Party win the popular vote in Canada's next election?",
+          "end_date": "2025-04-28T12:00:00",
+          "score": 31,
+          "costUsd": 5523.8319059999985
+        },
+        {
+          "market_id": "520314",
+          "question": "Will Anthropic have the top AI model on February 28?",
+          "end_date": "2025-02-28T12:00:00",
+          "score": 30,
+          "costUsd": 4912.109747
+        }
+      ]
+    },
+    {
+      "wallet": "0xfcf2378f20cf408d077c21e731272f21cccea469",
+      "markets": [
+        {
+          "market_id": "1399067",
+          "question": "US strikes Iran by March 5, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 36,
+          "costUsd": 6244.123868999998
+        },
+        {
+          "market_id": "1399072",
+          "question": "US strikes Iran by March 6, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 33,
+          "costUsd": 3941.246768
+        }
+      ]
+    },
+    {
+      "wallet": "0x2370d48501dbbe1974b6cf228e77d459f4870e10",
+      "markets": [
+        {
+          "market_id": "513515",
+          "question": "Will Zoran Milanović be the next President of Croatia?",
+          "end_date": "2024-12-29T12:00:00",
+          "score": 36,
+          "costUsd": 4263.078
+        },
+        {
+          "market_id": "508428",
+          "question": "Will Berachain launch in 2024?",
+          "end_date": "2024-12-31T12:00:00",
+          "score": 27,
+          "costUsd": 9629.844222999996
+        },
+        {
+          "market_id": "508672",
+          "question": "Israel strikes Iranian oil in October?",
+          "end_date": "2024-10-31T12:00:00",
+          "score": 25,
+          "costUsd": 3605.6668099999997
+        }
+      ]
+    },
+    {
+      "wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+      "markets": [
+        {
+          "market_id": "519628",
+          "question": "Russia x Ukraine ceasefire before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 35,
+          "costUsd": 8629.985390000002
+        },
+        {
+          "market_id": "516143",
+          "question": "Will Putin meet with Trump in first 100 days?",
+          "end_date": "2025-04-29T12:00:00",
+          "score": 34,
+          "costUsd": 7170.189482
+        }
+      ]
+    },
+    {
+      "wallet": "0xfe911a4e80ee71b47cd1ee690733ac4062e970ff",
+      "markets": [
+        {
+          "market_id": "500635",
+          "question": "2024 Balance of Power: D Prez, D Senate, R House",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 35,
+          "costUsd": 7941.095
+        },
+        {
+          "market_id": "504069",
+          "question": "Fed decreases interest rates by 50+ bps after September 2024 meeting?",
+          "end_date": "2024-09-18T12:00:00",
+          "score": 25,
+          "costUsd": 2541.949570999989
+        }
+      ]
+    },
+    {
+      "wallet": "0x6b3d278a0a62230364f55f1684ad24c1c12d76dd",
+      "markets": [
+        {
+          "market_id": "253677",
+          "question": "2024 presidential election: GOP wins by 65-104",
+          "end_date": "2024-11-04T12:00:00",
+          "score": 35,
+          "costUsd": 8982.295842000003
+        },
+        {
+          "market_id": "554707",
+          "question": "Another US military action against Iran by June 30?",
+          "end_date": "2025-06-30T00:00:00",
+          "score": 33,
+          "costUsd": 3728.9808500000004
+        },
+        {
+          "market_id": "545880",
+          "question": "Will Russia capture Pokrovsk by August 31?",
+          "end_date": "2025-08-31T12:00:00",
+          "score": 28,
+          "costUsd": 2399.9939999999992
+        }
+      ]
+    },
+    {
+      "wallet": "0xb74711992caf6d04fa55eecc46b8efc95311b050",
+      "markets": [
+        {
+          "market_id": "517868",
+          "question": "Trump inauguration gets more viewers than Biden's?",
+          "end_date": "2025-01-20T12:00:00",
+          "score": 35,
+          "costUsd": 7274.554814999996
+        },
+        {
+          "market_id": "526224",
+          "question": "Trump admin announces cutting Ukraine aid by Friday?",
+          "end_date": "2025-03-07T12:00:00",
+          "score": 27,
+          "costUsd": 1692.660122
+        },
+        {
+          "market_id": "526328",
+          "question": "Trump announces cutting all military aid to Ukraine aid before April?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 26,
+          "costUsd": 1034.543576
+        }
+      ]
+    },
+    {
+      "wallet": "0x68c24bf4a8ad4d79a6fe4b8eec6f93a02dfd1711",
+      "markets": [
+        {
+          "market_id": "2413560",
+          "question": "US x Iran diplomatic meeting by June 21, 2026?",
+          "end_date": "2026-06-21T00:00:00",
+          "score": 34,
+          "costUsd": 1851.5292
+        },
+        {
+          "market_id": "1399072",
+          "question": "US strikes Iran by March 6, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 32,
+          "costUsd": 2330.242401
+        },
+        {
+          "market_id": "253677",
+          "question": "2024 presidential election: GOP wins by 65-104",
+          "end_date": "2024-11-04T12:00:00",
+          "score": 29,
+          "costUsd": 3889.9999100000005
+        }
+      ]
+    },
+    {
+      "wallet": "0x659c65de373a10e5f319f728b747e0e94fce8dfc",
+      "markets": [
+        {
+          "market_id": "541392",
+          "question": "Will Kim Moon-soo win 2nd place in the South Korean presidential election?",
+          "end_date": "2025-06-03T12:00:00",
+          "score": 34,
+          "costUsd": 3942.0645570000006
+        },
+        {
+          "market_id": "528797",
+          "question": "Will Nicușor Dan advance to the Romanian Presidential Election Runoff?",
+          "end_date": "2025-07-31T12:00:00",
+          "score": 31,
+          "costUsd": 4057.3138
+        },
+        {
+          "market_id": "526672",
+          "question": "Will the Conservative Party win the popular vote in Canada's next election?",
+          "end_date": "2025-04-28T12:00:00",
+          "score": 30,
+          "costUsd": 5122.328014999999
+        }
+      ]
+    },
+    {
+      "wallet": "0xc851cd9bee7d262afd78674f861f9f576a12cd2a",
+      "markets": [
+        {
+          "market_id": "552099",
+          "question": "Israel military action against Iran in July?",
+          "end_date": "2025-07-31T00:00:00",
+          "score": 34,
+          "costUsd": 1579.7506999999996
+        },
+        {
+          "market_id": "1230790",
+          "question": "Will Zelenskyy attend the World Economic Forum?",
+          "end_date": "2026-01-23T00:00:00",
+          "score": 33,
+          "costUsd": 4005.59421
+        },
+        {
+          "market_id": "542491",
+          "question": "Pakistan air/missile strike on Indian soil by Friday?",
+          "end_date": "2025-05-09T12:00:00",
+          "score": 32,
+          "costUsd": 6068.775395000001
+        }
+      ]
+    },
+    {
+      "wallet": "0xf9b71663d723d28fa455db659098e1dacde860a4",
+      "markets": [
+        {
+          "market_id": "1422365",
+          "question": "Will the US strike Somalia next?",
+          "end_date": "2026-12-31T00:00:00",
+          "score": 33,
+          "costUsd": 2339.993618
+        },
+        {
+          "market_id": "1399066",
+          "question": "US strikes Iran by March 4, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 29,
+          "costUsd": 1899.9948370000002
+        }
+      ]
+    },
+    {
+      "wallet": "0x0fda515436aae223bd6a9036cf10f88367465b87",
+      "markets": [
+        {
+          "market_id": "524162",
+          "question": "Israel x Hamas ceasefire cancelled before April?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 33,
+          "costUsd": 2094.6
+        },
+        {
+          "market_id": "532741",
+          "question": "US military action against Iran before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 29,
+          "costUsd": 3689.1009000000004
+        }
+      ]
+    },
+    {
+      "wallet": "0xd42f6a1634a3707e27cbae14ca966068e5d1047d",
+      "markets": [
+        {
+          "market_id": "500616",
+          "question": "Will a candidate from another party win Arizona US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 33,
+          "costUsd": 7455.815604
+        },
+        {
+          "market_id": "501700",
+          "question": "Will Republicans have 55 seats in Senate after election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 26,
+          "costUsd": 3716.288669
+        }
+      ]
+    },
+    {
+      "wallet": "0x863176c50b2039c67811cdf0a28da82c854f9a73",
+      "markets": [
+        {
+          "market_id": "1007260",
+          "question": "Will Russia capture all of Pokrovsk by February 28?",
+          "end_date": "2025-09-30T00:00:00",
+          "score": 33,
+          "costUsd": 3323.958957
+        },
+        {
+          "market_id": "663596",
+          "question": "Will Russia capture all of Kupiansk by December 31?",
+          "end_date": "2026-01-01T04:59:00",
+          "score": 26,
+          "costUsd": 12379.127396999998
+        }
+      ]
+    },
+    {
+      "wallet": "0x277f73bb5c40bfe12ea3523e90a6d5e0c452ed32",
+      "markets": [
+        {
+          "market_id": "516143",
+          "question": "Will Putin meet with Trump in first 100 days?",
+          "end_date": "2025-04-29T12:00:00",
+          "score": 32,
+          "costUsd": 3926.8079999999995
+        },
+        {
+          "market_id": "545880",
+          "question": "Will Russia capture Pokrovsk by August 31?",
+          "end_date": "2025-08-31T12:00:00",
+          "score": 32,
+          "costUsd": 4612.9013669999995
+        }
+      ]
+    },
+    {
+      "wallet": "0xdebbe89ceb32828a99648bca497684f5209ceedb",
+      "markets": [
+        {
+          "market_id": "503045",
+          "question": "Will the US confirm that aliens exist in 2024?",
+          "end_date": "2024-12-31T12:00:00",
+          "score": 32,
+          "costUsd": 5879.792899
+        },
+        {
+          "market_id": "512814",
+          "question": "Will Fianna Fáil win the most seats in the 2024 Irish general election?",
+          "end_date": "2024-11-29T12:00:00",
+          "score": 25,
+          "costUsd": 2502.7221
+        }
+      ]
+    },
+    {
+      "wallet": "0x6f72fea92844c87b9d6683c415e7caef70ee83ad",
+      "markets": [
+        {
+          "market_id": "514344",
+          "question": "Will Russia abandon Syrian naval base before April?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 32,
+          "costUsd": 5687.731632
+        },
+        {
+          "market_id": "514364",
+          "question": "Will Biden pardon Fauci?",
+          "end_date": "2025-01-20T12:00:00",
+          "score": 30,
+          "costUsd": 1540.0610000000004
+        }
+      ]
+    },
+    {
+      "wallet": "0x5cd5c8d7a17c78d7389d8b87b611aed83322ac33",
+      "markets": [
+        {
+          "market_id": "500105",
+          "question": "Will a Democrat win Nevada US Senate Election?",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 31,
+          "costUsd": 9560.057551000004
+        },
+        {
+          "market_id": "510054",
+          "question": "Will Russia recapture Sudzha before December?",
+          "end_date": "2024-11-30T12:00:00",
+          "score": 26,
+          "costUsd": 6615.937946
+        }
+      ]
+    },
+    {
+      "wallet": "0x32d1623dddbd4841a98da71e47f0436d2ef2b949",
+      "markets": [
+        {
+          "market_id": "574841",
+          "question": "Trump deploys National Guard in D.C. by Monday?",
+          "end_date": "2025-08-11T00:00:00",
+          "score": 30,
+          "costUsd": 1176.5803019999998
+        },
+        {
+          "market_id": "616561",
+          "question": "Israel x Hamas ceasefire by October 10?",
+          "end_date": "2025-10-10T00:00:00",
+          "score": 30,
+          "costUsd": 2917.3198
+        },
+        {
+          "market_id": "545880",
+          "question": "Will Russia capture Pokrovsk by August 31?",
+          "end_date": "2025-08-31T12:00:00",
+          "score": 27,
+          "costUsd": 1706.5296999999998
+        }
+      ]
+    },
+    {
+      "wallet": "0x7789806c754eb0af4c3abeb026c218b4ba78f823",
+      "markets": [
+        {
+          "market_id": "500635",
+          "question": "2024 Balance of Power: D Prez, D Senate, R House",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 30,
+          "costUsd": 4895
+        },
+        {
+          "market_id": "504032",
+          "question": "Will William McRaven be the 2024 Democratic VP nominee?",
+          "end_date": "2024-08-22T12:00:00",
+          "score": 28,
+          "costUsd": 3459.612
+        }
+      ]
+    },
+    {
+      "wallet": "0x4b2ccc7cfda713c37e6c8b8eea69ce3356eeb691",
+      "markets": [
+        {
+          "market_id": "532742",
+          "question": "Israel military action against Iran before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 30,
+          "costUsd": 4999.999999
+        },
+        {
+          "market_id": "546305",
+          "question": "Israel strike on Iranian nuclear facility before July?",
+          "end_date": "2025-06-30T12:00:00",
+          "score": 28,
+          "costUsd": 2999.999999
+        }
+      ]
+    },
+    {
+      "wallet": "0x67327ef4880d4050ead195ca23203c61d8c1d7f0",
+      "markets": [
+        {
+          "market_id": "1399064",
+          "question": "US strikes Iran by March 2, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 30,
+          "costUsd": 2180.6129000000005
+        },
+        {
+          "market_id": "1399065",
+          "question": "US strikes Iran by March 3, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 28,
+          "costUsd": 2060.4869999999996
+        }
+      ]
+    },
+    {
+      "wallet": "0xc6154a43bc53f7c267d295b29510a030c489221d",
+      "markets": [
+        {
+          "market_id": "503330",
+          "question": "2024 July hottest on record?",
+          "end_date": "2024-07-31T12:00:00",
+          "score": 29,
+          "costUsd": 8248.185118
+        },
+        {
+          "market_id": "502571",
+          "question": "Will Trump launch a coin before the election?",
+          "end_date": "2024-11-04T12:00:00",
+          "score": 27,
+          "costUsd": 3537.977101
+        }
+      ]
+    },
+    {
+      "wallet": "0x24c8cf69a0e0a17eee21f69d29752bfa32e823e1",
+      "markets": [
+        {
+          "market_id": "526672",
+          "question": "Will the Conservative Party win the popular vote in Canada's next election?",
+          "end_date": "2025-04-28T12:00:00",
+          "score": 29,
+          "costUsd": 7627.199615000001
+        },
+        {
+          "market_id": "1567746",
+          "question": "Iran x Israel/US conflict ends by April 15?",
+          "end_date": "2026-04-15T00:00:00",
+          "score": 26,
+          "costUsd": 2133.7925420000006
+        }
+      ]
+    },
+    {
+      "wallet": "0x47bc8458d60154c8a17c2d8ce332f088a602abd2",
+      "markets": [
+        {
+          "market_id": "504069",
+          "question": "Fed decreases interest rates by 50+ bps after September 2024 meeting?",
+          "end_date": "2024-09-18T12:00:00",
+          "score": 29,
+          "costUsd": 13500.000000000013
+        },
+        {
+          "market_id": "505756",
+          "question": "Pavel Durov released in August?",
+          "end_date": "2024-08-31T12:00:00",
+          "score": 27,
+          "costUsd": 2499.996666
+        }
+      ]
+    },
+    {
+      "wallet": "0xc6208602d8a6295983ebfe0b0aeb51ce92a82da3",
+      "markets": [
+        {
+          "market_id": "503958",
+          "question": "Will Mark Cuban be the Democratic Presidential Nominee?",
+          "end_date": "2024-08-22T12:00:00",
+          "score": 29,
+          "costUsd": 2997.62
+        },
+        {
+          "market_id": "500635",
+          "question": "2024 Balance of Power: D Prez, D Senate, R House",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 26,
+          "costUsd": 2940
+        }
+      ]
+    },
+    {
+      "wallet": "0xead152b855effa6b5b5837f53b24c0756830c76a",
+      "markets": [
+        {
+          "market_id": "524296",
+          "question": "Will OpenAI have the top AI model on March 31?",
+          "end_date": "2025-03-31T12:00:00",
+          "score": 29,
+          "costUsd": 1576.066562
+        },
+        {
+          "market_id": "520310",
+          "question": "Will Google have the top AI model on February 28?",
+          "end_date": "2025-02-28T12:00:00",
+          "score": 28,
+          "costUsd": 1145.8074000000004
+        }
+      ]
+    },
+    {
+      "wallet": "0x43372356634781eea88d61bbdd7824cdce958882",
+      "markets": [
+        {
+          "market_id": "2354024",
+          "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by June 15, 2026?",
+          "end_date": "2026-06-15T00:00:00",
+          "score": 28,
+          "costUsd": 1691.5803620000002
+        },
+        {
+          "market_id": "500635",
+          "question": "2024 Balance of Power: D Prez, D Senate, R House",
+          "end_date": "2024-11-05T12:00:00",
+          "score": 25,
+          "costUsd": 2583.9010000000003
+        }
+      ]
+    },
+    {
+      "wallet": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
+      "markets": [
+        {
+          "market_id": "1399072",
+          "question": "US strikes Iran by March 6, 2026?",
+          "end_date": "2026-06-30T00:00:00",
+          "score": 28,
+          "costUsd": 2085.247995999999
+        },
+        {
+          "market_id": "2296150",
+          "question": "Iran closes its airspace by June 15?",
+          "end_date": "2026-06-15T00:00:00",
+          "score": 25,
+          "costUsd": 1211.7182010000004
+        }
+      ]
+    },
+    {
+      "wallet": "0x60b2a17f0472db7361ae3189ad99063efe0b3cce",
+      "markets": [
+        {
+          "market_id": "513191",
+          "question": "Will the chopsticks catch SpaceX's Super Heavy?",
+          "end_date": "2024-11-18T12:00:00",
+          "score": 27,
+          "costUsd": 1240.367245000001
+        },
+        {
+          "market_id": "528798",
+          "question": "Will Crin Antonescu advance to the Romanian Presidential Election Runoff?",
+          "end_date": "2025-07-31T12:00:00",
+          "score": 25,
+          "costUsd": 1680
+        }
+      ]
+    }
+  ],
+  "twins": [
+    {
+      "strength": "strong",
+      "market_id": "701041",
+      "question": "Will Trump meet with Zelenskyy by December 31?",
+      "wallets": [
+        {
+          "wallet": "0x1b6022ae41ad7a0b387a88c17885c754436ca55b",
+          "score": 55,
+          "costUsd": 11592.163972999992,
+          "firstBuyAt": "2025-12-25T18:30:29",
+          "lastBuyAt": "2025-12-25T23:13:05",
+          "takerShare": 0.9362416851069627
+        },
+        {
+          "wallet": "0x93b6fbf96ceaad95e08446e1cc3e3229df16fb54",
+          "score": 53,
+          "costUsd": 10946.145979999987,
+          "firstBuyAt": "2025-12-25T20:01:07",
+          "lastBuyAt": "2025-12-25T23:11:03",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 91,
+      "deltaLastMin": 2,
+      "sameFirstSeen": "2025-12-25"
+    },
+    {
+      "strength": "strong",
+      "market_id": "1230790",
+      "question": "Will Zelenskyy attend the World Economic Forum?",
+      "wallets": [
+        {
+          "wallet": "0xc851cd9bee7d262afd78674f861f9f576a12cd2a",
+          "score": 33,
+          "costUsd": 4005.59421,
+          "firstBuyAt": "2026-01-21T15:41:56",
+          "lastBuyAt": "2026-01-21T15:43:16",
+          "takerShare": 1
+        },
+        {
+          "wallet": "0x7b05f8e36980dffe4d784edf664970e623956180",
+          "score": 23,
+          "costUsd": 1599.999995,
+          "firstBuyAt": "2026-01-21T15:41:24",
+          "lastBuyAt": "2026-01-21T15:42:18",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 1,
+      "deltaLastMin": 1
+    },
+    {
+      "strength": "weak",
+      "market_id": "551651",
+      "question": "Israel military action against Iran by Friday?",
+      "wallets": [
+        {
+          "wallet": "0x5afdc3662d84189688b789a00fe295a81c3b7e8d",
+          "score": 56,
+          "costUsd": 17252.359987999997,
+          "firstBuyAt": "2025-06-12T08:50:13",
+          "lastBuyAt": "2025-06-12T15:45:13",
+          "takerShare": 1
+        },
+        {
+          "wallet": "0xc0a005750061e6b5c5699c395a09fd238116ac10",
+          "score": 41,
+          "costUsd": 6134.142240000001,
+          "firstBuyAt": "2025-06-12T09:05:49",
+          "lastBuyAt": "2025-06-12T15:24:19",
+          "takerShare": 0.6023683924225404
+        }
+      ],
+      "deltaFirstMin": 16,
+      "deltaLastMin": 21
+    },
+    {
+      "strength": "weak",
+      "market_id": "541611",
+      "question": "Another Israel military action on Yemen by Friday?",
+      "wallets": [
+        {
+          "wallet": "0xd22ec7c1e630e846ce726bdd09db43e939b2cb68",
+          "score": 51,
+          "costUsd": 9956.2757,
+          "firstBuyAt": "2025-05-06T10:31:26",
+          "lastBuyAt": "2025-05-06T10:50:16",
+          "takerShare": 0.8080529951109594
+        },
+        {
+          "wallet": "0xf4597347180af956ae454cb000623bfdfedca5c8",
+          "score": 45,
+          "costUsd": 6270.269998,
+          "firstBuyAt": "2025-05-06T10:20:42",
+          "lastBuyAt": "2025-05-06T10:35:30",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 11,
+      "deltaLastMin": 15
+    },
+    {
+      "strength": "weak",
+      "market_id": "541611",
+      "question": "Another Israel military action on Yemen by Friday?",
+      "wallets": [
+        {
+          "wallet": "0xd22ec7c1e630e846ce726bdd09db43e939b2cb68",
+          "score": 51,
+          "costUsd": 9956.2757,
+          "firstBuyAt": "2025-05-06T10:31:26",
+          "lastBuyAt": "2025-05-06T10:50:16",
+          "takerShare": 0.8080529951109594
+        },
+        {
+          "wallet": "0xd602bea812a32320720b0bed323f66014bcc0105",
+          "score": 42,
+          "costUsd": 8088.1599,
+          "firstBuyAt": "2025-05-06T10:13:24",
+          "lastBuyAt": "2025-05-06T10:39:26",
+          "takerShare": 0.542146156136206
+        }
+      ],
+      "deltaFirstMin": 18,
+      "deltaLastMin": 11
+    },
+    {
+      "strength": "weak",
+      "market_id": "510222",
+      "question": "Israel military response against Iran by Friday?",
+      "wallets": [
+        {
+          "wallet": "0x59cf850d330f01ed5dbcf71b6243ca2e65664275",
+          "score": 50,
+          "costUsd": 3999.999998000001,
+          "firstBuyAt": "2024-10-25T20:53:26",
+          "lastBuyAt": "2024-10-25T21:39:52",
+          "takerShare": 1
+        },
+        {
+          "wallet": "0x3075edc8c75d8f41c30897ff6bc2a485c501f2c1",
+          "score": 41,
+          "costUsd": 1999.4799989999997,
+          "firstBuyAt": "2024-10-25T21:14:14",
+          "lastBuyAt": "2024-10-25T21:14:14",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 21,
+      "deltaLastMin": 26
+    },
+    {
+      "strength": "weak",
+      "market_id": "541611",
+      "question": "Another Israel military action on Yemen by Friday?",
+      "wallets": [
+        {
+          "wallet": "0xf4597347180af956ae454cb000623bfdfedca5c8",
+          "score": 45,
+          "costUsd": 6270.269998,
+          "firstBuyAt": "2025-05-06T10:20:42",
+          "lastBuyAt": "2025-05-06T10:35:30",
+          "takerShare": 1
+        },
+        {
+          "wallet": "0xd602bea812a32320720b0bed323f66014bcc0105",
+          "score": 42,
+          "costUsd": 8088.1599,
+          "firstBuyAt": "2025-05-06T10:13:24",
+          "lastBuyAt": "2025-05-06T10:39:26",
+          "takerShare": 0.542146156136206
+        }
+      ],
+      "deltaFirstMin": 7,
+      "deltaLastMin": 4
+    },
+    {
+      "strength": "weak",
+      "market_id": "503707",
+      "question": "Will Trump announce strategic Bitcoin reserve?",
+      "wallets": [
+        {
+          "wallet": "0xf5e780ac559f4981b643fc3daf9c94dd0ab455cc",
+          "score": 35,
+          "costUsd": 3237.921606,
+          "firstBuyAt": "2024-07-27T18:32:05",
+          "lastBuyAt": "2024-07-27T18:55:51",
+          "takerShare": 0.8651221801692996
+        },
+        {
+          "wallet": "0x72949278d41f8f6e82c224cf22e804a37c206971",
+          "score": 29,
+          "costUsd": 1815.5444000000002,
+          "firstBuyAt": "2024-07-27T18:31:29",
+          "lastBuyAt": "2024-07-27T18:49:05",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 1,
+      "deltaLastMin": 7
+    },
+    {
+      "strength": "weak",
+      "market_id": "554707",
+      "question": "Another US military action against Iran by June 30?",
+      "wallets": [
+        {
+          "wallet": "0x6b3d278a0a62230364f55f1684ad24c1c12d76dd",
+          "score": 33,
+          "costUsd": 3728.9808500000004,
+          "firstBuyAt": "2025-06-22T20:08:47",
+          "lastBuyAt": "2025-06-23T16:59:45",
+          "takerShare": 0.7597075753285244
+        },
+        {
+          "wallet": "0x31646fb225a7743287e760e44923345644513033",
+          "score": 19,
+          "costUsd": 1139.999998,
+          "firstBuyAt": "2025-06-22T20:29:05",
+          "lastBuyAt": "2025-06-23T16:58:03",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 20,
+      "deltaLastMin": 2
+    },
+    {
+      "strength": "weak",
+      "market_id": "1230790",
+      "question": "Will Zelenskyy attend the World Economic Forum?",
+      "wallets": [
+        {
+          "wallet": "0xc851cd9bee7d262afd78674f861f9f576a12cd2a",
+          "score": 33,
+          "costUsd": 4005.59421,
+          "firstBuyAt": "2026-01-21T15:41:56",
+          "lastBuyAt": "2026-01-21T15:43:16",
+          "takerShare": 1
+        },
+        {
+          "wallet": "0x134a63b764ac7b008356e8db1857db94e6b09e42",
+          "score": 27,
+          "costUsd": 2384.734258,
+          "firstBuyAt": "2026-01-21T15:35:58",
+          "lastBuyAt": "2026-01-21T15:45:58",
+          "takerShare": 0.9269599431834759
+        }
+      ],
+      "deltaFirstMin": 6,
+      "deltaLastMin": 3
+    },
+    {
+      "strength": "weak",
+      "market_id": "528797",
+      "question": "Will Nicușor Dan advance to the Romanian Presidential Election Runoff?",
+      "wallets": [
+        {
+          "wallet": "0x659c65de373a10e5f319f728b747e0e94fce8dfc",
+          "score": 31,
+          "costUsd": 4057.3138,
+          "firstBuyAt": "2025-05-04T18:13:23",
+          "lastBuyAt": "2025-05-04T18:46:19",
+          "takerShare": 0.751882103856078
+        },
+        {
+          "wallet": "0xcb492b8388eac22926f1312ae84c6a90e332b5b3",
+          "score": 22,
+          "costUsd": 1553.4899989999997,
+          "firstBuyAt": "2025-05-04T18:35:55",
+          "lastBuyAt": "2025-05-04T18:44:09",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 23,
+      "deltaLastMin": 2
+    },
+    {
+      "strength": "weak",
+      "market_id": "528797",
+      "question": "Will Nicușor Dan advance to the Romanian Presidential Election Runoff?",
+      "wallets": [
+        {
+          "wallet": "0x659c65de373a10e5f319f728b747e0e94fce8dfc",
+          "score": 31,
+          "costUsd": 4057.3138,
+          "firstBuyAt": "2025-05-04T18:13:23",
+          "lastBuyAt": "2025-05-04T18:46:19",
+          "takerShare": 0.751882103856078
+        },
+        {
+          "wallet": "0xfc416931c9e4dd59dd748b6f89343f2dffcf38ed",
+          "score": 20,
+          "costUsd": 1257.8899999999999,
+          "firstBuyAt": "2025-05-04T18:32:39",
+          "lastBuyAt": "2025-05-04T18:32:39",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 19,
+      "deltaLastMin": 14
+    },
+    {
+      "strength": "weak",
+      "market_id": "554675",
+      "question": "Will Iran strike a U.S. facility by Monday June  23?",
+      "wallets": [
+        {
+          "wallet": "0xd86d87914387111b47355e87aca7c032dbe5648d",
+          "score": 29,
+          "costUsd": 31503.308703,
+          "firstBuyAt": "2025-06-23T16:39:19",
+          "lastBuyAt": "2025-06-23T16:40:23",
+          "takerShare": 1
+        },
+        {
+          "wallet": "0xec0bc5b9d6f9cf4e88706d1e3efe333c6ee669e6",
+          "score": 19,
+          "costUsd": 3999.9999599999996,
+          "firstBuyAt": "2025-06-23T16:33:53",
+          "lastBuyAt": "2025-06-23T16:38:29",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 5,
+      "deltaLastMin": 2
+    },
+    {
+      "strength": "weak",
+      "market_id": "554675",
+      "question": "Will Iran strike a U.S. facility by Monday June  23?",
+      "wallets": [
+        {
+          "wallet": "0xd86d87914387111b47355e87aca7c032dbe5648d",
+          "score": 29,
+          "costUsd": 31503.308703,
+          "firstBuyAt": "2025-06-23T16:39:19",
+          "lastBuyAt": "2025-06-23T16:40:23",
+          "takerShare": 1
+        },
+        {
+          "wallet": "0xc74c85476c19b100de8323bd7ea9e288c8131076",
+          "score": 16,
+          "costUsd": 2497.209996,
+          "firstBuyAt": "2025-06-23T16:13:34",
+          "lastBuyAt": "2025-06-23T16:16:18",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 26,
+      "deltaLastMin": 24
+    },
+    {
+      "strength": "weak",
+      "market_id": "1230790",
+      "question": "Will Zelenskyy attend the World Economic Forum?",
+      "wallets": [
+        {
+          "wallet": "0x134a63b764ac7b008356e8db1857db94e6b09e42",
+          "score": 27,
+          "costUsd": 2384.734258,
+          "firstBuyAt": "2026-01-21T15:35:58",
+          "lastBuyAt": "2026-01-21T15:45:58",
+          "takerShare": 0.9269599431834759
+        },
+        {
+          "wallet": "0x7b05f8e36980dffe4d784edf664970e623956180",
+          "score": 23,
+          "costUsd": 1599.999995,
+          "firstBuyAt": "2026-01-21T15:41:24",
+          "lastBuyAt": "2026-01-21T15:42:18",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 5,
+      "deltaLastMin": 4
+    },
+    {
+      "strength": "weak",
+      "market_id": "500105",
+      "question": "Will a Democrat win Nevada US Senate Election?",
+      "wallets": [
+        {
+          "wallet": "0x7bb244d0c70293e66dee84f3d0623fbbbf7d682c",
+          "score": 25,
+          "costUsd": 6592.9,
+          "firstBuyAt": "2024-11-06T14:15:00",
+          "lastBuyAt": "2024-11-06T14:15:00",
+          "takerShare": 1
+        },
+        {
+          "wallet": "0x5ad19fa62caf51f42ab75b9c33713819a42ab2f4",
+          "score": 20,
+          "costUsd": 3273.959999,
+          "firstBuyAt": "2024-11-06T14:26:45",
+          "lastBuyAt": "2024-11-06T14:26:45",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 12,
+      "deltaLastMin": 12
+    },
+    {
+      "strength": "weak",
+      "market_id": "516351",
+      "question": "Will MicroStrategy purchase more Bitcoin in 2024?",
+      "wallets": [
+        {
+          "wallet": "0x742c10a43a031710a5f5af55b7f3d7e7ca9c6844",
+          "score": 23,
+          "costUsd": 1974.329998,
+          "firstBuyAt": "2024-12-29T12:40:30",
+          "lastBuyAt": "2024-12-29T12:40:30",
+          "takerShare": 1
+        },
+        {
+          "wallet": "0x0a39f55ae14384a20180306fa4a497c659105077",
+          "score": 20,
+          "costUsd": 1421.743733,
+          "firstBuyAt": "2024-12-29T12:55:06",
+          "lastBuyAt": "2024-12-29T12:55:16",
+          "takerShare": 0.9907792934265686
+        }
+      ],
+      "deltaFirstMin": 15,
+      "deltaLastMin": 15
+    },
+    {
+      "strength": "weak",
+      "market_id": "528797",
+      "question": "Will Nicușor Dan advance to the Romanian Presidential Election Runoff?",
+      "wallets": [
+        {
+          "wallet": "0xcb492b8388eac22926f1312ae84c6a90e332b5b3",
+          "score": 22,
+          "costUsd": 1553.4899989999997,
+          "firstBuyAt": "2025-05-04T18:35:55",
+          "lastBuyAt": "2025-05-04T18:44:09",
+          "takerShare": 1
+        },
+        {
+          "wallet": "0xfc416931c9e4dd59dd748b6f89343f2dffcf38ed",
+          "score": 20,
+          "costUsd": 1257.8899999999999,
+          "firstBuyAt": "2025-05-04T18:32:39",
+          "lastBuyAt": "2025-05-04T18:32:39",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 3,
+      "deltaLastMin": 12
+    },
+    {
+      "strength": "weak",
+      "market_id": "543529",
+      "question": "Will Putin meet with Zelenskyy by Friday?",
+      "wallets": [
+        {
+          "wallet": "0xe5d7f91f7886fc307f3b17b9af56686b7857d8a3",
+          "score": 20,
+          "costUsd": 4904.91068,
+          "firstBuyAt": "2025-05-13T19:34:15",
+          "lastBuyAt": "2025-05-13T19:37:31",
+          "takerShare": 1
+        },
+        {
+          "wallet": "0xc9dcc3d90ad3e34fe4132eb8661ae728d6da9026",
+          "score": 19,
+          "costUsd": 3759.86021,
+          "firstBuyAt": "2025-05-13T19:24:14",
+          "lastBuyAt": "2025-05-13T19:34:07",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 10,
+      "deltaLastMin": 3
+    },
+    {
+      "strength": "weak",
+      "market_id": "554675",
+      "question": "Will Iran strike a U.S. facility by Monday June  23?",
+      "wallets": [
+        {
+          "wallet": "0xec0bc5b9d6f9cf4e88706d1e3efe333c6ee669e6",
+          "score": 19,
+          "costUsd": 3999.9999599999996,
+          "firstBuyAt": "2025-06-23T16:33:53",
+          "lastBuyAt": "2025-06-23T16:38:29",
+          "takerShare": 1
+        },
+        {
+          "wallet": "0xc74c85476c19b100de8323bd7ea9e288c8131076",
+          "score": 16,
+          "costUsd": 2497.209996,
+          "firstBuyAt": "2025-06-23T16:13:34",
+          "lastBuyAt": "2025-06-23T16:16:18",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 20,
+      "deltaLastMin": 22
+    },
+    {
+      "strength": "weak",
+      "market_id": "630043",
+      "question": "Israel strikes Gaza by October 17?",
+      "wallets": [
+        {
+          "wallet": "0x7bb380292fd13b5ca4851dbcd73234d30d1b2682",
+          "score": 18,
+          "costUsd": 1122.450857,
+          "firstBuyAt": "2025-10-14T13:21:45",
+          "lastBuyAt": "2025-10-14T13:39:51",
+          "takerShare": 0.7486367841937511
+        },
+        {
+          "wallet": "0xb40e89677d59665d5188541ad860450a6e2a7cc9",
+          "score": 18,
+          "costUsd": 1064.63077,
+          "firstBuyAt": "2025-10-14T13:09:25",
+          "lastBuyAt": "2025-10-14T13:45:05",
+          "takerShare": 1
+        }
+      ],
+      "deltaFirstMin": 12,
+      "deltaLastMin": 5
+    },
+    {
+      "strength": "weak",
+      "market_id": "528805",
+      "question": "Energy infrastructure ceasefire in Ukraine in March? ",
+      "wallets": [
+        {
+          "wallet": "0x4d3e59470cd241c4382cabbd2bfd10037cce58c7",
+          "score": 14,
+          "costUsd": 16943.771159,
+          "firstBuyAt": "2025-03-18T20:19:52",
+          "lastBuyAt": "2025-03-20T19:00:51",
+          "takerShare": 0.5107108387682092
+        },
+        {
+          "wallet": "0x62648c452ccf7fd55240719c5ffd730c2cb89937",
+          "score": 7,
+          "costUsd": 1652.884683,
+          "firstBuyAt": "2025-03-18T20:15:43",
+          "lastBuyAt": "2025-03-20T18:31:19",
+          "takerShare": 0.6991012317239175
+        }
+      ],
+      "deltaFirstMin": 4,
+      "deltaLastMin": 30
+    }
+  ],
+  "sharedFunders": []
+}

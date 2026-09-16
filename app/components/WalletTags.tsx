@@ -7,9 +7,11 @@ export interface TagInput {
   trace?: Trace;
   /** The minute the market re-priced; funding shortly before it is a tag of its own. */
   newsAt?: string;
+  /** Live mode: measure age against now and say "ago" — nothing has happened yet. */
+  live?: boolean;
 }
 
-export function walletTags({ dossier, trace, newsAt }: TagInput): { label: string; tone: "hot" | "warm" | "cool" }[] {
+export function walletTags({ dossier, trace, newsAt, live }: TagInput): { label: string; tone: "hot" | "warm" | "cool" }[] {
   const tags: { label: string; tone: "hot" | "warm" | "cool" }[] = [];
   const s = dossier?.summary;
   if (dossier?.oneShot) tags.push({ label: "only market ever traded", tone: "hot" });
@@ -17,8 +19,8 @@ export function walletTags({ dossier, trace, newsAt }: TagInput): { label: strin
   // Age at the time of the bet, not today. first_seen is a date, so speak in days.
   if (s && newsAt) {
     const ageDays = Math.floor(hoursBetween(s.first_seen.slice(0, 10) + "T00:00:00", newsAt) / 24);
-    if (ageDays === 0) tags.push({ label: "wallet created the day of the news", tone: "hot" });
-    else if (ageDays > 0 && ageDays <= 14) tags.push({ label: `wallet created ${ageDays}d before the news`, tone: "hot" });
+    if (ageDays === 0) tags.push({ label: live ? "wallet created today" : "wallet created the day of the news", tone: "hot" });
+    else if (ageDays > 0 && ageDays <= 14) tags.push({ label: live ? `wallet created ${ageDays}d ago` : `wallet created ${ageDays}d before the news`, tone: "hot" });
   }
   if (trace?.funder && newsAt) {
     const h = hoursBetween(trace.funder.block_timestamp.replace("Z", ""), newsAt);

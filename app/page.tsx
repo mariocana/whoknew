@@ -60,7 +60,8 @@ export default function Home() {
           Nothing here is an accusation; the numbers are the whole claim.
         </p>
         <p className="mt-2 text-sm text-muted">
-          Also: <Link href="/clusters" className="underline decoration-line hover:text-ink">wallets that move together</Link>.
+          Also: <Link href="/watch" className="underline decoration-line hover:text-ink">conviction building now</Link> ·{" "}
+          <Link href="/clusters" className="underline decoration-line hover:text-ink">wallets that move together</Link>.
         </p>
       </section>
 

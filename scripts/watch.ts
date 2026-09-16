@@ -1,7 +1,7 @@
 // Watch mode: conviction building on markets that have not resolved yet.
 //
 //   node --experimental-strip-types --env-file=.env scripts/watch.ts [--days 7] [--max 120] [--hours 72]
-//        [--tags ...] [--min-volume 20000] [--profile 15] [--dry-run]
+//        [--tags ...] [--min-volume 20000] [--profile 15] [--at 2026-09-16T08:44:12] [--dry-run]
 //
 // Discovery: 1 credit per tag (markets closing within `days`). Per market: ohlcv (1) for the
 // current price of each side, then trades of the last `hours` (1 per 1000) for sides still
@@ -29,7 +29,8 @@ const NOISE = /^(sports|games|tweet markets|recurring|mentions|rogan|lid|trump d
 const NUMERIC = /\b(above|below|dips? (below|under)|hits?|reach(es)?|close[sd]? (above|below)|between)\b.*\$|\bexactly \d|\b\d+(\.\d+)?%|magnitude|\btemperature|\bhigh(est)? temp|\d+ ?(bps|basis points)|market cap|all[- ]time high|\b(FDV|TVL)\b|(\d+|more|fewer|less) (or more |or fewer )?(ships|posts|tweets|cases|transits)/i;
 
 const HOUR = 3_600_000, DAY = 24 * HOUR;
-const now = Date.now();
+// --at pins "now" so a pass can be reproduced from cache, credit-free.
+const now = args.get("at") ? new Date(args.get("at")! + (args.get("at")!.endsWith("Z") ? "" : "Z")).getTime() : Date.now();
 const nowIso = new Date(now).toISOString().slice(0, 19);
 const clamp = (x: number) => Math.max(0, Math.min(1, x));
 const usd = (n: number) => `$${Math.round(n).toLocaleString("en-US")}`;
@@ -140,6 +141,9 @@ for (const r of results) for (const f of r.flags) if (cache.has(f.wallet)) f.sum
 if (!existsSync("data/site")) mkdirSync("data/site", { recursive: true });
 const out = { ranAt: new Date(now).toISOString(), params: { days, hours, maxMarkets, minVolume, tags }, results };
 writeFileSync("data/site/watch.json", JSON.stringify(out, null, 2));
+// Every pass is kept, so a flag can later be checked against what the market did.
+if (!existsSync("data/site/watch")) mkdirSync("data/site/watch", { recursive: true });
+writeFileSync(`data/site/watch/${out.ranAt.slice(0, 16).replace(/[:T]/g, "-")}.json`, JSON.stringify(out));
 
 const ranked = results.filter((r) => r.flags[0]).sort((a, b) => b.flags[0].score - a.flags[0].score);
 console.log(`\n${results.length} markets watched, ${ranked.length} with someone taking size cheaply in the last ${hours}h\n`);
