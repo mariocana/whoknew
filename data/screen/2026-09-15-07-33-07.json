@@ -1,0 +1,478 @@
+{
+  "ranAt": "2026-09-15T07:33:07.862Z",
+  "params": {
+    "tags": [
+      ""
+    ],
+    "days": 45,
+    "perTag": 25,
+    "minVolume": 5000,
+    "minSurprise": 0.4
+  },
+  "results": [
+    {
+      "market": {
+        "market_id": "4511449",
+        "question": "Guangzhou: Elias Ymer vs Semen Pankin",
+        "event_title": "Guangzhou: Elias Ymer vs Semen Pankin",
+        "end_date": "2026-09-21T08:00:00",
+        "tags": [
+          "Tennis",
+          "Sports",
+          "Games"
+        ],
+        "volume": 595886.1238790002,
+        "slug": "atp-ymer-pankin-2026-09-14"
+      },
+      "winner": "Elias Ymer",
+      "jumps": [
+        {
+          "at": "2026-09-14T14:00:00",
+          "priceBefore": 0.2599999896000004,
+          "priceAfter": 0.6899999993727273,
+          "volumeUsd": 74224.07287599998,
+          "traders": 225
+        },
+        {
+          "at": "2026-09-14T15:00:00",
+          "priceBefore": 0.6899999993727273,
+          "priceAfter": 0.999,
+          "volumeUsd": 248067.89565799996,
+          "traders": 177
+        }
+      ],
+      "jump": {
+        "at": "2026-09-14T14:00:00",
+        "priceBefore": 0.2599999896000004,
+        "priceAfter": 0.6899999993727273,
+        "volumeUsd": 74224.07287599998,
+        "traders": 225
+      },
+      "preJumpUsd": 43391.22828999998,
+      "preJumpWallets": 116,
+      "tradesComplete": true,
+      "flags": [
+        {
+          "wallet": "0xdd7e989aee938a94a878256f00d1121be1760be3",
+          "score": 50,
+          "factors": [
+            {
+              "name": "size",
+              "value": 1,
+              "detail": "$10,000 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.2607587938139757,
+              "detail": "bought at 0.38, market was at 0.26 before the news"
+            },
+            {
+              "name": "timing",
+              "value": 0.9681800177957255,
+              "detail": "last buy 1h before the jump"
+            },
+            {
+              "name": "share",
+              "value": 0.23046132580452022,
+              "detail": "23% of all pre-news money on the winner"
+            }
+          ],
+          "position": {
+            "wallet": "0xdd7e989aee938a94a878256f00d1121be1760be3",
+            "shares": 26132.958975,
+            "costUsd": 10000,
+            "avgPrice": 0.3826585427837109,
+            "trades": 9,
+            "firstBuyAt": "2026-09-14T12:45:15",
+            "lastBuyAt": "2026-09-14T12:45:15"
+          },
+          "jump": {
+            "at": "2026-09-14T14:00:00",
+            "priceBefore": 0.2599999896000004,
+            "priceAfter": 0.6899999993727273,
+            "volumeUsd": 74224.07287599998,
+            "traders": 225
+          }
+        },
+        {
+          "wallet": "0x41bb029a2a2aa76315ff7a9f426a77675f9626e8",
+          "score": 40,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.8903134488347835,
+              "detail": "$6,034 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.18266236019006454,
+              "detail": "bought at 0.42, market was at 0.26 before the news"
+            },
+            {
+              "name": "timing",
+              "value": 0.9629809848614,
+              "detail": "last buy 1h before the jump"
+            },
+            {
+              "name": "share",
+              "value": 0.13906727783022163,
+              "detail": "14% of all pre-news money on the winner"
+            }
+          ],
+          "position": {
+            "wallet": "0x41bb029a2a2aa76315ff7a9f426a77675f9626e8",
+            "shares": 14442.967953,
+            "costUsd": 6034.299999999999,
+            "avgPrice": 0.41780193791447096,
+            "trades": 28,
+            "firstBuyAt": "2026-09-14T12:41:58",
+            "lastBuyAt": "2026-09-14T12:42:31"
+          },
+          "jump": {
+            "at": "2026-09-14T14:00:00",
+            "priceBefore": 0.2599999896000004,
+            "priceAfter": 0.6899999993727273,
+            "volumeUsd": 74224.07287599998,
+            "traders": 225
+          }
+        },
+        {
+          "wallet": "0xfd74d4504299cce1c537464bdd932f8a0e6ba2a7",
+          "score": 38,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.8184088773103202,
+              "detail": "$4,333 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.2444444444444444,
+              "detail": "bought at 0.39, market was at 0.26 before the news"
+            },
+            {
+              "name": "timing",
+              "value": 0.9700643262628131,
+              "detail": "last buy 1h before the jump"
+            },
+            {
+              "name": "share",
+              "value": 0.09986557584954694,
+              "detail": "10% of all pre-news money on the winner"
+            }
+          ],
+          "position": {
+            "wallet": "0xfd74d4504299cce1c537464bdd932f8a0e6ba2a7",
+            "shares": 11111,
+            "costUsd": 4333.29,
+            "avgPrice": 0.39,
+            "trades": 4,
+            "firstBuyAt": "2026-09-14T12:46:13",
+            "lastBuyAt": "2026-09-14T12:46:13"
+          },
+          "jump": {
+            "at": "2026-09-14T14:00:00",
+            "priceBefore": 0.2599999896000004,
+            "priceAfter": 0.6899999993727273,
+            "volumeUsd": 74224.07287599998,
+            "traders": 225
+          }
+        },
+        {
+          "wallet": "0x75f204b39709544f763ca68c2e3f4a60a309ff6d",
+          "score": 34,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.7385606273598311,
+              "detail": "$3,000 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.2894864839279793,
+              "detail": "bought at 0.37, market was at 0.26 before the news"
+            },
+            {
+              "name": "timing",
+              "value": 0.9484746276940381,
+              "detail": "last buy 1h before the jump"
+            },
+            {
+              "name": "share",
+              "value": 0.06913839774135606,
+              "detail": "7% of all pre-news money on the winner"
+            }
+          ],
+          "position": {
+            "wallet": "0x75f204b39709544f763ca68c2e3f4a60a309ff6d",
+            "shares": 8114.005406,
+            "costUsd": 2999.9999999999995,
+            "avgPrice": 0.3697310822324093,
+            "trades": 12,
+            "firstBuyAt": "2026-09-14T12:34:21",
+            "lastBuyAt": "2026-09-14T12:34:21"
+          },
+          "jump": {
+            "at": "2026-09-14T14:00:00",
+            "priceBefore": 0.2599999896000004,
+            "priceAfter": 0.6899999993727273,
+            "volumeUsd": 74224.07287599998,
+            "traders": 225
+          }
+        },
+        {
+          "wallet": "0xb4d250f58c26840e09723a83ce9c8149aa32ce99",
+          "score": 25,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.7559416804894372,
+              "detail": "$3,250 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0,
+              "detail": "bought at 0.65, market was at 0.26 before the news"
+            },
+            {
+              "name": "timing",
+              "value": 0.8831429886817389,
+              "detail": "last buy 2h before the jump"
+            },
+            {
+              "name": "share",
+              "value": 0.07489993088646907,
+              "detail": "7% of all pre-news money on the winner"
+            }
+          ],
+          "position": {
+            "wallet": "0xb4d250f58c26840e09723a83ce9c8149aa32ce99",
+            "shares": 5000,
+            "costUsd": 3250,
+            "avgPrice": 0.65,
+            "trades": 3,
+            "firstBuyAt": "2026-09-14T11:45:28",
+            "lastBuyAt": "2026-09-14T11:45:30"
+          },
+          "jump": {
+            "at": "2026-09-14T14:00:00",
+            "priceBefore": 0.2599999896000004,
+            "priceAfter": 0.6899999993727273,
+            "volumeUsd": 74224.07287599998,
+            "traders": 225
+          }
+        },
+        {
+          "wallet": "0x528ff0b0cc2c8228721b30828ea574aba54e2101",
+          "score": 24,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.5017302660547531,
+              "detail": "$1,008 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.29268497356197964,
+              "detail": "bought at 0.37, market was at 0.26 before the news"
+            },
+            {
+              "name": "timing",
+              "value": 0.9903558124671706,
+              "detail": "last buy 1h before the jump"
+            },
+            {
+              "name": "share",
+              "value": 0.023230501641095636,
+              "detail": "2% of all pre-news money on the winner"
+            }
+          ],
+          "position": {
+            "wallet": "0x528ff0b0cc2c8228721b30828ea574aba54e2101",
+            "shares": 2736.960487,
+            "costUsd": 1007.9999999999999,
+            "avgPrice": 0.36829176189710916,
+            "trades": 8,
+            "firstBuyAt": "2026-09-14T12:31:48",
+            "lastBuyAt": "2026-09-14T12:55:52"
+          },
+          "jump": {
+            "at": "2026-09-14T14:00:00",
+            "priceBefore": 0.2599999896000004,
+            "priceAfter": 0.6899999993727273,
+            "volumeUsd": 74224.07287599998,
+            "traders": 225
+          }
+        },
+        {
+          "wallet": "0x6982049c65e98606f65a0ce71fdb9b61296da165",
+          "score": 23,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.6533190236248523,
+              "detail": "$2,026 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.04290869213184852,
+              "detail": "bought at 0.48, market was at 0.26 before the news"
+            },
+            {
+              "name": "timing",
+              "value": 0.9434092101839724,
+              "detail": "last buy 1h before the jump"
+            },
+            {
+              "name": "share",
+              "value": 0.046691314762041754,
+              "detail": "5% of all pre-news money on the winner"
+            }
+          ],
+          "position": {
+            "wallet": "0x6982049c65e98606f65a0ce71fdb9b61296da165",
+            "shares": 4214.751523999999,
+            "costUsd": 2025.9934979999998,
+            "avgPrice": 0.48069108854066817,
+            "trades": 6,
+            "firstBuyAt": "2026-09-14T11:43:28",
+            "lastBuyAt": "2026-09-14T12:31:18"
+          },
+          "jump": {
+            "at": "2026-09-14T14:00:00",
+            "priceBefore": 0.2599999896000004,
+            "priceAfter": 0.6899999993727273,
+            "volumeUsd": 74224.07287599998,
+            "traders": 225
+          }
+        },
+        {
+          "wallet": "0xc3237b58fbcfc71392142cfea1137a98f9640171",
+          "score": 22,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.6505149978319906,
+              "detail": "$2,000 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0,
+              "detail": "bought at 0.68, market was at 0.26 before the news"
+            },
+            {
+              "name": "timing",
+              "value": 0.9261228173098359,
+              "detail": "last buy 2h before the jump"
+            },
+            {
+              "name": "share",
+              "value": 0.04609226516090405,
+              "detail": "5% of all pre-news money on the winner"
+            }
+          ],
+          "position": {
+            "wallet": "0xc3237b58fbcfc71392142cfea1137a98f9640171",
+            "shares": 2941.1764709999998,
+            "costUsd": 2000,
+            "avgPrice": 0.6799999999048001,
+            "trades": 5,
+            "firstBuyAt": "2026-09-14T12:20:03",
+            "lastBuyAt": "2026-09-14T12:20:03"
+          },
+          "jump": {
+            "at": "2026-09-14T14:00:00",
+            "priceBefore": 0.2599999896000004,
+            "priceAfter": 0.6899999993727273,
+            "volumeUsd": 74224.07287599998,
+            "traders": 225
+          }
+        },
+        {
+          "wallet": "0x8fd93d7e517b9d98c4897908afefd2d7a8b4544a",
+          "score": 21,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.650514997723417,
+              "detail": "$2,000 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0,
+              "detail": "bought at 0.70, market was at 0.26 before the news"
+            },
+            {
+              "name": "timing",
+              "value": 0.8755597497506823,
+              "detail": "last buy 2h before the jump"
+            },
+            {
+              "name": "share",
+              "value": 0.04609226513785791,
+              "detail": "5% of all pre-news money on the winner"
+            }
+          ],
+          "position": {
+            "wallet": "0x8fd93d7e517b9d98c4897908afefd2d7a8b4544a",
+            "shares": 2857.142856,
+            "costUsd": 1999.999999,
+            "avgPrice": 0.69999999993,
+            "trades": 1,
+            "firstBuyAt": "2026-09-14T11:38:16",
+            "lastBuyAt": "2026-09-14T11:38:16"
+          },
+          "jump": {
+            "at": "2026-09-14T14:00:00",
+            "priceBefore": 0.2599999896000004,
+            "priceAfter": 0.6899999993727273,
+            "volumeUsd": 74224.07287599998,
+            "traders": 225
+          }
+        },
+        {
+          "wallet": "0x689f7d0a49d2646dc199848ffbdb4757242e259c",
+          "score": 21,
+          "factors": [
+            {
+              "name": "size",
+              "value": 0.46362476254704155,
+              "detail": "$846 at risk"
+            },
+            {
+              "name": "odds",
+              "value": 0.2569303693808258,
+              "detail": "bought at 0.38, market was at 0.26 before the news"
+            },
+            {
+              "name": "timing",
+              "value": 1,
+              "detail": "last buy 1h before the jump"
+            },
+            {
+              "name": "share",
+              "value": 0.019491604071390542,
+              "detail": "2% of all pre-news money on the winner"
+            }
+          ],
+          "position": {
+            "wallet": "0x689f7d0a49d2646dc199848ffbdb4757242e259c",
+            "shares": 2200.3270390000002,
+            "costUsd": 845.7646420000001,
+            "avgPrice": 0.3843813337786284,
+            "trades": 11,
+            "firstBuyAt": "2026-09-14T12:51:54",
+            "lastBuyAt": "2026-09-14T13:00:54"
+          },
+          "jump": {
+            "at": "2026-09-14T14:00:00",
+            "priceBefore": 0.2599999896000004,
+            "priceAfter": 0.6899999993727273,
+            "volumeUsd": 74224.07287599998,
+            "traders": 225
+          }
+        }
+      ]
+    }
+  ]
+}
