@@ -14,7 +14,8 @@
     "screen": "node --env-file=.env scripts/screen.ts",
     "typecheck": "tsc --noEmit",
     "profile": "node --env-file=.env scripts/profile.ts",
-    "trace": "node --env-file=.env scripts/trace.ts"
+    "trace": "node --env-file=.env scripts/trace.ts",
+    "snapshot": "node scripts/snapshot.ts"
   },
   "dependencies": {
     "next": "16.3.5",
