@@ -32,5 +32,8 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": ">=22.18 <23"
+  }
 }
