@@ -128,3 +128,19 @@ The screener's `last_trade_price` is the last trade on either token, not the YES
 `--resolved yes` filter (`≥ 0.9`) let 672 NO-resolved markets through in the 1,000-market run — the run was
 simply the 1,000 largest by volume. The pipeline reads the winner from the candles, so results stand;
 `--resolved` now defaults to `any`. A NO resolution can carry a surprise of its own and is scored the same way.
+
+## Clusters, and a maker/taker finding (0 credits)
+
+`scripts/clusters.ts` → `data/site/clusters.json`: repeaters (88), taker-only twin pairs (2 strong, 20 weak),
+shared first funders (0 so far).
+
+- **Five wallets on "Putin meets Trump in first 100 days" had identical first and last buy minutes.** All five
+  were makers filled by the same taker order (one `tx_hash`, 6 fills). Coincident timing among makers is an
+  artifact of the order book, not coordination; twins now require ≥ 50% taker exposure and no shared fill.
+- **The Trump–Zelenskyy pair holds**: both created 2025-12-25, 580 and 808 independent taker trades, last buys
+  2 minutes apart. Pairs also pass when both wallets share a creation day even if their first buys differ.
+- **Taker share is not conviction.** The Machado wallet is 84% maker: it posted a bid at ~20¢ while the market
+  traded at 3–5¢ and sellers ran into it. Passive in mechanics, aggressive in intent. The better signal is the
+  premium paid over the prevailing price — a scoring refinement for later. Related: `priceBefore` (the prior
+  candle's close) can be moved by the flagged wallet's own buying; the odds factor for Machado reads 66 where
+  the true pre-wallet price would give ~95.

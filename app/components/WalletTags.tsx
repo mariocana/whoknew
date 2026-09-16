@@ -14,10 +14,11 @@ export function walletTags({ dossier, trace, newsAt }: TagInput): { label: strin
   const s = dossier?.summary;
   if (dossier?.oneShot) tags.push({ label: "only market ever traded", tone: "hot" });
   else if (s && s.markets_traded <= 10) tags.push({ label: `${s.markets_traded} markets in its life`, tone: "warm" });
-  // Age at the time of the bet, not today.
+  // Age at the time of the bet, not today. first_seen is a date, so speak in days.
   if (s && newsAt) {
-    const ageH = hoursBetween(s.first_seen.replace("Z", ""), newsAt);
-    if (ageH > 0 && ageH <= 24 * 14) tags.push({ label: `wallet first seen ${leadText(ageH)} before the news`, tone: "hot" });
+    const ageDays = Math.floor(hoursBetween(s.first_seen.slice(0, 10) + "T00:00:00", newsAt) / 24);
+    if (ageDays === 0) tags.push({ label: "wallet created the day of the news", tone: "hot" });
+    else if (ageDays > 0 && ageDays <= 14) tags.push({ label: `wallet created ${ageDays}d before the news`, tone: "hot" });
   }
   if (trace?.funder && newsAt) {
     const h = hoursBetween(trace.funder.block_timestamp.replace("Z", ""), newsAt);

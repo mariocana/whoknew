@@ -59,6 +59,9 @@ export default function Home() {
           {strong.length} score 50 or more · <Link href="/quiet" className="underline decoration-line hover:text-ink">{quiet.length} had nothing to see</Link>.
           Nothing here is an accusation; the numbers are the whole claim.
         </p>
+        <p className="mt-2 text-sm text-muted">
+          Also: <Link href="/clusters" className="underline decoration-line hover:text-ink">wallets that move together</Link>.
+        </p>
       </section>
 
       <section>

@@ -5,6 +5,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { cwd } from "node:process";
 import type { Candle, Trade } from "./nansen/pm.ts";
+import type { Clusters } from "../scripts/clusters.ts";
 import * as raw from "./store.ts";
 
 const SITE = join(cwd(), "data", "site");
@@ -30,4 +31,12 @@ export function candlesFor(id: string): Candle[] {
 
 export function tradesFor(id: string): Trade[] {
   return useSite ? siteMarket(id).trades : raw.tradesFor(id);
+}
+
+let clustersCache: Clusters | null = null;
+export function loadClusters(): Clusters {
+  if (clustersCache) return clustersCache;
+  const file = join(SITE, "clusters.json");
+  clustersCache = existsSync(file) ? (JSON.parse(readFileSync(file, "utf8")) as Clusters) : { builtAt: "", repeaters: [], twins: [], sharedFunders: [] };
+  return clustersCache;
 }

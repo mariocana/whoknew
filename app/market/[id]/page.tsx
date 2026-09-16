@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { candlesFor, getMarket, tradesFor } from "@/lib/site";
+import { candlesFor, getMarket, loadClusters, tradesFor } from "@/lib/site";
 import { Factors, ScoreBadge } from "../../components/Score";
 import { Tags, walletTags } from "../../components/WalletTags";
 import { PriceChart } from "../../components/PriceChart";
@@ -30,6 +30,7 @@ export default async function MarketPage({ params }: { params: Promise<{ id: str
   const chartCandles = candles.filter((c) => c.period_start >= from && c.period_start <= to).map((c) => ({ t: c.period_start, close: c.close, volume: c.volume_usd }));
 
   const top = r.flags[0];
+  const twins = loadClusters().twins.filter((t) => t.market_id === id);
   const trades = top ? tradesFor(id) : [];
   const buys = top
     ? trades
@@ -82,6 +83,24 @@ export default async function MarketPage({ params }: { params: Promise<{ id: str
 
           {top && chartCandles.length > 1 && (
             <PriceChart candles={chartCandles} buys={buys} newsAt={newsAt} from={from} to={to} walletLabel={short(top.wallet)} winner={winner} />
+          )}
+
+          {twins.length > 0 && (
+            <section className="rounded-lg border border-series-2/50 bg-panel p-4 text-sm">
+              <h2 className="text-xs uppercase tracking-wider text-muted">wallets that moved together here</h2>
+              <ul className="mt-2 space-y-1">
+                {twins.map((t, i) => (
+                  <li key={i} className="text-ink-2">
+                    <Link href={`/wallet/${t.wallets[0].wallet}`} className="font-mono text-xs hover:underline">{short(t.wallets[0].wallet)}</Link> and{" "}
+                    <Link href={`/wallet/${t.wallets[1].wallet}`} className="font-mono text-xs hover:underline">{short(t.wallets[1].wallet)}</Link> stopped buying{" "}
+                    <span className="num text-ink">{t.deltaLastMin} min</span> apart
+                    {t.sameFirstSeen ? <> and were both first seen on <span className="text-ink">{t.sameFirstSeen}</span></> : null}
+                    {t.strength === "weak" ? " — same half hour, possibly the same headline" : ""}.
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-2 text-xs text-muted"><Link href="/clusters" className="hover:text-ink">all pairs →</Link></p>
+            </section>
           )}
 
           <section>

@@ -58,6 +58,14 @@ Of 1,035 markets examined, 286 had someone positioned before a surprise, 31 scor
 more. The other 749 had nothing to see: the market already expected the outcome, or nobody was there early.
 That base rate is part of the result.
 
+## Wallets that move together
+
+One wallet is a bet; two wallets created the same day that stop buying the same minute are a person.
+`/clusters` lists pairs whose buying starts and stops together — counted only when both were *takers* and
+never shared a fill, because one order sweeping five resting makers makes five wallets look coordinated
+when they were merely hit — plus wallets flagged across several markets, and owners with a common first
+funder. The Trump–Zelenskyy pair above is the first entry.
+
 ## How it works
 
 ```
@@ -108,6 +116,8 @@ both halves.
 /                     ranked feed — score, market, the top wallet's position and what Nansen says about it
 /market/<id>          the minute the market learned; who was long before it; the top wallet's buys on the price chart
 /wallet/<address>     dossier — age at the time of the bet, history, where the owner's first funds came from
+/clusters             wallets that move together
+/quiet                the markets with nothing to see, and why
 ```
 
 The site makes no API calls. It reads `data/site/`, a 23 MB snapshot committed to the repo.
@@ -123,7 +133,7 @@ npm run screen -- --from 2022-11-01 --to 2026-09-15 --window 90 --max 1000 --dry
 npm run screen -- --from 2022-11-01 --to 2026-09-15 --window 90 --max 1000             # score → data/screen/latest.json
 npm run profile -- --min-score 40 --max-wallets 30                                     # dossiers, 2 credits each
 npm run trace -- --markets 560868,567470                                               # proxy → owner → funding
-npm run snapshot                                                                       # → data/site/ for the site
+npm run snapshot && npm run clusters                                                   # → data/site/ for the site
 npm run dev
 ```
 

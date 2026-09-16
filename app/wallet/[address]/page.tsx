@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { walletAppearances } from "@/lib/site";
+import { loadClusters, walletAppearances } from "@/lib/site";
 import { ScoreBadge } from "../../components/Score";
 import { Tags, walletTags } from "../../components/WalletTags";
 import { day, hoursBetween, leadText, minute, px, short, usd } from "../../components/format";
@@ -19,6 +19,8 @@ export default async function WalletPage({ params }: { params: Promise<{ address
   const trace = withTrace?.market.traces?.[withTrace.flag.wallet];
   const s = dossier?.summary;
   const best = seen[0];
+  const a = best.flag.wallet.toLowerCase();
+  const siblings = loadClusters().twins.filter((t) => t.wallets.some((w) => w.wallet.toLowerCase() === a));
   const newsAt = best.market.jump?.newsAt ?? best.market.jump?.at;
 
   return (
@@ -69,6 +71,22 @@ export default async function WalletPage({ params }: { params: Promise<{ address
               related wallets: {trace.related.slice(0, 6).map((w) => `${short(w.address)}${w.address_label ? ` [${w.address_label}]` : ""} (${w.relation})`).join(" · ")}
             </p>
           )}
+        </section>
+      )}
+
+      {siblings.length > 0 && (
+        <section className="rounded-lg border border-series-2/50 bg-panel p-4 text-sm space-y-1">
+          <h2 className="text-xs uppercase tracking-wider text-muted">moves with</h2>
+          {siblings.map((t, i) => {
+            const other = t.wallets.find((w) => w.wallet.toLowerCase() !== a)!;
+            return (
+              <p key={i} className="text-ink-2">
+                <Link href={`/wallet/${other.wallet}`} className="font-mono text-xs hover:underline">{short(other.wallet)}</Link> on{" "}
+                <Link href={`/market/${t.market_id}`} className="hover:underline">{t.question}</Link> — last buys {t.deltaLastMin} min apart
+                {t.sameFirstSeen ? `, both first seen ${t.sameFirstSeen}` : ""}{t.strength === "weak" ? " (weak)" : ""}.
+              </p>
+            );
+          })}
         </section>
       )}
 
