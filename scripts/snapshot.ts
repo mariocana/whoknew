@@ -9,6 +9,13 @@ import { existsSync, mkdirSync, readFileSync, rmSync, statSync, writeFileSync } 
 import { candlesFor, loadRun, tradesFor, type MarketRecord } from "../lib/store.ts";
 
 const OUT = "data/site";
+
+// The snapshot is built locally from the raw cache and committed. On a server there is no
+// cache, and rebuilding would wipe the committed site data.
+if (!existsSync("data/raw/prediction-market/ohlcv")) {
+  console.error("data/raw/ is not here — refusing to rebuild data/site/ from nothing. Run this locally and commit the result.");
+  process.exit(1);
+}
 const DAY = 86_400_000;
 const iso = (t: number) => new Date(t).toISOString().slice(0, 19);
 

@@ -77,6 +77,24 @@ export async function listClosedMarkets(opts: {
 }
 
 /** Hourly candles for the market's whole life; long-lived markets need a few pages. */
+/** Open markets closing inside a window, largest first. One credit per call. */
+export async function listActiveMarkets(opts: {
+  tag?: string;
+  endsAfter: string;
+  endsBefore: string;
+  perPage?: number;
+}): Promise<Market[]> {
+  const res = await nansen<Page<Market>>("prediction-market/market-screener", {
+    status: "active",
+    end_date_after: opts.endsAfter,
+    end_date_before: opts.endsBefore,
+    ...(opts.tag ? { tags: [opts.tag] } : {}),
+    order_by: [{ field: "volume_1wk", direction: "DESC" }],
+    pagination: { page: 1, per_page: opts.perPage ?? 200 },
+  });
+  return res.data;
+}
+
 export async function getCandles(marketId: string, maxPages = 8): Promise<Candle[]> {
   const candles: Candle[] = [];
   for (let page = 1; page <= maxPages; page++) {
